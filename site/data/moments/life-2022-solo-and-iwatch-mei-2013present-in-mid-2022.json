@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "life-2022-solo-and-iwatch-mei-2013present-in-mid-2022",
+  "timeline": {
+    "title": "Radke & Jacoby Shaddix headlines",
+    "summary": "Radke drew press coverage—including from Loudwire—after public back-and-forth with Papa Roach frontman Jacoby Shaddix.",
+    "year": 2022,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "wiki-Ronnie_Radke-5",
+      "url": "https://en.wikipedia.org/wiki/Ronnie_Radke",
+      "title": "Wikipedia",
+      "kind": "wikipedia_section"
+    }
+  ],
+  "provenance": {
+    "event_id": "2022-solo-and-iwatch-mei-2013present-in-mid-2022-radke-made-headli"
+  },
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "Imported from Wikipedia via RCU (automated scrape).",
+    "checked_at": "2026-10-09T21:24:51.227289+00:00",
+    "sources": [
+      {
+        "source_id": "wiki-Ronnie_Radke-5",
+        "url": "https://en.wikipedia.org/wiki/Ronnie_Radke",
+        "kind": "wikipedia_section",
+        "excerpt": "===Solo and ''Watch Me'' (2013–present)===\nOn May 31, 2013, Radke launched his YouTube channel and released a solo song, \"Fair-Weather Fans\". The song is described as \"a song Ronnie made dedicated to all the people who didn't believe in him.\" On June 1, he released a second song, called \"What Up Earth?\".\nIn part 3 of his interview with ''Alternative Press'', Radke stated that he is creating a rap mixtape, produced by Charles Massabo (Kallaghan Records) that will feature some well known rap artists, the mixtape will be released in December 2013 for free. The first single off that mixtape, \"Blacklist\", which features , was released on July 5, 2013, on YouTube.\nA diss track titled \"I Wash Cars\" (also featuring ), which attacks Sumerian Records and its founder Ash Avildsen, Lorenzo \"The Main Event\" Antonucci, and electronicore band I See Stars, was leaked online. Ash and Lorenzo released a diss track in reply to \"I Wash Cars\" titled \"When Ronnie Met Sally\" attacking Radke. The feud between the two groups has since been resolved, and Radke is now on good terms with I See Stars, Sumerian Records, and Antonucci.\nIn an interview with ''Loudwire'', he has stated that he is in the process of making a rap mixtape, which according to Radke would include an artist on every song. He has also stated that the mixtape may be released for around Christmas. On Christmas Day, he revealed a website through which subscribers received a new song, \"Destiny\", from the mixtape, now titled ''Watch Me''. The track-list was also revealed but some songs did not contain feature other artists like he originally claimed. As of 2021, three songs from the mixtape have not seen official release.\nIn mid-2022, Radke made headlines from publications such as ''Loudwire'' when he and Papa Roach frontman Jacoby Shaddix slapped each other with tortillas while participating in the purported \"Tortilla Slap Challenge\"."
+      }
+    ],
+    "conflicts": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-2018-pre-monster",
+  "timeline": {
+    "title": "Pre‑Popular Monster buildup",
+    "summary": "Losing My Life / Losing My Mind videos set up the breakout year.",
+    "year": 2018,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:51.136515+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

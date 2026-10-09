@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "mv-3_QB87vt4i0",
+  "timeline": {
+    "title": "I Don't Mind",
+    "summary": "Official release: I Don't Mind.",
+    "year": 2017,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "3_QB87vt4i0",
+    "url": "https://www.youtube.com/watch?v=3_QB87vt4i0",
+    "view_count": 1983160,
+    "era": "legacy_mv",
+    "rcu_tier": "peripheral"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@thedutchgamelife6264",
+      "text": "“Mother, im becoming you” this is my fear with my father, i dont want to be like him. I dont want to be a failure, an addict, an abusive asshole… my family is an example of what I shouldn’t become",
+      "like_count": 192
+    },
+    {
+      "author": "@steviep281",
+      "text": "From 3:42 to 4:06 Ronnie is singing \"If an Oscar was the factor\nYou would win it for best actor\nCan forgive for all the madness\nWon't pretend it never happened.\"",
+      "like_count": 56
+    },
+    {
+      "author": "@redhead3379",
+      "text": "this song is so underrated",
+      "like_count": 33
+    },
+    {
+      "author": "@H0rr0rQueen66",
+      "text": "this single song speaks volumes to those kids that had toxic parents. I owe ronnie my life everytime I listen to this. He lets it known, we are not alone.",
+      "like_count": 24
+    },
+    {
+      "author": "@championeric",
+      "text": "He never performed this on-live? This is such an intime song. You touched me Ronnie.",
+      "like_count": 17
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "release_id": "rel-3_QB87vt4i0",
+    "video_id": "3_QB87vt4i0"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.117044+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

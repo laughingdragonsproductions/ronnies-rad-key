@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "id": "life-rock-am-ring-2025",
+  "timeline": {
+    "title": "Rock am Ring 2025",
+    "summary": "Major European festival set showcases catalog depth to massive crowds.",
+    "year": 2025,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "rcu-video",
+      "title": "rcu-video"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Curated — cited source",
+    "notes": "Hand-curated moment with RCU source ids.",
+    "checked_at": "2026-10-09T21:24:51.413581+00:00",
+    "sources": [
+      {
+        "source_id": "rcu-video"
+      }
+    ],
+    "conflicts": []
+  }
+}

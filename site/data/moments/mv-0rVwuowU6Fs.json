@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "mv-0rVwuowU6Fs",
+  "timeline": {
+    "title": "Fuck You And All Your Friends",
+    "summary": "Official release: Fuck You And All Your Friends.",
+    "year": 2017,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "0rVwuowU6Fs",
+    "url": "https://www.youtube.com/watch?v=0rVwuowU6Fs",
+    "view_count": 7638159,
+    "era": "legacy_mv",
+    "rcu_tier": "peripheral"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@jorgealejandrojimenezpeeer7574",
+      "text": "Who in 2026?",
+      "like_count": 245
+    },
+    {
+      "author": "@prachonthegreat",
+      "text": "2025??",
+      "like_count": 5
+    },
+    {
+      "author": "@Space-Holiday",
+      "text": "The jacket is kind of ironic now lol",
+      "like_count": 5
+    },
+    {
+      "author": "@bryanmorales8911",
+      "text": "I miss this ronnie.",
+      "like_count": 4
+    },
+    {
+      "author": "@juliasemenihina3776",
+      "text": "Ronnie, I know, so much happening around your person now. When not? Just know: your real fans, your Ronnsters we love you no matter what. No explanation. Nothing to prove. We fucking know your soul. And its beautiful. You are a beautiful person. We love you so so much❤ Never forget that. F brittany, F max G, F...  We know you. We love you. Period 😊❤",
+      "like_count": 4
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "release_id": "rel-0rVwuowU6Fs",
+    "video_id": "0rVwuowU6Fs"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.127460+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

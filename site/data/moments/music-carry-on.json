@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "id": "music-carry-on",
+  "timeline": {
+    "title": "Carry On",
+    "summary": "Anthemic track with polished Epitaph visualizer/MV push.",
+    "year": 2020,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "AKHSWvmiwP8",
+    "url": "https://www.youtube.com/watch?v=AKHSWvmiwP8",
+    "view_count": 8812821,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@MainelyJonathan",
+      "text": "2026 and we still here.",
+      "like_count": 205
+    },
+    {
+      "author": "@bbdrl5425",
+      "text": "2025? Anyone? It’s almost half of the year wow.",
+      "like_count": 169
+    },
+    {
+      "author": "@KendleMusic",
+      "text": "crazy I decided 5 yrs ago this is my funeral song. Still feel that way",
+      "like_count": 17
+    },
+    {
+      "author": "@tomholloway7536",
+      "text": "The morning before last, my dad passed away (this is his account) and this song made me cry for days before after my mom made the comment that it reminded her of him since he was in really horrible shape for a while and had a few close calls for a while leading up to the day he finally went Home..... But the song brings me this strange sense of peace over it....\n\nRIP Thomas Michael Holloway \nFebruary 19, 1950 - January 26, 2025 \nI love you and miss you with every fiber of my being, Daddy. I'll watch over Momma for you.....",
+      "like_count": 7
+    },
+    {
+      "author": "@calebborn4166",
+      "text": "My fiance very tragically and unexpectedly passed away two months ago. Falling in Reverse has always been her favorite band.\n\nThis song has taken on an entirely new meaning for me now. I couldn't possibly count how many times I've listened to this since she's been gone but almost every word and lyric feels like she's speaking directly to me.",
+      "like_count": 6
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-AKHSWvmiwP8",
+    "video_id": "AKHSWvmiwP8"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.196869+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

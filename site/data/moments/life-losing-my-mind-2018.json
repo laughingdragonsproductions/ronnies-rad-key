@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "id": "life-losing-my-mind-2018",
+  "timeline": {
+    "title": "Losing My Mind",
+    "summary": "High-production video signals the start of FIR's cinematic MV run.",
+    "year": 2018,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "2EMst_OFRF8",
+    "url": null,
+    "view_count": 34024614,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} {'name': 'Marilyn Manson', 'description': \"Guest artist on 'God Is A Weapon'\", 'entity_slug': 'marilyn-manson'} rock music collaboration visualizer",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.132376+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

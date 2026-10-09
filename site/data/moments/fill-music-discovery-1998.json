@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-music-discovery-1998",
+  "timeline": {
+    "title": "Discovering post‑hardcore",
+    "summary": "Deepens into screamo and punk — the lane that later defines ETF and FIR.",
+    "year": 1998,
+    "strand": "life",
+    "category": "early_life",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:50.912043+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

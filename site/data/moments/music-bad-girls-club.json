@@ -1,0 +1,79 @@
+{
+  "schema_version": 2,
+  "id": "music-bad-girls-club",
+  "timeline": {
+    "title": "Bad Girls Club",
+    "summary": "Stylized MV with celebrity cameo discourse.",
+    "year": 2024,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "vdaKzHPG4_0",
+    "url": null,
+    "view_count": 10710957,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse and actor in the video.', 'entity_slug': 'ronnie-radke'} {'name': 'Nadia Teichmann, Olya Tarnovetska', 'description': 'Ukrainian women who apply makeup to Ronnie Radke.', 'entity_slug': 'makeup-artists'} Behind-the-scenes Special effects makeup Music video production",
+    "related": [
+      {
+        "id": "music-watch-the-world-burn",
+        "rel_type": "callback",
+        "title": "Watch The World Burn"
+      }
+    ]
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@143purple",
+      "text": "Soo into you",
+      "like_count": 1
+    },
+    {
+      "author": "@143purple",
+      "text": "Is that the song your talking sbout",
+      "like_count": 1
+    },
+    {
+      "author": "@143purple",
+      "text": "Bad ass",
+      "like_count": 1
+    },
+    {
+      "author": "@riggymarz",
+      "text": " @143purple  this was for the video \"Watch the World Burn\"",
+      "like_count": 0
+    },
+    {
+      "author": "@riggymarz",
+      "text": "😳",
+      "like_count": 0
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.344969+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

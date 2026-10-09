@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "id": "mv-LlqD7cMvQbw",
+  "timeline": {
+    "title": "Falling In Reverse - \"Zombified\" (LYRICS VIDEO - VISUALIZER)",
+    "summary": "",
+    "year": 2022,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "LlqD7cMvQbw",
+    "url": "https://www.youtube.com/watch?v=LlqD7cMvQbw",
+    "view_count": 92507,
+    "era": null,
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} addiction loss recovery",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@BIGSTUPID283",
+      "text": "Finally I can hear the beginning of the breakdown without other sound blocking it out",
+      "like_count": 68
+    },
+    {
+      "author": "@claywoody6101",
+      "text": "Love this song. Full of truth. Hope people listen closely.",
+      "like_count": 20
+    },
+    {
+      "author": "@breakdownstv9284",
+      "text": "2:38 - HEAVY BREAKDOWN🤘🔥🤘🔥",
+      "like_count": 17
+    },
+    {
+      "author": "@justjxssa.ৎ",
+      "text": "Wow they did such a good job with the production and lyrics!!!",
+      "like_count": 11
+    },
+    {
+      "author": "@Mothboi02",
+      "text": "Stuff like that is why I usually avoid music videos",
+      "like_count": 9
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "video_id": "LlqD7cMvQbw"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.245712+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

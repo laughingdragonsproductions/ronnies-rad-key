@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "mv-LhVRqzogj5Y",
+  "timeline": {
+    "title": "Hanging On",
+    "summary": "Official release: Hanging On.",
+    "year": 2017,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "LhVRqzogj5Y",
+    "url": "https://www.youtube.com/watch?v=LhVRqzogj5Y",
+    "view_count": 1836480,
+    "era": "legacy_mv",
+    "rcu_tier": "peripheral"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@eliyafethsoto1309",
+      "text": "This album is so overlooked it's crazy. Most of the comments here are 2 years old...",
+      "like_count": 515
+    },
+    {
+      "author": "@chrisorellp1",
+      "text": "This is honestly one of the best albums I have ever heard",
+      "like_count": 123
+    },
+    {
+      "author": "@abigailoles8678",
+      "text": "This song lights a spark in me that no other song can for some reason. I would absolutely love to hear it love and I’d probably honestly sob. It’s sad this song is so underrated",
+      "like_count": 47
+    },
+    {
+      "author": "@Viruet787",
+      "text": "Coming Home is the best FIR album in my not so humble opinion.",
+      "like_count": 46
+    },
+    {
+      "author": "@jasperbean",
+      "text": "This album got me through the hardest/most damaging break up I've been through. I felt understood when I listened to these songs and that made me feel less helpless and confused about what I was dealing with. It still helps me cope today. I think I truly found the ability to grow stronger and to try to heal and move on from this album.",
+      "like_count": 36
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "release_id": "rel-LhVRqzogj5Y",
+    "video_id": "LhVRqzogj5Y"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.102160+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

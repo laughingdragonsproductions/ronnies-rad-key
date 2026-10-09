@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "id": "music-watch-the-world-burn",
+  "timeline": {
+    "title": "Watch The World Burn",
+    "summary": "145M+ views; genre-blending rap-rock visual spectacle.",
+    "year": 2023,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "qMXESlny4-I",
+    "url": "https://www.youtube.com/watch?v=qMXESlny4-I",
+    "view_count": 145781551,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Lead vocalist and frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} personal struggle resilience confrontation",
+    "related": [
+      {
+        "id": "music-bad-girls-club",
+        "rel_type": "callback",
+        "title": "Bad Girls Club"
+      }
+    ]
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@epitaph",
+      "text": "Listen Here: https://fallinginreverse.ffm.to/watchtheworldburn",
+      "like_count": 6800
+    },
+    {
+      "author": "@dirtrhoads",
+      "text": "Epitaph if you guys can get an Independent artist to work with Ronnie One day it would be groundbreaking to hear Ronnie and Tom Macdonald together on a song like this!!",
+      "like_count": 31
+    },
+    {
+      "author": "@bollishunt",
+      "text": "But In the end, good will always triumph over evil.",
+      "like_count": 20
+    },
+    {
+      "author": "@sidchronicle2365",
+      "text": "You never fail with music and videos.",
+      "like_count": 17
+    },
+    {
+      "author": "@andrewfowler8030",
+      "text": "Falling in Reverse is AWESOME! Ronnie slam it bro we are all watching and waiting for you raise the bar again!",
+      "like_count": 13
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-qMXESlny4-I",
+    "video_id": "qMXESlny4-I"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.261932+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

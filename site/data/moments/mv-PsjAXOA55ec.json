@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "id": "mv-PsjAXOA55ec",
+  "timeline": {
+    "title": "NO FEAR",
+    "summary": "Official release: NO FEAR.",
+    "year": 2024,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "PsjAXOA55ec",
+    "url": "https://www.youtube.com/watch?v=PsjAXOA55ec",
+    "view_count": 2740928,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": [
+      {
+        "id": "music-drug-reimagined",
+        "rel_type": "callback",
+        "title": "The Drug In Me Is Reimagined"
+      }
+    ]
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@Dan-g4p2b",
+      "text": "3:18 wtf. I can't believe this isn't widely popular",
+      "like_count": 54
+    },
+    {
+      "author": "@AllPro89",
+      "text": "He’s a legend cause made rap into another level 1:54",
+      "like_count": 10
+    },
+    {
+      "author": "@Slight.Burden",
+      "text": "Just realized Ronnie is actually a genius.. And I've been running my mouth about him for years. Nobody else is going this deep into existential & eschatological themes with their music. This is honestly revolutionary.",
+      "like_count": 9
+    },
+    {
+      "author": "@erik4718",
+      "text": "Bro went full Ghostemane",
+      "like_count": 9
+    },
+    {
+      "author": "@Shadylettuce",
+      "text": "The song towards the end, needs to be a song on its own!!! It’s amazing and the part I look forward to the most when listening to No Fear. Urgh, this album as a whole is epic 🤘🏼",
+      "like_count": 8
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "release_id": "rel-PsjAXOA55ec",
+    "video_id": "PsjAXOA55ec"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.386466+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "id": "mv-S2e8xzVB6rA",
+  "timeline": {
+    "title": "Falling In Reverse - \"The Drug In Me Is Reimagined\" (Behind The Scenes)",
+    "summary": "Watch the full video: https://youtu.be/B2cbhYihBWY \"The Drug In Me Is Reimagined\" by Falling In Reverse Stream & download: https://fallinginreverse.ffm.to/thedruginmeisreimagined Site: http://fallinginreverse.com Store: http://store.fallinginreverse.com Facebook: http://fb.com/f",
+    "year": 2020,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "S2e8xzVB6rA",
+    "url": "https://www.youtube.com/watch?v=S2e8xzVB6rA",
+    "view_count": 399019,
+    "era": null,
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': \"Frontman of Falling in Reverse and lead vocalist of 'The Drug In Me Is Reimagined'.\", 'entity_slug': 'ronnie-radke'} reimagination of songs rock music production band dynamics",
+    "related": [
+      {
+        "id": "mv-4XDux0iho0M",
+        "rel_type": "callback",
+        "title": "Falling in Reverse No Fear (unofficial music video)"
+      }
+    ]
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@iFerzh",
+      "text": "\"My fans are gonna lose their mind\"\n\n\nAn easter egg inside an easter egg, only Ronnie Radke",
+      "like_count": 527
+    },
+    {
+      "author": "@gabs751",
+      "text": "PAIGE BEING ON SET AND BEING AS EXCITED AS RONNIE MAKES MY HEART HAPPY",
+      "like_count": 45
+    },
+    {
+      "author": "@skyliesutton8949",
+      "text": "\"my fans are gonna lose their minds\" yes we did Ronnie haha",
+      "like_count": 24
+    },
+    {
+      "author": "@ahuman9113",
+      "text": " @silver3660  the girl is the same one on the album cover of the drug in me is you. Not sure if it's actually the same exact girl but its depicting the album cover",
+      "like_count": 22
+    },
+    {
+      "author": "@iFerzh",
+      "text": " @ahuman9113  Also the joke goes around the \"lose their mind\" because one of their latest songs is \"losing my mind\". I doubt he said it thinkin on that, but it fits ver well hahaha",
+      "like_count": 15
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "video_id": "S2e8xzVB6rA"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.191679+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

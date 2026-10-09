@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-bury-hatchet-2013",
+  "timeline": {
+    "title": "Bury the Hatchet tour",
+    "summary": "FIR and Escape the Fate co‑headline — public feud cools on stage.",
+    "year": 2013,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:51.045886+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

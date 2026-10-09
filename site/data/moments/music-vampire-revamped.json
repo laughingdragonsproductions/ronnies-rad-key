@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "id": "music-vampire-revamped",
+  "timeline": {
+    "title": "I'm Not a Vampire (Revamped)",
+    "summary": "Revisit of ETF-era hit with modern FIR production.",
+    "year": 2021,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "2nWmBJxW9q0",
+    "url": "https://www.youtube.com/watch?v=2nWmBJxW9q0",
+    "view_count": 24382202,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@epitaph",
+      "text": "Stream + Download \"I'm Not A Vampire (Revamped)\" Here: https://fallinginreverse.ffm.to/vampire",
+      "like_count": 4700
+    },
+    {
+      "author": "@down6293",
+      "text": "Can you post lyrics that go after the second chorus?",
+      "like_count": 60
+    },
+    {
+      "author": "@AClark-jx9zp",
+      "text": "Good production,  I honestly think Ronnie is the next Dio, Danzig or Ozzy. Been in this game a long time and love the fact he's keeping it alive.",
+      "like_count": 51
+    },
+    {
+      "author": "@AClark-jx9zp",
+      "text": " @Wraith-o2y  LMMFAO jealous much",
+      "like_count": 41
+    },
+    {
+      "author": "@simply11believelane47",
+      "text": "Paused 32 seconds in. I know this will be great! Excited👌",
+      "like_count": 23
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-2nWmBJxW9q0",
+    "video_id": "2nWmBJxW9q0"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.212373+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-09T21:24:51.512479+00:00",
+  "rcu_db": "G:\\LocalAIagent\\rcu-universe\\data\\rcu.sqlite",
+  "rules": [
+    "music_video+youtube_id -> verified (Official release)",
+    "curated id + source_ids -> verified (Curated — cited source)",
+    "life_events wiki-only or no event_sources -> unproven (Unproven - Site source)",
+    "provenance.inferred_date -> unproven",
+    "duplicate normalized title across different years -> conflict",
+    "data/verification_denials.json denials -> disputed + conflicts[]"
+  ],
+  "counts_by_status": {
+    "verified": 75,
+    "unproven": 31
+  },
+  "examples": {
+    "unproven": [
+      "fill-childhood-1985",
+      "fill-teens-1995",
+      "fill-music-discovery-1998",
+      "fill-high-school-2000",
+      "fill-local-shows-2001",
+      "fill-meets-max-2002",
+      "fill-pre-etf-2003",
+      "fill-etf-scene-2005"
+    ],
+    "conflict": [],
+    "disputed": [],
+    "verified": [
+      "life-born-1983",
+      "life-etf-forms-2004",
+      "life-diylf-2006",
+      "legal-2006-incident",
+      "life-fir-conceived-2008"
+    ]
+  },
+  "cited_facts_sample": [
+    {
+      "fact_key": "birth_date",
+      "value_text": "1983-12-15",
+      "source_id": "wikidata-Q2019307",
+      "confidence": 0.98
+    },
+    {
+      "fact_key": "birth_place",
+      "value_text": "Q23768",
+      "source_id": "wikidata-Q2019307",
+      "confidence": 0.98
+    },
+    {
+      "fact_key": "country_of_citizenship",
+      "value_text": "Q30",
+      "source_id": "wikidata-Q2019307",
+      "confidence": 0.98
+    },
+    {
+      "fact_key": "occupation",
+      "value_text": "Q177220",
+      "source_id": "wikidata-Q2019307",
+      "confidence": 0.98
+    },
+    {
+      "fact_key": "family_name",
+      "value_text": "Q21492556",
+      "source_id": "wikidata-Q2019307",
+      "confidence": 0.98
+    },
+    {
+      "fact_key": "given_name",
+      "value_text": "Q2532287",
+      "source_id": "wikidata-Q2019307",
+      "confidence": 0.98
+    }
+  ],
+  "url_probes": [],
+  "future_scraper": {
+    "denials_file": "data\\verification_denials.json",
+    "scaffold": "data\\verification_denials.scaffold.json",
+    "conflicts_field": "verification.conflicts[] on each moment detail shard"
+  }
+}

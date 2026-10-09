@@ -1,0 +1,853 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "id": "life-born-1983",
+      "title": "Born in Las Vegas",
+      "summary": "Ronald Joseph Aaron Radke is born in Las Vegas, Nevada.",
+      "strand": "life",
+      "year": 1983,
+      "category": "early_life"
+    },
+    {
+      "id": "life-etf-forms-2004",
+      "title": "Escape the Fate forms",
+      "summary": "Radke becomes lead vocalist of Escape the Fate in Las Vegas post-hardcore scene.",
+      "strand": "life",
+      "year": 2004,
+      "category": "career"
+    },
+    {
+      "id": "life-diylf-2006",
+      "title": "Dying Is Your Latest Fashion",
+      "summary": "Escape the Fate releases debut album on Epitaph; Radke's emo-screamo look defines the era.",
+      "strand": "life",
+      "year": 2006,
+      "category": "career"
+    },
+    {
+      "id": "legal-2006-incident",
+      "title": "2006 Las Vegas altercation",
+      "summary": "Altercation leads to charges related to brass knuckles; friend fatally shoots Michael Cook in self-defense. Radke receives probation.",
+      "strand": "life",
+      "year": 2006,
+      "category": "legal"
+    },
+    {
+      "id": "legal-2008-arrest",
+      "title": "Probation violation & prison",
+      "summary": "Fails to report to probation officer; arrested and sentenced to prison (released 2010).",
+      "strand": "life",
+      "year": 2008,
+      "category": "legal"
+    },
+    {
+      "id": "life-fir-conceived-2008",
+      "title": "Falling in Reverse begins",
+      "summary": "FIR forms while Radke is incarcerated; lineup and demos set up the comeback.",
+      "strand": "life",
+      "year": 2008,
+      "category": "career"
+    },
+    {
+      "id": "life-released-2010",
+      "title": "Released from prison",
+      "summary": "Radke is released; begins recording and touring with Falling in Reverse.",
+      "strand": "life",
+      "year": 2010,
+      "category": "career"
+    },
+    {
+      "id": "life-random-2011",
+      "title": "The Drug in Me Is You",
+      "summary": "FIR debut album lands; singles push Radke back into mainstream rock visibility.",
+      "strand": "life",
+      "year": 2011,
+      "category": "career"
+    },
+    {
+      "id": "life-just-like-you-2015",
+      "title": "Just Like You",
+      "summary": "Third FIR album; bridges early post-hardcore sound toward heavier modern production.",
+      "strand": "life",
+      "year": 2015,
+      "category": "career"
+    },
+    {
+      "id": "life-coming-home-2017",
+      "title": "Coming Home era",
+      "summary": "More melodic, cinematic direction before the viral video explosion.",
+      "strand": "life",
+      "year": 2017,
+      "category": "career"
+    },
+    {
+      "id": "life-losing-my-mind-2018",
+      "title": "Losing My Mind",
+      "summary": "High-production video signals the start of FIR's cinematic MV run.",
+      "strand": "music",
+      "year": 2018,
+      "category": "music_video"
+    },
+    {
+      "id": "life-popular-monster-era",
+      "title": "Popular Monster — cultural breakout",
+      "summary": "Song and video become generational anthem; FIR enters nine-figure view territory.",
+      "strand": "life",
+      "year": 2019,
+      "category": "career"
+    },
+    {
+      "id": "life-twitch-rise-2020",
+      "title": "Twitch & direct fan connection",
+      "summary": "Regular streaming deepens parasocial reach beyond traditional rock promo cycles.",
+      "strand": "life",
+      "year": 2020,
+      "category": "personal"
+    },
+    {
+      "id": "life-blastover-start-2021",
+      "title": "Blastover sessions begin",
+      "summary": "Major cover-up and blackout tattoo work starts; process shared on Twitch streams.",
+      "strand": "life",
+      "year": 2021,
+      "category": "personal"
+    },
+    {
+      "id": "life-hand-blackout-2023",
+      "title": "Hand blackout tattoos",
+      "summary": "Hand tattoo sessions complete the shift from colorful sleeves to full blackout aesthetic.",
+      "strand": "life",
+      "year": 2023,
+      "category": "personal"
+    },
+    {
+      "id": "life-popular-monstour-2023",
+      "title": "The Popular Monstour",
+      "summary": "Arena-scale touring capitalizes on viral catalog; live WTWB moments go viral.",
+      "strand": "life",
+      "year": 2023,
+      "category": "career"
+    },
+    {
+      "id": "life-joseph-2026",
+      "title": "Joseph — all-star collab",
+      "summary": "Corey Taylor and Serj Tankian feature on a landmark crossover single and video.",
+      "strand": "life",
+      "year": 2026,
+      "category": "career"
+    },
+    {
+      "id": "legal-2012-charge",
+      "title": "2012 legal issues",
+      "summary": "Additional legal headlines during early FIR touring years.",
+      "strand": "life",
+      "year": 2012,
+      "category": "legal"
+    },
+    {
+      "id": "legal-2014-charge",
+      "title": "2014 incident",
+      "summary": "On-tour altercation generates press; part of the controversial public narrative.",
+      "strand": "life",
+      "year": 2014,
+      "category": "legal"
+    },
+    {
+      "id": "legal-2015-charge",
+      "title": "2015 legal headlines",
+      "summary": "Further legal scrutiny amid rising FIR profile.",
+      "strand": "life",
+      "year": 2015,
+      "category": "legal"
+    },
+    {
+      "id": "life-solo-watch-me-2013",
+      "title": "Solo & Watch Me era",
+      "summary": "Solo singles and features expand beyond band releases.",
+      "strand": "life",
+      "year": 2013,
+      "category": "career"
+    },
+    {
+      "id": "life-etf-departure-2008",
+      "title": "Departure from Escape the Fate",
+      "summary": "Radke is removed from ETF amid legal fallout; Craig Mabbitt replaces him.",
+      "strand": "life",
+      "year": 2008,
+      "category": "career"
+    },
+    {
+      "id": "life-kerrang-best-video",
+      "title": "Kerrang! Best Video recognition",
+      "summary": "Industry awards cement FIR video era as best-in-class for rock visuals.",
+      "strand": "life",
+      "year": 2019,
+      "category": "accolade"
+    },
+    {
+      "id": "life-rock-am-ring-2025",
+      "title": "Rock am Ring 2025",
+      "summary": "Major European festival set showcases catalog depth to massive crowds.",
+      "strand": "life",
+      "year": 2025,
+      "category": "career"
+    },
+    {
+      "id": "life-live-from-unknown",
+      "title": "Live From The Unknown",
+      "summary": "Live film / trailer push treats shows as cinematic events.",
+      "strand": "life",
+      "year": 2024,
+      "category": "career"
+    },
+    {
+      "id": "music-chemical-prisoner",
+      "title": "Chemical Prisoner",
+      "summary": "Early FIR visual storytelling on Epitaph.",
+      "strand": "music",
+      "year": 2016,
+      "category": "music_video"
+    },
+    {
+      "id": "music-losing-my-life",
+      "title": "Losing My Life",
+      "summary": "Narrative MV with high replay value; millions of views.",
+      "strand": "music",
+      "year": 2018,
+      "category": "music_video"
+    },
+    {
+      "id": "music-popular-monster",
+      "title": "Popular Monster",
+      "summary": "205M+ views; monster makeup and story beats become FIR signature.",
+      "strand": "music",
+      "year": 2019,
+      "category": "music_video"
+    },
+    {
+      "id": "music-drug-reimagined",
+      "title": "The Drug In Me Is Reimagined",
+      "summary": "Ballad reimagining with gothic ballroom visuals.",
+      "strand": "music",
+      "year": 2020,
+      "category": "music_video"
+    },
+    {
+      "id": "music-drugs",
+      "title": "Drugs",
+      "summary": "Satirical, chaotic energy; fan-favorite deep cut video.",
+      "strand": "music",
+      "year": 2020,
+      "category": "music_video"
+    },
+    {
+      "id": "music-vampire-revamped",
+      "title": "I'm Not a Vampire (Revamped)",
+      "summary": "Revisit of ETF-era hit with modern FIR production.",
+      "strand": "music",
+      "year": 2021,
+      "category": "music_video"
+    },
+    {
+      "id": "music-zombified",
+      "title": "Zombified",
+      "summary": "Horror-comedy zombie apocalypse concept.",
+      "strand": "music",
+      "year": 2022,
+      "category": "music_video"
+    },
+    {
+      "id": "music-voices",
+      "title": "Voices In My Head",
+      "summary": "116M+ views; split-personality horror aesthetic.",
+      "strand": "music",
+      "year": 2022,
+      "category": "music_video"
+    },
+    {
+      "id": "music-watch-the-world-burn",
+      "title": "Watch The World Burn",
+      "summary": "145M+ views; genre-blending rap-rock visual spectacle.",
+      "strand": "music",
+      "year": 2023,
+      "category": "music_video"
+    },
+    {
+      "id": "music-last-resort",
+      "title": "Last Resort (Reimagined)",
+      "summary": "Papa Roach cover goes viral beyond rock audience.",
+      "strand": "music",
+      "year": 2023,
+      "category": "music_video"
+    },
+    {
+      "id": "music-ronald",
+      "title": "Ronald",
+      "summary": "Tech N9ne & Alex Terrible; body-horror wrestling energy.",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "music-all-my-life",
+      "title": "All My Life (feat. Jelly Roll)",
+      "summary": "Cross-genre collab expands FIR reach.",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "music-prequel",
+      "title": "Prequel",
+      "summary": "Lore-heavy narrative tying MV universe threads.",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "music-god-is-a-weapon",
+      "title": "God Is A Weapon (feat. Marilyn Manson)",
+      "summary": "83M+ views; gothic industrial spectacle.",
+      "strand": "music",
+      "year": 2025,
+      "category": "music_video"
+    },
+    {
+      "id": "music-joseph",
+      "title": "Joseph (feat. Corey Taylor & Serj Tankian)",
+      "summary": "Latest epic MV; nu-metal royalty crossover.",
+      "strand": "music",
+      "year": 2026,
+      "category": "music_video"
+    },
+    {
+      "id": "music-carry-on",
+      "title": "Carry On",
+      "summary": "Anthemic track with polished Epitaph visualizer/MV push.",
+      "strand": "music",
+      "year": 2020,
+      "category": "music_video"
+    },
+    {
+      "id": "music-coming-home",
+      "title": "Coming Home",
+      "summary": "Title track from softer album era.",
+      "strand": "music",
+      "year": 2017,
+      "category": "music_video"
+    },
+    {
+      "id": "music-superhero",
+      "title": "Superhero",
+      "summary": "Early step toward bigger budgets on videos.",
+      "strand": "music",
+      "year": 2017,
+      "category": "music_video"
+    },
+    {
+      "id": "music-bad-girls-club",
+      "title": "Bad Girls Club",
+      "summary": "Stylized MV with celebrity cameo discourse.",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "life-rise-fall-rise-doc",
+      "title": "The Rise, Fall & Rise Again",
+      "summary": "Fan and press narratives frame redemption arc explicitly.",
+      "strand": "life",
+      "year": 2022,
+      "category": "personal"
+    },
+    {
+      "id": "life-colorful-tats-reference",
+      "title": "Colorful tattoo era (reference)",
+      "summary": "Full sleeves, chest owl, and face ink — last vivid look before blackout coverage.",
+      "strand": "life",
+      "year": 2023,
+      "category": "personal"
+    },
+    {
+      "id": "life-blackout-complete-2023",
+      "title": "Blackout aesthetic locked in",
+      "summary": "Blastover complete; monochrome ink matches cinematic MV era.",
+      "strand": "life",
+      "year": 2023,
+      "category": "personal"
+    },
+    {
+      "id": "music-all-my-women",
+      "title": "All My Women (feat. HARDY)",
+      "summary": "Country-rock crossover visual.",
+      "strand": "music",
+      "year": 2025,
+      "category": "music_video"
+    },
+    {
+      "id": "fill-childhood-1985",
+      "title": "Growing up in Las Vegas",
+      "summary": "Childhood in the Vegas valley; family life with brothers Anthony and Matthew.",
+      "strand": "life",
+      "year": 1985,
+      "category": "early_life"
+    },
+    {
+      "id": "fill-teens-1995",
+      "title": "Mid‑90s adolescence",
+      "summary": "Teen years in Vegas; hip‑hop, punk, and metal start shaping his taste.",
+      "strand": "life",
+      "year": 1995,
+      "category": "early_life"
+    },
+    {
+      "id": "fill-music-discovery-1998",
+      "title": "Discovering post‑hardcore",
+      "summary": "Deepens into screamo and punk — the lane that later defines ETF and FIR.",
+      "strand": "life",
+      "year": 1998,
+      "category": "early_life"
+    },
+    {
+      "id": "fill-high-school-2000",
+      "title": "High school years",
+      "summary": "Las Vegas high school era; writing lyrics and chasing a frontman role.",
+      "strand": "life",
+      "year": 2000,
+      "category": "early_life"
+    },
+    {
+      "id": "fill-local-shows-2001",
+      "title": "First local shows",
+      "summary": "Playing Vegas house shows and small venues with early projects.",
+      "strand": "life",
+      "year": 2001,
+      "category": "career"
+    },
+    {
+      "id": "fill-meets-max-2002",
+      "title": "Meets Max Green",
+      "summary": "Friendship with Max Green — the connection that leads toward Escape the Fate.",
+      "strand": "life",
+      "year": 2002,
+      "category": "career"
+    },
+    {
+      "id": "fill-pre-etf-2003",
+      "title": "Auditions & early lineup",
+      "summary": "Searching for the right drummer and guitarists before ETF solidifies.",
+      "strand": "life",
+      "year": 2003,
+      "category": "career"
+    },
+    {
+      "id": "fill-etf-scene-2005",
+      "title": "Vegas post‑hardcore scene",
+      "summary": "ETF builds a local following; demo and EP buzz in the underground.",
+      "strand": "life",
+      "year": 2005,
+      "category": "career"
+    },
+    {
+      "id": "fill-etf-ep-2005",
+      "title": "There's No Sympathy for the Dead EP (2005)",
+      "summary": "Early ETF EP cycle — studio work that feeds the debut album sessions.",
+      "strand": "life",
+      "year": 2005,
+      "category": "career"
+    },
+    {
+      "id": "fill-etf-touring-2007",
+      "title": "ETF touring cycle",
+      "summary": "Debut album touring; Radke's look and voice become scene‑defining.",
+      "strand": "life",
+      "year": 2007,
+      "category": "career"
+    },
+    {
+      "id": "fill-prison-writing-2009",
+      "title": "Writing FIR material inside",
+      "summary": "Demoing and planning Falling in Reverse while serving time.",
+      "strand": "life",
+      "year": 2009,
+      "category": "career"
+    },
+    {
+      "id": "fill-fir-debut-cycle-2011",
+      "title": "The Drug in Me Is You — rollout",
+      "summary": "Debut singles and touring; FIR reintroduces Radke to a national audience.",
+      "strand": "life",
+      "year": 2011,
+      "category": "career"
+    },
+    {
+      "id": "fill-classic-creature-2012",
+      "title": "The Classico Reissue era",
+      "summary": "Early FIR catalog and reissues keep momentum between album cycles.",
+      "strand": "life",
+      "year": 2012,
+      "category": "career"
+    },
+    {
+      "id": "fill-trilogy-2014",
+      "title": "Just Like You — album cycle",
+      "summary": "Third album touring; heavier direction before the cinematic pivot.",
+      "strand": "life",
+      "year": 2014,
+      "category": "career"
+    },
+    {
+      "id": "fill-bury-hatchet-2013",
+      "title": "Bury the Hatchet tour",
+      "summary": "FIR and Escape the Fate co‑headline — public feud cools on stage.",
+      "strand": "life",
+      "year": 2013,
+      "category": "career"
+    },
+    {
+      "id": "fill-solo-watch-me-2014",
+      "title": "Solo & Watch Me era begins",
+      "summary": "YouTube channel and solo drops expand beyond the band discography.",
+      "strand": "life",
+      "year": 2014,
+      "category": "career"
+    },
+    {
+      "id": "fill-2015-touring",
+      "title": "FIR festival & tour run",
+      "summary": "Steady touring before the Coming Home pivot.",
+      "strand": "life",
+      "year": 2015,
+      "category": "career"
+    },
+    {
+      "id": "fill-2016-chemical",
+      "title": "Chemical Prisoner — single push",
+      "summary": "Bridge single toward the Coming Home album and heavier visuals.",
+      "strand": "life",
+      "year": 2016,
+      "category": "career"
+    },
+    {
+      "id": "fill-2018-pre-monster",
+      "title": "Pre‑Popular Monster buildup",
+      "summary": "Losing My Life / Losing My Mind videos set up the breakout year.",
+      "strand": "life",
+      "year": 2018,
+      "category": "career"
+    },
+    {
+      "id": "mv-LhVRqzogj5Y",
+      "title": "Hanging On",
+      "summary": "Official release: Hanging On.",
+      "strand": "music",
+      "year": 2017,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-H2S3XBzr_aw",
+      "title": "Straight To Hell",
+      "summary": "Official release: Straight To Hell.",
+      "strand": "music",
+      "year": 2017,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-h_9Muqi0R_8",
+      "title": "I'm Bad At Life",
+      "summary": "Official release: I'm Bad At Life.",
+      "strand": "music",
+      "year": 2017,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-3_QB87vt4i0",
+      "title": "I Don't Mind",
+      "summary": "Official release: I Don't Mind.",
+      "strand": "music",
+      "year": 2017,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-0rVwuowU6Fs",
+      "title": "Fuck You And All Your Friends",
+      "summary": "Official release: Fuck You And All Your Friends.",
+      "strand": "music",
+      "year": 2017,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-PsjAXOA55ec",
+      "title": "NO FEAR",
+      "summary": "Official release: NO FEAR.",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-ybmwImclRBo",
+      "title": "Trigger Warning",
+      "summary": "Official release: Trigger Warning.",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-da7qJvYFfpc",
+      "title": "Bad Guy (feat. Saraya)",
+      "summary": "Official release: Bad Guy (feat. Saraya).",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-Y4ilUrpq05A",
+      "title": "Falling In Reverse - The Drug In Me Is Reimagined Lyrics | Official Music Video Lyrics",
+      "summary": "Artist: Falling In Reverse Song: The Drug In Me Is Reimagined (W/ LYRICS) #FallingInReverse #TheDrugInMeIsReimaginedLyrics #FallingInReverseLyrics",
+      "strand": "music",
+      "year": 2020,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-S2e8xzVB6rA",
+      "title": "Falling In Reverse - \"The Drug In Me Is Reimagined\" (Behind The Scenes)",
+      "summary": "Watch the full video: https://youtu.be/B2cbhYihBWY \"The Drug In Me Is Reimagined\" by Falling In Reverse Stream & download: https://fallinginreverse.ffm.to/thedruginmeisreimagined Site: http://fallinginreverse.com Store: http://store.fallinginreverse.com Facebook: http://fb.com/f",
+      "strand": "music",
+      "year": 2020,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-PZjS2iiKWgM",
+      "title": "Falling in Reverse - \"Straight To Hell\" (Lyrics)",
+      "summary": "Falling in Reverse - \"Straight To Hell\" (Lyrics) - Lyrics: - You will never be alright And I will never be okay And I can't be your Jesus Christ 'Cause I am but a mortal man Just looking for the promised land And it kills me slowly (You never know what you got 'til it's gone for",
+      "strand": "music",
+      "year": 2020,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-LlqD7cMvQbw",
+      "title": "Falling In Reverse - \"Zombified\" (LYRICS VIDEO - VISUALIZER)",
+      "summary": "",
+      "strand": "music",
+      "year": 2022,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-u7zPO8oG4gQ",
+      "title": "Falling In Reverse/ Ronnie Radke behind the scenes \"Watch The World Burn\" (2022), cr: Tanner Gordon*",
+      "summary": "*Compilation of BTS videos uploaded by producer Tanner Gordon on Instagram (@tanner_gordon) https://www.instagram.com/p/CoiFDG8vcq1/, https://www.instagram.com/p/CoJG0oDL2VN/, https://www.instagram.com/p/CoRRdYasEgw/, FALLING IN REVERSE is getting ON TOUR with DISTURBED between -",
+      "strand": "music",
+      "year": 2023,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-zX_FrxWlnUQ",
+      "title": "Ronnie Radke mocking laptop & backing tracks issue (with AXS TV/\"The Power Hour\", Sonic Temple 2023)",
+      "summary": "Source: Ronnie Radke on Twitter, adding: \"not lip syncing I swear\", https://twitter.com/RonnieRadke/status/1664319163240792064 ABOUT \"The Power Hour\" episodes: https://usrockermusic.com/2023/04/27/sunday-night-rocks-lineup-the-power-hour-on-axs-gets-seven-more-episodes/ FALLING",
+      "strand": "music",
+      "year": 2023,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-BnTDlaXxRrE",
+      "title": "Jacoby Shaddix of Papa Roach reacts to Falling In Reverse - \"Last Resort (Reimagined)\"",
+      "summary": "Jacoby Shaddix of Papa Roach reacts to @FallingInReverse - \"Last Resort (Reimagined)\" Watch The Original Video: https://youtu.be/ESOjt2_yJrU Stream & Download: https://fallinginreverse.ffm.to/lastresort Lyrics Cut my life into pieces This is my last resort Suffocation, no breat",
+      "strand": "music",
+      "year": 2023,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-Id6uK6oJ5nk",
+      "title": "Ronnie Radke behind the scenes shooting \"Popular Monster\" (2019)",
+      "summary": "#ronnieradke #fallinginreverse #behindthescenes #popularmonster #shooting #musicvideo Source: https://www.instagram.com/reel/C016jjFAIci/?igshid=ZWQ3ODFjY2VlOQ== FALLING IN REVERSE is heading to EUROPE AND UNITED KINGDOM!! ❤️‍🔥❤️‍🔥❤️‍🔥 Popular MonsTOUR II - World Domination hea",
+      "strand": "music",
+      "year": 2023,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-6y9CgaTb7Wc",
+      "title": "Why Andy Biersack is in the Falling in Reverse \"Bad Girls Club\" music video",
+      "summary": "Andy Biersack from Black Veil Brides talks about his history with Ronnie Radke and how he ended up in the Falling in Reverse video for \"Bad Girls Club\" Full interview here: https://youtu.be/ZVuxpf27jSc?si=wRba0MWPe2Kmr0Zl TikTok https://www.tiktok.com/@jesealee Instagram https",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-nPMZCC3-Lw8",
+      "title": "Falling In Reverse - \"Ronald\" (Behind The Scenes)",
+      "summary": "\"Ronald\" by @FallingInReverse from the upcoming album 'Popular Monster', out on July 26, 2024 Stream & download: https://fallinginreverse.ffm.to/popularmonster Pre-Order LP & CD: https://fallinginreverse.ffm.to/allstores Filmed by: Jeremy Pavia Edited by: Josh Moon Produced by",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-dy8YWui2FxY",
+      "title": "Falling In Reverse - \"Drugs\" [4K, 60 FPS, Remastered]",
+      "summary": "@FallingInReverse @epitaph Its not official video, off here - https://youtu.be/sRAG2NG5bkQ?si=DvoDYeGQ6YwpNv8k \"Drugs\" by Falling In Reverse Listen on Spotify: https://spoti.fi/2UlGdQF Listen on Apple Music: https://apple.co/2UmlDje Lyrics Kill yourself is what they said to",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-MP8kpuYAyd8",
+      "title": "Falling In Reverse - All My Life feat. Jelly Roll",
+      "summary": "Falling In Reverse - \"All My Life feat. Jelly Roll\" Stream/Download: https://fallinginreverse.ffm.to/popularmonster Follow Falling In Reverse: https://www.facebook.com/fallinginreverseofficial https://www.instagram.com/fallinginreverse/ (Lyrics): [Verse 1: Ronnie Radke] Yeah, I",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-4XDux0iho0M",
+      "title": "Falling in Reverse No Fear (unofficial music video)",
+      "summary": "Please like and Subscribe to my channel for new videos I made this video for fans of Falling in Reverse just because I love editing and putting out my own fan made vids and lyric videos its fun to do hope you will like it please be nice with any comments I do my best I don't ow",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-MxrF_kRbL78",
+      "title": "Falling In Reverse - \"Prequel\" (Behind The Scenes)",
+      "summary": "\"Prequel\" by @FallingInReverse from the album 'Popular Monster', out now Stream & download: https://fallinginreverse.ffm.to/popularmonster Order LP & CD: https://fallinginreverse.ffm.to/allstores Filmed by: Jeremy Pavia Edited by: Mykyta Demydko Produced by Ronnie Radke, Tyler",
+      "strand": "music",
+      "year": 2024,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-hZwhYRjcBGY",
+      "title": "Falling In Reverse - \"All My Women (feat. HARDY)\" (Behind The Scenes)",
+      "summary": "\"All My Women\" by @FallingInReverse featuring @HARDYmusic, out now Stream & download: https://fallinginreverse.ffm.to/allmywomen Filmed and Edited by Mykyta Demydko Produced by Ronnie Radke, Tyler Smyth, Jon Lundin & Charles Massabo Mixed by Ronnie Radke, Tyler Smyth & Charles",
+      "strand": "music",
+      "year": 2025,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-NOdqT2cs_j8",
+      "title": "Falling In Reverse - All My Life [Clean] (ft. Jelly Roll)",
+      "summary": "This video got moved from my old channel. I do NOT own this content, song, artwork, name, lyrics, and any others related. This is a clean version for home use or listening only for entertainment purposes. All this belongs to Falling In Reverse Views on other channel before tak",
+      "strand": "music",
+      "year": 2026,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-gjvv2jRMB8s",
+      "title": "Falling In Reverse - Joseph feat  Corey Taylor and Serj Tankian | Karaoke",
+      "summary": "Join this channel to get access to perks: https://www.youtube.com/channel/UC8AE6HaqZNrheX6FTE08P4g/join This is A FAN MADE BY THE MIXED GENRE SONG LYRICS version and KARAOKE version! Thank you for watching guys and hope you like this video! Note: You can use this instrumental",
+      "strand": "music",
+      "year": 2026,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-S6Unzlx0Jls",
+      "title": "MAKING OF Falling In Reverse \"JOSEPH\" - BTS/behind the scene video EDIT - by director @jensennoen",
+      "summary": "#fallinginreverse #ronnieradke #coreytaylor #slipknot #serjtankian #systemofadown #collab #epitaphrecords #newrelease #newsong #musicvideo #jensennoen #director Credit: @jensennoen (IG) @inception.post (IG) @tiltvfx (IG) Source: https://www.instagram.com/reel/Ddep_t-vvU1/?stkn=Z",
+      "strand": "music",
+      "year": 2026,
+      "category": "music_video"
+    },
+    {
+      "id": "mv-D2XNQowXvxA",
+      "title": "Falling In Reverse - Joseph  feat. Corey Taylor and Serj Tankian (Official Video) 2LM Reacts",
+      "summary": "Content Is Back!!! You requested it here it is! You already know how it goes down on this channel you either got something cooking up or you are delivering that undeniable flame! I'm not going to spoil this reaction, Enjoy! Falling In Reverse - Joseph feat. Corey Taylor and Ser",
+      "strand": "music",
+      "year": 2026,
+      "category": "music_video"
+    },
+    {
+      "id": "life-2009-escape-the-fate-20042008-during-radkes-inca",
+      "title": "Radke–Mabbitt feud during prison",
+      "summary": "While Radke was in prison, tension with Mabbitt escalated through live shows and social media, including a notorious Warped Tour heckle exchange.",
+      "strand": "life",
+      "year": 2009,
+      "category": "career"
+    },
+    {
+      "id": "life-2014-falling-in-reverse-2008present-thumbradke-w",
+      "title": "FIR at Rock im Park 2014",
+      "summary": "Falling in Reverse performed at Rock im Park 2014; Radke appeared with the band during that festival cycle.",
+      "strand": "life",
+      "year": 2014,
+      "category": "career"
+    },
+    {
+      "id": "life-2020-falling-in-reverse-2008present-falling-in-r",
+      "title": "FIR albums — Billboard top 40 streak",
+      "summary": "Falling in Reverse's first two albums reached the U.S. top 20, and all four studio albums through that point had charted in the top 40.",
+      "strand": "life",
+      "year": 2020,
+      "category": "career"
+    },
+    {
+      "id": "life-2013-solo-and-iwatch-mei-2013present-on-may-31-2",
+      "title": "Solo single “Fair-Weather Fans” & YouTube channel",
+      "summary": "On May 31, 2013, Radke launched his YouTube channel and released the solo song \"Fair-Weather Fans,\" described as a message to people who did not believe in him. He followed with \"What Up Earth?\" the next day.",
+      "strand": "life",
+      "year": 2013,
+      "category": "career"
+    },
+    {
+      "id": "life-2013-solo-and-iwatch-mei-2013present-in-part-3-o",
+      "title": "Rap mixtape plans (Alternative Press)",
+      "summary": "In an Alternative Press interview, Radke said he was working on a free rap mixtape produced by Charles Massabo (Kallaghan Records), planned for December 2013, with guest features from established rap artists.",
+      "strand": "life",
+      "year": 2013,
+      "category": "career"
+    },
+    {
+      "id": "life-2021-solo-and-iwatch-mei-2013present-in-an-inter",
+      "title": "Rap mixtape in progress (Loudwire)",
+      "summary": "Radke told Loudwire he was still developing a rap mixtape, continuing the solo era plans he had discussed in earlier interviews.",
+      "strand": "life",
+      "year": 2021,
+      "category": "career"
+    },
+    {
+      "id": "life-2022-solo-and-iwatch-mei-2013present-in-mid-2022",
+      "title": "Radke & Jacoby Shaddix headlines",
+      "summary": "Radke drew press coverage—including from Loudwire—after public back-and-forth with Papa Roach frontman Jacoby Shaddix.",
+      "strand": "life",
+      "year": 2022,
+      "category": "career"
+    },
+    {
+      "id": "life-2013-personal-life-radke-has-one-daughter-from-h",
+      "title": "Daughter & engagement with Crissy Henderson",
+      "summary": "Radke has a daughter from his relationship with model Crissy Henderson. He was engaged to Henderson at one point; the couple later separated.",
+      "strand": "life",
+      "year": 2013,
+      "category": "personal"
+    },
+    {
+      "id": "life-2013-personal-life-radkes-older-brother-anthony",
+      "title": "Death of brother Anthony (2013)",
+      "summary": "Radke's older brother Anthony died in a traffic collision in 2013.",
+      "strand": "life",
+      "year": 2013,
+      "category": "personal"
+    },
+    {
+      "id": "life-2022-personal-life-in-december-2022-radke-releas",
+      "title": "Memoir I Can Explain published",
+      "summary": "In December 2022, Radke published the memoir I Can Explain with journalist Ryan J. Downey.",
+      "strand": "life",
+      "year": 2022,
+      "category": "personal"
+    },
+    {
+      "id": "life-2024-personal-life-in-december-2024-radke-was-de",
+      "title": "Denied UK entry (2024 tour)",
+      "summary": "In December 2024, Radke was denied entry to the United Kingdom because of his prior prison sentence, which affected Falling in Reverse tour plans.",
+      "strand": "life",
+      "year": 2024,
+      "category": "personal"
+    },
+    {
+      "id": "life-infer-none-solo-and-iwatch-mei-2013present-a-d",
+      "title": "Diss track “I Wash Cars” (Sumerian feud)",
+      "summary": "A diss track titled \"I Wash Cars\" leaked online, targeting Sumerian Records, founder Ash Avildsen, Lorenzo \"The Main Event\" Antonucci, and I See Stars. Avildsen and Antonucci replied with \"When Ronnie Met Sally.\" The feud was later resolved and Radke said the two sides were on good terms again.",
+      "strand": "life",
+      "year": 2013,
+      "category": "career"
+    }
+  ]
+}

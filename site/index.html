@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ronnie's Rad Key</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="backdrop" class="colorful"></div>
+  <div id="ink-overlay"></div>
+  <div id="canvas-host">
+    <canvas id="helix-canvas"></canvas>
+  </div>
+
+  <header>
+    <h1>Ronnie's Rad Key</h1>
+    <p id="site-subtitle">The Key to Ronnie's Success is in his DNA - B.S.</p>
+    <p id="view-hint">2D — Drag to scrub · Alt+drag to twist the helix · Shift+drag to pan.</p>
+    <div id="search-wrap">
+      <label class="sr-only" for="search-input">Search timeline</label>
+      <input type="search" id="search-input" placeholder="Search RCU timeline…" autocomplete="off" />
+      <ul id="search-results" hidden></ul>
+    </div>
+  </header>
+
+  <div id="view-toggle" class="view-toggle" role="group" aria-label="View mode">
+    <button type="button" class="chip active" data-view-mode="2d">2D</button>
+    <button type="button" class="chip" data-view-mode="3d">3D</button>
+  </div>
+
+  <div id="year-display">—</div>
+
+  <div id="focus-rail" title="Center the view: left = 1983, right = 2026">
+    <label for="focus-slider">Focus</label>
+    <input type="range" id="focus-slider" min="0" max="100" value="100" aria-label="Helix focus — left birth year, right 2026" />
+  </div>
+
+  <div id="key-rail">
+    <span class="key-end" aria-hidden="true">1983</span>
+    <div class="key-track-wrap">
+      <label for="key-slider">Rad Key</label>
+      <input type="range" id="key-slider" min="0" max="100" value="35" aria-label="Timeline year" />
+    </div>
+    <span class="key-end" aria-hidden="true">2026</span>
+  </div>
+
+  <div id="controls"></div>
+  <div id="dev-tools-bar" hidden aria-label="Local development tools"></div>
+  <div id="stats-panel"></div>
+
+  <aside id="card"></aside>
+
+  <footer id="site-footer">Powered by the Ronnie Cinematic Universe dataset</footer>
+
+  <div id="fallback-list"></div>
+
+  <script type="module">
+    import { initTimelineApp } from "./js/timeline-ui.js";
+    initTimelineApp().catch((err) => {
+      console.error(err);
+      document.body.classList.add("no-webgl");
+    });
+  </script>
+</body>
+</html>

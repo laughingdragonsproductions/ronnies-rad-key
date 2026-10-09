@@ -1,0 +1,2609 @@
+{
+  "schema_version": 2,
+  "title": "Ronnie's Rad Key",
+  "subtitle": "The Key to Ronnie's Success is in his DNA - B.S.",
+  "rcu_name": "Ronnie Cinematic Universe",
+  "subject": "Ronnie Radke",
+  "year_min": 1983,
+  "year_max": 2026,
+  "updated_at": "2026-10-09T21:24:50.747678+00:00",
+  "eras": [
+    {
+      "id": "etf",
+      "label": "Escape the Fate",
+      "start": 2004,
+      "end": 2008,
+      "color": "#e85d75"
+    },
+    {
+      "id": "fall",
+      "label": "Fall & prison",
+      "start": 2006,
+      "end": 2010,
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "fir-rise",
+      "label": "FIR rise",
+      "start": 2010,
+      "end": 2017,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "cinematic",
+      "label": "Cinematic MV era",
+      "start": 2018,
+      "end": 2026,
+      "color": "#fbbf24"
+    }
+  ],
+  "tattoo_eras": [
+    {
+      "id": "colorful",
+      "start_year": 2004,
+      "end_year": 2021.9,
+      "backdrop": "colorful",
+      "label": "Colorful punk ink"
+    },
+    {
+      "id": "blastover",
+      "start_year": 2021.9,
+      "end_year": 2023.2,
+      "backdrop": "transition",
+      "label": "Blastover transition"
+    },
+    {
+      "id": "blackout",
+      "start_year": 2023.2,
+      "end_year": 2026,
+      "backdrop": "blackout",
+      "label": "Blackout era"
+    }
+  ],
+  "rcu_meta": {
+    "universe_id": "rcu",
+    "display_name": "Ronnie Cinematic Universe",
+    "synced_at": "2026-09-30T01:20:58.797645+00:00",
+    "counts": {
+      "moments": 106,
+      "videos_in_db": 156,
+      "releases": 27,
+      "entities": 50,
+      "relations": 19,
+      "life_events": 57
+    }
+  },
+  "stats": {
+    "official_video_count": 48,
+    "total_views_sampled": 1083272402,
+    "top_by_views": [
+      {
+        "id": "music-popular-monster",
+        "title": "Popular Monster",
+        "view_count": 205641244,
+        "youtube_id": "jakpo7tj7Qw"
+      },
+      {
+        "id": "music-watch-the-world-burn",
+        "title": "Watch The World Burn",
+        "view_count": 145781551,
+        "youtube_id": "qMXESlny4-I"
+      },
+      {
+        "id": "music-voices",
+        "title": "Voices In My Head",
+        "view_count": 116811456,
+        "youtube_id": "a7_e_NY-f3g"
+      },
+      {
+        "id": "music-god-is-a-weapon",
+        "title": "God Is A Weapon (feat. Marilyn Manson)",
+        "view_count": 83864868,
+        "youtube_id": "xqJurrQKNdE"
+      },
+      {
+        "id": "music-zombified",
+        "title": "Zombified",
+        "view_count": 63637408,
+        "youtube_id": "YDDz1Er2IXA"
+      },
+      {
+        "id": "music-losing-my-life",
+        "title": "Losing My Life",
+        "view_count": 59512157,
+        "youtube_id": "SEbxwmjScr8"
+      },
+      {
+        "id": "music-ronald",
+        "title": "Ronald",
+        "view_count": 51343705,
+        "youtube_id": "wWoQ7PFSYlk"
+      },
+      {
+        "id": "music-last-resort",
+        "title": "Last Resort (Reimagined)",
+        "view_count": 47535740,
+        "youtube_id": "ESOjt2_yJrU"
+      },
+      {
+        "id": "music-drug-reimagined",
+        "title": "The Drug In Me Is Reimagined",
+        "view_count": 45870441,
+        "youtube_id": "B2cbhYihBWY"
+      },
+      {
+        "id": "music-prequel",
+        "title": "Prequel",
+        "view_count": 38018573,
+        "youtube_id": "Y6c_aC3suP8"
+      }
+    ],
+    "rcu": {
+      "moments": 106,
+      "videos_in_db": 156,
+      "releases": 27,
+      "entities": 50,
+      "relations": 19,
+      "life_events": 57
+    }
+  },
+  "moments": [
+    {
+      "id": "life-born-1983",
+      "year": 1983,
+      "month": 12,
+      "day": 15,
+      "strand": "life",
+      "category": "early_life",
+      "title": "Born in Las Vegas",
+      "summary": "Ronald Joseph Aaron Radke is born in Las Vegas, Nevada.",
+      "importance": 0.9,
+      "related": [],
+      "importance_score": 0.9,
+      "t": 0.0,
+      "detail_path": "data/moments/life-born-1983.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "fill-childhood-1985",
+      "year": 1985,
+      "strand": "life",
+      "category": "early_life",
+      "title": "Growing up in Las Vegas",
+      "summary": "Childhood in the Vegas valley; family life with brothers Anthony and Matthew.",
+      "importance": 0.4,
+      "related": [],
+      "importance_score": 0.4,
+      "t": 0.0465,
+      "detail_path": "data/moments/fill-childhood-1985.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-teens-1995",
+      "year": 1995,
+      "strand": "life",
+      "category": "early_life",
+      "title": "Mid‑90s adolescence",
+      "summary": "Teen years in Vegas; hip‑hop, punk, and metal start shaping his taste.",
+      "importance": 0.38,
+      "related": [],
+      "importance_score": 0.38,
+      "t": 0.2791,
+      "detail_path": "data/moments/fill-teens-1995.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-music-discovery-1998",
+      "year": 1998,
+      "strand": "life",
+      "category": "early_life",
+      "title": "Discovering post‑hardcore",
+      "summary": "Deepens into screamo and punk — the lane that later defines ETF and FIR.",
+      "importance": 0.42,
+      "related": [],
+      "importance_score": 0.42,
+      "t": 0.3488,
+      "detail_path": "data/moments/fill-music-discovery-1998.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-high-school-2000",
+      "year": 2000,
+      "strand": "life",
+      "category": "early_life",
+      "title": "High school years",
+      "summary": "Las Vegas high school era; writing lyrics and chasing a frontman role.",
+      "importance": 0.45,
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.3953,
+      "detail_path": "data/moments/fill-high-school-2000.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-local-shows-2001",
+      "year": 2001,
+      "strand": "life",
+      "category": "career",
+      "title": "First local shows",
+      "summary": "Playing Vegas house shows and small venues with early projects.",
+      "importance": 0.44,
+      "related": [],
+      "importance_score": 0.44,
+      "t": 0.4186,
+      "detail_path": "data/moments/fill-local-shows-2001.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-meets-max-2002",
+      "year": 2002,
+      "strand": "life",
+      "category": "career",
+      "title": "Meets Max Green",
+      "summary": "Friendship with Max Green — the connection that leads toward Escape the Fate.",
+      "importance": 0.48,
+      "related": [],
+      "importance_score": 0.48,
+      "t": 0.4419,
+      "detail_path": "data/moments/fill-meets-max-2002.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-pre-etf-2003",
+      "year": 2003,
+      "strand": "life",
+      "category": "career",
+      "title": "Auditions & early lineup",
+      "summary": "Searching for the right drummer and guitarists before ETF solidifies.",
+      "importance": 0.46,
+      "related": [],
+      "importance_score": 0.46,
+      "t": 0.4651,
+      "detail_path": "data/moments/fill-pre-etf-2003.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-etf-forms-2004",
+      "year": 2004,
+      "strand": "life",
+      "category": "career",
+      "title": "Escape the Fate forms",
+      "summary": "Radke becomes lead vocalist of Escape the Fate in Las Vegas post-hardcore scene.",
+      "importance": 0.85,
+      "related": [],
+      "importance_score": 0.85,
+      "t": 0.4884,
+      "detail_path": "data/moments/life-etf-forms-2004.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "fill-etf-scene-2005",
+      "year": 2005,
+      "strand": "life",
+      "category": "career",
+      "title": "Vegas post‑hardcore scene",
+      "summary": "ETF builds a local following; demo and EP buzz in the underground.",
+      "importance": 0.5,
+      "related": [],
+      "importance_score": 0.5,
+      "t": 0.5116,
+      "detail_path": "data/moments/fill-etf-scene-2005.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-etf-ep-2005",
+      "year": 2005,
+      "month": 9,
+      "strand": "life",
+      "category": "career",
+      "title": "There's No Sympathy for the Dead EP (2005)",
+      "summary": "Early ETF EP cycle — studio work that feeds the debut album sessions.",
+      "importance": 0.52,
+      "related": [],
+      "importance_score": 0.52,
+      "t": 0.5116,
+      "detail_path": "data/moments/fill-etf-ep-2005.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-diylf-2006",
+      "year": 2006,
+      "strand": "life",
+      "category": "career",
+      "title": "Dying Is Your Latest Fashion",
+      "summary": "Escape the Fate releases debut album on Epitaph; Radke's emo-screamo look defines the era.",
+      "importance": 0.8,
+      "related": [],
+      "importance_score": 0.8,
+      "t": 0.5349,
+      "detail_path": "data/moments/life-diylf-2006.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "legal-2006-incident",
+      "year": 2006,
+      "strand": "life",
+      "category": "legal",
+      "title": "2006 Las Vegas altercation",
+      "summary": "Altercation leads to charges related to brass knuckles; friend fatally shoots Michael Cook in self-defense. Radke receives probation.",
+      "importance": 0.95,
+      "related": [],
+      "importance_score": 0.95,
+      "t": 0.5349,
+      "detail_path": "data/moments/legal-2006-incident.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "fill-etf-touring-2007",
+      "year": 2007,
+      "strand": "life",
+      "category": "career",
+      "title": "ETF touring cycle",
+      "summary": "Debut album touring; Radke's look and voice become scene‑defining.",
+      "importance": 0.55,
+      "related": [],
+      "importance_score": 0.55,
+      "t": 0.5581,
+      "detail_path": "data/moments/fill-etf-touring-2007.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-fir-conceived-2008",
+      "year": 2008,
+      "strand": "life",
+      "category": "career",
+      "title": "Falling in Reverse begins",
+      "summary": "FIR forms while Radke is incarcerated; lineup and demos set up the comeback.",
+      "importance": 0.9,
+      "related": [],
+      "importance_score": 0.9,
+      "t": 0.5814,
+      "detail_path": "data/moments/life-fir-conceived-2008.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "life-etf-departure-2008",
+      "year": 2008,
+      "strand": "life",
+      "category": "career",
+      "title": "Departure from Escape the Fate",
+      "summary": "Radke is removed from ETF amid legal fallout; Craig Mabbitt replaces him.",
+      "importance": 0.8,
+      "related": [],
+      "importance_score": 0.8,
+      "t": 0.5814,
+      "detail_path": "data/moments/life-etf-departure-2008.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "legal-2008-arrest",
+      "year": 2008,
+      "month": 6,
+      "strand": "life",
+      "category": "legal",
+      "title": "Probation violation & prison",
+      "summary": "Fails to report to probation officer; arrested and sentenced to prison (released 2010).",
+      "importance": 0.95,
+      "related": [],
+      "importance_score": 0.95,
+      "t": 0.5814,
+      "detail_path": "data/moments/legal-2008-arrest.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "fill-prison-writing-2009",
+      "year": 2009,
+      "strand": "life",
+      "category": "career",
+      "title": "Writing FIR material inside",
+      "summary": "Demoing and planning Falling in Reverse while serving time.",
+      "importance": 0.58,
+      "related": [],
+      "importance_score": 0.58,
+      "t": 0.6047,
+      "detail_path": "data/moments/fill-prison-writing-2009.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-2009-escape-the-fate-20042008-during-radkes-inca",
+      "strand": "life",
+      "category": "career",
+      "year": 2009,
+      "month": null,
+      "day": null,
+      "title": "Radke–Mabbitt feud during prison",
+      "summary": "While Radke was in prison, tension with Mabbitt escalated through live shows and social media, including a notorious Warped Tour heckle exchange.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2009-escape-the-fate-20042008-during-radkes-incarceration"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.6047,
+      "detail_path": "data/moments/life-2009-escape-the-fate-20042008-during-radkes-inca.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-released-2010",
+      "year": 2010,
+      "strand": "life",
+      "category": "career",
+      "title": "Released from prison",
+      "summary": "Radke is released; begins recording and touring with Falling in Reverse.",
+      "importance": 0.85,
+      "related": [],
+      "importance_score": 0.85,
+      "t": 0.6279,
+      "detail_path": "data/moments/life-released-2010.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "life-random-2011",
+      "year": 2011,
+      "strand": "life",
+      "category": "career",
+      "title": "The Drug in Me Is You",
+      "summary": "FIR debut album lands; singles push Radke back into mainstream rock visibility.",
+      "importance": 0.75,
+      "related": [],
+      "importance_score": 0.75,
+      "t": 0.6512,
+      "detail_path": "data/moments/life-random-2011.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "fill-fir-debut-cycle-2011",
+      "year": 2011,
+      "month": 7,
+      "strand": "life",
+      "category": "career",
+      "title": "The Drug in Me Is You — rollout",
+      "summary": "Debut singles and touring; FIR reintroduces Radke to a national audience.",
+      "importance": 0.62,
+      "related": [],
+      "importance_score": 0.62,
+      "t": 0.6512,
+      "detail_path": "data/moments/fill-fir-debut-cycle-2011.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "legal-2012-charge",
+      "year": 2012,
+      "strand": "life",
+      "category": "legal",
+      "title": "2012 legal issues",
+      "summary": "Additional legal headlines during early FIR touring years.",
+      "importance": 0.5,
+      "related": [],
+      "importance_score": 0.5,
+      "t": 0.6744,
+      "detail_path": "data/moments/legal-2012-charge.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "fill-classic-creature-2012",
+      "year": 2012,
+      "strand": "life",
+      "category": "career",
+      "title": "The Classico Reissue era",
+      "summary": "Early FIR catalog and reissues keep momentum between album cycles.",
+      "importance": 0.48,
+      "related": [],
+      "importance_score": 0.48,
+      "t": 0.6744,
+      "detail_path": "data/moments/fill-classic-creature-2012.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-solo-watch-me-2013",
+      "year": 2013,
+      "strand": "life",
+      "category": "career",
+      "title": "Solo & Watch Me era",
+      "summary": "Solo singles and features expand beyond band releases.",
+      "importance": 0.5,
+      "related": [],
+      "importance_score": 0.5,
+      "t": 0.6977,
+      "detail_path": "data/moments/life-solo-watch-me-2013.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "life-2013-solo-and-iwatch-mei-2013present-on-may-31-2",
+      "strand": "life",
+      "category": "career",
+      "year": 2013,
+      "month": null,
+      "day": null,
+      "title": "Solo single “Fair-Weather Fans” & YouTube channel",
+      "summary": "On May 31, 2013, Radke launched his YouTube channel and released the solo song \"Fair-Weather Fans,\" described as a message to people who did not believe in him. He followed with \"What Up Earth?\" the next day.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2013-solo-and-iwatch-mei-2013present-on-may-31-2013-radke-launche"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.6977,
+      "detail_path": "data/moments/life-2013-solo-and-iwatch-mei-2013present-on-may-31-2.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-2013-solo-and-iwatch-mei-2013present-in-part-3-o",
+      "strand": "life",
+      "category": "career",
+      "year": 2013,
+      "month": null,
+      "day": null,
+      "title": "Rap mixtape plans (Alternative Press)",
+      "summary": "In an Alternative Press interview, Radke said he was working on a free rap mixtape produced by Charles Massabo (Kallaghan Records), planned for December 2013, with guest features from established rap artists.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2013-solo-and-iwatch-mei-2013present-in-part-3-of-his-interview-wit"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.6977,
+      "detail_path": "data/moments/life-2013-solo-and-iwatch-mei-2013present-in-part-3-o.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-2013-personal-life-radke-has-one-daughter-from-h",
+      "strand": "life",
+      "category": "personal",
+      "year": 2013,
+      "month": null,
+      "day": null,
+      "title": "Daughter & engagement with Crissy Henderson",
+      "summary": "Radke has a daughter from his relationship with model Crissy Henderson. He was engaged to Henderson at one point; the couple later separated.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2013-personal-life-radke-has-one-daughter-from-hi"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.6977,
+      "detail_path": "data/moments/life-2013-personal-life-radke-has-one-daughter-from-h.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-2013-personal-life-radkes-older-brother-anthony",
+      "strand": "life",
+      "category": "personal",
+      "year": 2013,
+      "month": null,
+      "day": null,
+      "title": "Death of brother Anthony (2013)",
+      "summary": "Radke's older brother Anthony died in a traffic collision in 2013.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2013-personal-life-radkes-older-brother-anthony"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.6977,
+      "detail_path": "data/moments/life-2013-personal-life-radkes-older-brother-anthony.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-infer-none-solo-and-iwatch-mei-2013present-a-d",
+      "strand": "life",
+      "category": "career",
+      "year": 2013,
+      "month": null,
+      "day": null,
+      "title": "Diss track “I Wash Cars” (Sumerian feud)",
+      "summary": "A diss track titled \"I Wash Cars\" leaked online, targeting Sumerian Records, founder Ash Avildsen, Lorenzo \"The Main Event\" Antonucci, and I See Stars. Avildsen and Antonucci replied with \"When Ronnie Met Sally.\" The feud was later resolved and Radke said the two sides were on good terms again.",
+      "importance": 0.42,
+      "provenance": {
+        "event_id": "none-solo-and-iwatch-mei-2013present-a-diss-track-titled-i-wash-ca",
+        "inferred_date": true
+      },
+      "related": [],
+      "importance_score": 0.42,
+      "t": 0.6977,
+      "detail_path": "data/moments/life-infer-none-solo-and-iwatch-mei-2013present-a-d.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-bury-hatchet-2013",
+      "year": 2013,
+      "month": 10,
+      "strand": "life",
+      "category": "career",
+      "title": "Bury the Hatchet tour",
+      "summary": "FIR and Escape the Fate co‑headline — public feud cools on stage.",
+      "importance": 0.6,
+      "related": [],
+      "importance_score": 0.6,
+      "t": 0.6977,
+      "detail_path": "data/moments/fill-bury-hatchet-2013.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "legal-2014-charge",
+      "year": 2014,
+      "strand": "life",
+      "category": "legal",
+      "title": "2014 incident",
+      "summary": "On-tour altercation generates press; part of the controversial public narrative.",
+      "importance": 0.55,
+      "related": [],
+      "importance_score": 0.55,
+      "t": 0.7209,
+      "detail_path": "data/moments/legal-2014-charge.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "fill-trilogy-2014",
+      "year": 2014,
+      "strand": "life",
+      "category": "career",
+      "title": "Just Like You — album cycle",
+      "summary": "Third album touring; heavier direction before the cinematic pivot.",
+      "importance": 0.55,
+      "related": [],
+      "importance_score": 0.55,
+      "t": 0.7209,
+      "detail_path": "data/moments/fill-trilogy-2014.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-solo-watch-me-2014",
+      "year": 2014,
+      "strand": "life",
+      "category": "career",
+      "title": "Solo & Watch Me era begins",
+      "summary": "YouTube channel and solo drops expand beyond the band discography.",
+      "importance": 0.5,
+      "related": [],
+      "importance_score": 0.5,
+      "t": 0.7209,
+      "detail_path": "data/moments/fill-solo-watch-me-2014.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-2014-falling-in-reverse-2008present-thumbradke-w",
+      "strand": "life",
+      "category": "career",
+      "year": 2014,
+      "month": null,
+      "day": null,
+      "title": "FIR at Rock im Park 2014",
+      "summary": "Falling in Reverse performed at Rock im Park 2014; Radke appeared with the band during that festival cycle.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2014-falling-in-reverse-2008present-thumbradke-with-falling-in-re"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.7209,
+      "detail_path": "data/moments/life-2014-falling-in-reverse-2008present-thumbradke-w.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-just-like-you-2015",
+      "year": 2015,
+      "strand": "life",
+      "category": "career",
+      "title": "Just Like You",
+      "summary": "Third FIR album; bridges early post-hardcore sound toward heavier modern production.",
+      "importance": 0.6,
+      "related": [],
+      "importance_score": 0.6,
+      "t": 0.7442,
+      "detail_path": "data/moments/life-just-like-you-2015.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "legal-2015-charge",
+      "year": 2015,
+      "strand": "life",
+      "category": "legal",
+      "title": "2015 legal headlines",
+      "summary": "Further legal scrutiny amid rising FIR profile.",
+      "importance": 0.45,
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.7442,
+      "detail_path": "data/moments/legal-2015-charge.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "fill-2015-touring",
+      "year": 2015,
+      "strand": "life",
+      "category": "career",
+      "title": "FIR festival & tour run",
+      "summary": "Steady touring before the Coming Home pivot.",
+      "importance": 0.48,
+      "related": [],
+      "importance_score": 0.48,
+      "t": 0.7442,
+      "detail_path": "data/moments/fill-2015-touring.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "fill-2016-chemical",
+      "year": 2016,
+      "strand": "life",
+      "category": "career",
+      "title": "Chemical Prisoner — single push",
+      "summary": "Bridge single toward the Coming Home album and heavier visuals.",
+      "importance": 0.52,
+      "related": [],
+      "importance_score": 0.52,
+      "t": 0.7674,
+      "detail_path": "data/moments/fill-2016-chemical.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "music-chemical-prisoner",
+      "year": 2016,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Chemical Prisoner",
+      "summary": "Early FIR visual storytelling on Epitaph.",
+      "importance": 0.65,
+      "youtube_id": "DTHFyvGY_FU",
+      "view_count": 21532531,
+      "month": 1,
+      "day": 28,
+      "url": "https://www.youtube.com/watch?v=DTHFyvGY_FU",
+      "thumbnail": "https://i.ytimg.com/vi/DTHFyvGY_FU/hqdefault.jpg",
+      "views_per_day": 5523.99,
+      "era": "legacy_mv",
+      "rcu_tier": "peripheral",
+      "provenance": {
+        "release_id": "rel-DTHFyvGY_FU",
+        "video_id": "DTHFyvGY_FU"
+      },
+      "related": [],
+      "importance_score": 0.6987,
+      "t": 0.7674,
+      "detail_path": "data/moments/music-chemical-prisoner.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-coming-home-2017",
+      "year": 2017,
+      "strand": "life",
+      "category": "career",
+      "title": "Coming Home era",
+      "summary": "More melodic, cinematic direction before the viral video explosion.",
+      "importance": 0.65,
+      "related": [],
+      "importance_score": 0.65,
+      "t": 0.7907,
+      "detail_path": "data/moments/life-coming-home-2017.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "music-coming-home",
+      "year": 2017,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Coming Home",
+      "summary": "Title track from softer album era.",
+      "importance": 0.5,
+      "youtube_id": "L3QB4VnUOUA",
+      "view_count": 14667235,
+      "month": 4,
+      "day": 4,
+      "url": "https://www.youtube.com/watch?v=L3QB4VnUOUA",
+      "thumbnail": "https://i.ytimg.com/vi/L3QB4VnUOUA/hqdefault.jpg",
+      "views_per_day": 4231.75,
+      "era": "legacy_mv",
+      "rcu_tier": "peripheral",
+      "provenance": {
+        "release_id": "rel-L3QB4VnUOUA",
+        "video_id": "L3QB4VnUOUA"
+      },
+      "related": [],
+      "importance_score": 0.6017,
+      "t": 0.7907,
+      "detail_path": "data/moments/music-coming-home.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-LhVRqzogj5Y",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2017,
+      "month": 4,
+      "day": 7,
+      "title": "Hanging On",
+      "summary": "Official release: Hanging On.",
+      "youtube_id": "LhVRqzogj5Y",
+      "url": "https://www.youtube.com/watch?v=LhVRqzogj5Y",
+      "thumbnail": "https://i.ytimg.com/vi/LhVRqzogj5Y/hqdefault.jpg",
+      "view_count": 1836480,
+      "views_per_day": 530.31,
+      "era": "legacy_mv",
+      "rcu_tier": "peripheral",
+      "importance": 0.55,
+      "provenance": {
+        "release_id": "rel-LhVRqzogj5Y",
+        "video_id": "LhVRqzogj5Y"
+      },
+      "related": [],
+      "importance_score": 0.5937,
+      "t": 0.7907,
+      "detail_path": "data/moments/mv-LhVRqzogj5Y.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-H2S3XBzr_aw",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2017,
+      "month": 4,
+      "day": 7,
+      "title": "Straight To Hell",
+      "summary": "Official release: Straight To Hell.",
+      "youtube_id": "H2S3XBzr_aw",
+      "url": "https://www.youtube.com/watch?v=H2S3XBzr_aw",
+      "thumbnail": "https://i.ytimg.com/vi/H2S3XBzr_aw/hqdefault.jpg",
+      "view_count": 1761019,
+      "views_per_day": 508.52,
+      "era": "legacy_mv",
+      "rcu_tier": "peripheral",
+      "importance": 0.55,
+      "provenance": {
+        "release_id": "rel-H2S3XBzr_aw",
+        "video_id": "H2S3XBzr_aw"
+      },
+      "related": [],
+      "importance_score": 0.593,
+      "t": 0.7907,
+      "detail_path": "data/moments/mv-H2S3XBzr_aw.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-h_9Muqi0R_8",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2017,
+      "month": 4,
+      "day": 7,
+      "title": "I'm Bad At Life",
+      "summary": "Official release: I'm Bad At Life.",
+      "youtube_id": "h_9Muqi0R_8",
+      "url": "https://www.youtube.com/watch?v=h_9Muqi0R_8",
+      "thumbnail": "https://i.ytimg.com/vi/h_9Muqi0R_8/hqdefault.jpg",
+      "view_count": 3138429,
+      "views_per_day": 906.27,
+      "era": "legacy_mv",
+      "rcu_tier": "peripheral",
+      "importance": 0.55,
+      "provenance": {
+        "release_id": "rel-h_9Muqi0R_8",
+        "video_id": "h_9Muqi0R_8"
+      },
+      "related": [],
+      "importance_score": 0.6035,
+      "t": 0.7907,
+      "detail_path": "data/moments/mv-h_9Muqi0R_8.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-3_QB87vt4i0",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2017,
+      "month": 4,
+      "day": 7,
+      "title": "I Don't Mind",
+      "summary": "Official release: I Don't Mind.",
+      "youtube_id": "3_QB87vt4i0",
+      "url": "https://www.youtube.com/watch?v=3_QB87vt4i0",
+      "thumbnail": "https://i.ytimg.com/vi/3_QB87vt4i0/hqdefault.jpg",
+      "view_count": 1983160,
+      "views_per_day": 572.67,
+      "era": "legacy_mv",
+      "rcu_tier": "peripheral",
+      "importance": 0.55,
+      "provenance": {
+        "release_id": "rel-3_QB87vt4i0",
+        "video_id": "3_QB87vt4i0"
+      },
+      "related": [],
+      "importance_score": 0.5951,
+      "t": 0.7907,
+      "detail_path": "data/moments/mv-3_QB87vt4i0.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "music-superhero",
+      "year": 2017,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Superhero",
+      "summary": "Early step toward bigger budgets on videos.",
+      "importance": 0.48,
+      "youtube_id": "Wdz5quqdwjI",
+      "view_count": 8534817,
+      "month": 7,
+      "day": 10,
+      "url": "https://www.youtube.com/watch?v=Wdz5quqdwjI",
+      "thumbnail": "https://i.ytimg.com/vi/Wdz5quqdwjI/hqdefault.jpg",
+      "views_per_day": 2533.34,
+      "era": "legacy_mv",
+      "rcu_tier": "peripheral",
+      "provenance": {
+        "release_id": "rel-Wdz5quqdwjI",
+        "video_id": "Wdz5quqdwjI"
+      },
+      "related": [],
+      "importance_score": 0.5798,
+      "t": 0.7907,
+      "detail_path": "data/moments/music-superhero.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-0rVwuowU6Fs",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2017,
+      "month": 11,
+      "day": 20,
+      "title": "Fuck You And All Your Friends",
+      "summary": "Official release: Fuck You And All Your Friends.",
+      "youtube_id": "0rVwuowU6Fs",
+      "url": "https://www.youtube.com/watch?v=0rVwuowU6Fs",
+      "thumbnail": "https://i.ytimg.com/vi/0rVwuowU6Fs/hqdefault.jpg",
+      "view_count": 7638159,
+      "views_per_day": 2360.37,
+      "era": "legacy_mv",
+      "rcu_tier": "peripheral",
+      "importance": 0.55,
+      "provenance": {
+        "release_id": "rel-0rVwuowU6Fs",
+        "video_id": "0rVwuowU6Fs"
+      },
+      "related": [],
+      "importance_score": 0.6198,
+      "t": 0.7907,
+      "detail_path": "data/moments/mv-0rVwuowU6Fs.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-losing-my-mind-2018",
+      "year": 2018,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Losing My Mind",
+      "summary": "High-production video signals the start of FIR's cinematic MV run.",
+      "importance": 0.7,
+      "youtube_id": "2EMst_OFRF8",
+      "view_count": 34024614,
+      "related": [],
+      "importance_score": 0.7371,
+      "t": 0.814,
+      "detail_path": "data/moments/life-losing-my-mind-2018.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "fill-2018-pre-monster",
+      "year": 2018,
+      "month": 6,
+      "strand": "life",
+      "category": "career",
+      "title": "Pre‑Popular Monster buildup",
+      "summary": "Losing My Life / Losing My Mind videos set up the breakout year.",
+      "importance": 0.58,
+      "related": [],
+      "importance_score": 0.58,
+      "t": 0.814,
+      "detail_path": "data/moments/fill-2018-pre-monster.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "music-losing-my-life",
+      "year": 2018,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Losing My Life",
+      "summary": "Narrative MV with high replay value; millions of views.",
+      "importance": 0.85,
+      "youtube_id": "SEbxwmjScr8",
+      "view_count": 59512157,
+      "month": 6,
+      "day": 26,
+      "url": "https://www.youtube.com/watch?v=SEbxwmjScr8",
+      "thumbnail": "https://i.ytimg.com/vi/SEbxwmjScr8/hqdefault.jpg",
+      "views_per_day": 19719.07,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-SEbxwmjScr8",
+        "video_id": "SEbxwmjScr8"
+      },
+      "related": [],
+      "importance_score": 0.9573,
+      "t": 0.814,
+      "detail_path": "data/moments/music-losing-my-life.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-popular-monster-era",
+      "year": 2019,
+      "strand": "life",
+      "category": "career",
+      "title": "Popular Monster — cultural breakout",
+      "summary": "Song and video become generational anthem; FIR enters nine-figure view territory.",
+      "importance": 1.0,
+      "related": [],
+      "importance_score": 1.0,
+      "t": 0.8372,
+      "detail_path": "data/moments/life-popular-monster-era.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "life-kerrang-best-video",
+      "year": 2019,
+      "strand": "life",
+      "category": "accolade",
+      "title": "Kerrang! Best Video recognition",
+      "summary": "Industry awards cement FIR video era as best-in-class for rock visuals.",
+      "importance": 0.6,
+      "related": [],
+      "importance_score": 0.6,
+      "t": 0.8372,
+      "detail_path": "data/moments/life-kerrang-best-video.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "music-popular-monster",
+      "year": 2019,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Popular Monster",
+      "summary": "205M+ views; monster makeup and story beats become FIR signature.",
+      "importance": 1.0,
+      "youtube_id": "jakpo7tj7Qw",
+      "view_count": 205641244,
+      "month": 11,
+      "day": 20,
+      "url": "https://www.youtube.com/watch?v=jakpo7tj7Qw",
+      "thumbnail": "https://i.ytimg.com/vi/jakpo7tj7Qw/hqdefault.jpg",
+      "views_per_day": 82059.55,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-jakpo7tj7Qw",
+        "video_id": "jakpo7tj7Qw"
+      },
+      "related": [
+        {
+          "id": "mv-Id6uK6oJ5nk",
+          "rel_type": "callback",
+          "title": "Ronnie Radke behind the scenes shooting \"Popular Monster\" (2019)"
+        }
+      ],
+      "importance_score": 1.0,
+      "t": 0.8372,
+      "detail_path": "data/moments/music-popular-monster.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-twitch-rise-2020",
+      "year": 2020,
+      "strand": "life",
+      "category": "personal",
+      "title": "Twitch & direct fan connection",
+      "summary": "Regular streaming deepens parasocial reach beyond traditional rock promo cycles.",
+      "importance": 0.55,
+      "related": [],
+      "importance_score": 0.55,
+      "t": 0.8605,
+      "detail_path": "data/moments/life-twitch-rise-2020.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "music-drugs",
+      "year": 2020,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Drugs",
+      "summary": "Satirical, chaotic energy; fan-favorite deep cut video.",
+      "importance": 0.7,
+      "youtube_id": "FlRP1lEt1JE",
+      "view_count": 16465010,
+      "related": [],
+      "importance_score": 0.7238,
+      "t": 0.8605,
+      "detail_path": "data/moments/music-drugs.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-2020-falling-in-reverse-2008present-falling-in-r",
+      "strand": "life",
+      "category": "career",
+      "year": 2020,
+      "month": null,
+      "day": null,
+      "title": "FIR albums — Billboard top 40 streak",
+      "summary": "Falling in Reverse's first two albums reached the U.S. top 20, and all four studio albums through that point had charted in the top 40.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2020-falling-in-reverse-2008present-falling-in-reverses-first-two"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.8605,
+      "detail_path": "data/moments/life-2020-falling-in-reverse-2008present-falling-in-r.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "music-drug-reimagined",
+      "year": 2020,
+      "strand": "music",
+      "category": "music_video",
+      "title": "The Drug In Me Is Reimagined",
+      "summary": "Ballad reimagining with gothic ballroom visuals.",
+      "importance": 0.8,
+      "youtube_id": "B2cbhYihBWY",
+      "view_count": 45870441,
+      "month": 2,
+      "day": 13,
+      "url": "https://www.youtube.com/watch?v=B2cbhYihBWY",
+      "thumbnail": "https://i.ytimg.com/vi/B2cbhYihBWY/hqdefault.jpg",
+      "views_per_day": 18946.9,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-B2cbhYihBWY",
+        "video_id": "B2cbhYihBWY"
+      },
+      "related": [
+        {
+          "id": "mv-PsjAXOA55ec",
+          "rel_type": "callback",
+          "title": "NO FEAR"
+        },
+        {
+          "id": "mv-ybmwImclRBo",
+          "rel_type": "callback",
+          "title": "Trigger Warning"
+        },
+        {
+          "id": "mv-da7qJvYFfpc",
+          "rel_type": "callback",
+          "title": "Bad Guy (feat. Saraya)"
+        }
+      ],
+      "importance_score": 0.9226,
+      "t": 0.8605,
+      "detail_path": "data/moments/music-drug-reimagined.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-Y4ilUrpq05A",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2020,
+      "month": 2,
+      "day": 13,
+      "title": "Falling In Reverse - The Drug In Me Is Reimagined Lyrics | Official Music Video Lyrics",
+      "summary": "Artist: Falling In Reverse Song: The Drug In Me Is Reimagined (W/ LYRICS) #FallingInReverse #TheDrugInMeIsReimaginedLyrics #FallingInReverseLyrics",
+      "youtube_id": "Y4ilUrpq05A",
+      "url": "https://www.youtube.com/watch?v=Y4ilUrpq05A",
+      "thumbnail": "https://i.ytimg.com/vi/Y4ilUrpq05A/maxresdefault.jpg",
+      "view_count": 44085,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "Y4ilUrpq05A"
+      },
+      "related": [],
+      "importance_score": 0.6155,
+      "t": 0.8605,
+      "detail_path": "data/moments/mv-Y4ilUrpq05A.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-S2e8xzVB6rA",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2020,
+      "month": 2,
+      "day": 27,
+      "title": "Falling In Reverse - \"The Drug In Me Is Reimagined\" (Behind The Scenes)",
+      "summary": "Watch the full video: https://youtu.be/B2cbhYihBWY \"The Drug In Me Is Reimagined\" by Falling In Reverse Stream & download: https://fallinginreverse.ffm.to/thedruginmeisreimagined Site: http://fallinginreverse.com Store: http://store.fallinginreverse.com Facebook: http://fb.com/f",
+      "youtube_id": "S2e8xzVB6rA",
+      "url": "https://www.youtube.com/watch?v=S2e8xzVB6rA",
+      "thumbnail": "https://i.ytimg.com/vi/S2e8xzVB6rA/maxresdefault.jpg",
+      "view_count": 399019,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "S2e8xzVB6rA"
+      },
+      "related": [
+        {
+          "id": "mv-4XDux0iho0M",
+          "rel_type": "callback",
+          "title": "Falling in Reverse No Fear (unofficial music video)"
+        }
+      ],
+      "importance_score": 0.6558,
+      "t": 0.8605,
+      "detail_path": "data/moments/mv-S2e8xzVB6rA.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "music-carry-on",
+      "year": 2020,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Carry On",
+      "summary": "Anthemic track with polished Epitaph visualizer/MV push.",
+      "importance": 0.55,
+      "youtube_id": "AKHSWvmiwP8",
+      "view_count": 8812821,
+      "month": 7,
+      "day": 14,
+      "url": "https://www.youtube.com/watch?v=AKHSWvmiwP8",
+      "thumbnail": "https://i.ytimg.com/vi/AKHSWvmiwP8/hqdefault.jpg",
+      "views_per_day": 3884.01,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-AKHSWvmiwP8",
+        "video_id": "AKHSWvmiwP8"
+      },
+      "related": [],
+      "importance_score": 0.7424,
+      "t": 0.8605,
+      "detail_path": "data/moments/music-carry-on.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-PZjS2iiKWgM",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2020,
+      "month": 8,
+      "day": 3,
+      "title": "Falling in Reverse - \"Straight To Hell\" (Lyrics)",
+      "summary": "Falling in Reverse - \"Straight To Hell\" (Lyrics) - Lyrics: - You will never be alright And I will never be okay And I can't be your Jesus Christ 'Cause I am but a mortal man Just looking for the promised land And it kills me slowly (You never know what you got 'til it's gone for",
+      "youtube_id": "PZjS2iiKWgM",
+      "url": "https://www.youtube.com/watch?v=PZjS2iiKWgM",
+      "thumbnail": "https://i.ytimg.com/vi/PZjS2iiKWgM/maxresdefault.jpg",
+      "view_count": 57525,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "PZjS2iiKWgM"
+      },
+      "related": [],
+      "importance_score": 0.6204,
+      "t": 0.8605,
+      "detail_path": "data/moments/mv-PZjS2iiKWgM.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-2021-solo-and-iwatch-mei-2013present-in-an-inter",
+      "strand": "life",
+      "category": "career",
+      "year": 2021,
+      "month": null,
+      "day": null,
+      "title": "Rap mixtape in progress (Loudwire)",
+      "summary": "Radke told Loudwire he was still developing a rap mixtape, continuing the solo era plans he had discussed in earlier interviews.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2021-solo-and-iwatch-mei-2013present-in-an-interview-with-loudwir"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.8837,
+      "detail_path": "data/moments/life-2021-solo-and-iwatch-mei-2013present-in-an-inter.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "music-vampire-revamped",
+      "year": 2021,
+      "strand": "music",
+      "category": "music_video",
+      "title": "I'm Not a Vampire (Revamped)",
+      "summary": "Revisit of ETF-era hit with modern FIR production.",
+      "importance": 0.75,
+      "youtube_id": "2nWmBJxW9q0",
+      "view_count": 24382202,
+      "month": 2,
+      "day": 12,
+      "url": "https://www.youtube.com/watch?v=2nWmBJxW9q0",
+      "thumbnail": "https://i.ytimg.com/vi/2nWmBJxW9q0/hqdefault.jpg",
+      "views_per_day": 11859.05,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-2nWmBJxW9q0",
+        "video_id": "2nWmBJxW9q0"
+      },
+      "related": [],
+      "importance_score": 0.881,
+      "t": 0.8837,
+      "detail_path": "data/moments/music-vampire-revamped.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-blastover-start-2021",
+      "year": 2021,
+      "month": 11,
+      "strand": "life",
+      "category": "personal",
+      "title": "Blastover sessions begin",
+      "summary": "Major cover-up and blackout tattoo work starts; process shared on Twitch streams.",
+      "importance": 0.75,
+      "related": [],
+      "importance_score": 0.75,
+      "t": 0.8837,
+      "detail_path": "data/moments/life-blastover-start-2021.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "life-rise-fall-rise-doc",
+      "year": 2022,
+      "strand": "life",
+      "category": "personal",
+      "title": "The Rise, Fall & Rise Again",
+      "summary": "Fan and press narratives frame redemption arc explicitly.",
+      "importance": 0.5,
+      "related": [],
+      "importance_score": 0.5,
+      "t": 0.907,
+      "detail_path": "data/moments/life-rise-fall-rise-doc.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "life-2022-solo-and-iwatch-mei-2013present-in-mid-2022",
+      "strand": "life",
+      "category": "career",
+      "year": 2022,
+      "month": null,
+      "day": null,
+      "title": "Radke & Jacoby Shaddix headlines",
+      "summary": "Radke drew press coverage—including from Loudwire—after public back-and-forth with Papa Roach frontman Jacoby Shaddix.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2022-solo-and-iwatch-mei-2013present-in-mid-2022-radke-made-headli"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.907,
+      "detail_path": "data/moments/life-2022-solo-and-iwatch-mei-2013present-in-mid-2022.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "life-2022-personal-life-in-december-2022-radke-releas",
+      "strand": "life",
+      "category": "personal",
+      "year": 2022,
+      "month": null,
+      "day": null,
+      "title": "Memoir I Can Explain published",
+      "summary": "In December 2022, Radke published the memoir I Can Explain with journalist Ryan J. Downey.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2022-personal-life-in-december-2022-radke-releas"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.907,
+      "detail_path": "data/moments/life-2022-personal-life-in-december-2022-radke-releas.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "music-zombified",
+      "year": 2022,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Zombified",
+      "summary": "Horror-comedy zombie apocalypse concept.",
+      "importance": 0.82,
+      "youtube_id": "YDDz1Er2IXA",
+      "view_count": 63637408,
+      "month": 1,
+      "day": 5,
+      "url": "https://www.youtube.com/watch?v=YDDz1Er2IXA",
+      "thumbnail": "https://i.ytimg.com/vi/YDDz1Er2IXA/hqdefault.jpg",
+      "views_per_day": 36805.9,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-YDDz1Er2IXA",
+        "video_id": "YDDz1Er2IXA"
+      },
+      "related": [],
+      "importance_score": 0.9406,
+      "t": 0.907,
+      "detail_path": "data/moments/music-zombified.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-LlqD7cMvQbw",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2022,
+      "month": 1,
+      "day": 5,
+      "title": "Falling In Reverse - \"Zombified\" (LYRICS VIDEO - VISUALIZER)",
+      "summary": "",
+      "youtube_id": "LlqD7cMvQbw",
+      "url": "https://www.youtube.com/watch?v=LlqD7cMvQbw",
+      "thumbnail": "https://i.ytimg.com/vi/LlqD7cMvQbw/maxresdefault.jpg",
+      "view_count": 92507,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "LlqD7cMvQbw"
+      },
+      "related": [],
+      "importance_score": 0.6291,
+      "t": 0.907,
+      "detail_path": "data/moments/mv-LlqD7cMvQbw.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "music-voices",
+      "year": 2022,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Voices In My Head",
+      "summary": "116M+ views; split-personality horror aesthetic.",
+      "importance": 0.92,
+      "youtube_id": "a7_e_NY-f3g",
+      "view_count": 116811456,
+      "month": 5,
+      "day": 27,
+      "url": "https://www.youtube.com/watch?v=a7_e_NY-f3g",
+      "thumbnail": "https://i.ytimg.com/vi/a7_e_NY-f3g/hqdefault.jpg",
+      "views_per_day": 73605.2,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-a7_e_NY-f3g",
+        "video_id": "a7_e_NY-f3g"
+      },
+      "related": [],
+      "importance_score": 1.0,
+      "t": 0.907,
+      "detail_path": "data/moments/music-voices.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-popular-monstour-2023",
+      "year": 2023,
+      "strand": "life",
+      "category": "career",
+      "title": "The Popular Monstour",
+      "summary": "Arena-scale touring capitalizes on viral catalog; live WTWB moments go viral.",
+      "importance": 0.65,
+      "related": [],
+      "importance_score": 0.65,
+      "t": 0.9302,
+      "detail_path": "data/moments/life-popular-monstour-2023.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "music-watch-the-world-burn",
+      "year": 2023,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Watch The World Burn",
+      "summary": "145M+ views; genre-blending rap-rock visual spectacle.",
+      "importance": 0.98,
+      "youtube_id": "qMXESlny4-I",
+      "view_count": 145781551,
+      "month": 1,
+      "day": 31,
+      "url": "https://www.youtube.com/watch?v=qMXESlny4-I",
+      "thumbnail": "https://i.ytimg.com/vi/qMXESlny4-I/hqdefault.jpg",
+      "views_per_day": 108954.82,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-qMXESlny4-I",
+        "video_id": "qMXESlny4-I"
+      },
+      "related": [
+        {
+          "id": "music-bad-girls-club",
+          "rel_type": "callback",
+          "title": "Bad Girls Club"
+        }
+      ],
+      "importance_score": 1.0,
+      "t": 0.9302,
+      "detail_path": "data/moments/music-watch-the-world-burn.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-u7zPO8oG4gQ",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2023,
+      "month": 2,
+      "day": 14,
+      "title": "Falling In Reverse/ Ronnie Radke behind the scenes \"Watch The World Burn\" (2022), cr: Tanner Gordon*",
+      "summary": "*Compilation of BTS videos uploaded by producer Tanner Gordon on Instagram (@tanner_gordon) https://www.instagram.com/p/CoiFDG8vcq1/, https://www.instagram.com/p/CoJG0oDL2VN/, https://www.instagram.com/p/CoRRdYasEgw/, FALLING IN REVERSE is getting ON TOUR with DISTURBED between -",
+      "youtube_id": "u7zPO8oG4gQ",
+      "url": "https://www.youtube.com/watch?v=u7zPO8oG4gQ",
+      "thumbnail": "https://i.ytimg.com/vi/u7zPO8oG4gQ/maxresdefault.jpg",
+      "view_count": 45074,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "u7zPO8oG4gQ"
+      },
+      "related": [],
+      "importance_score": 0.6159,
+      "t": 0.9302,
+      "detail_path": "data/moments/mv-u7zPO8oG4gQ.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-hand-blackout-2023",
+      "year": 2023,
+      "month": 2,
+      "day": 19,
+      "strand": "life",
+      "category": "personal",
+      "title": "Hand blackout tattoos",
+      "summary": "Hand tattoo sessions complete the shift from colorful sleeves to full blackout aesthetic.",
+      "importance": 0.7,
+      "related": [],
+      "importance_score": 0.7,
+      "t": 0.9302,
+      "detail_path": "data/moments/life-hand-blackout-2023.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "life-colorful-tats-reference",
+      "year": 2023,
+      "month": 4,
+      "day": 17,
+      "strand": "life",
+      "category": "personal",
+      "title": "Colorful tattoo era (reference)",
+      "summary": "Full sleeves, chest owl, and face ink — last vivid look before blackout coverage.",
+      "importance": 0.65,
+      "thumbnail": "assets/ref/library/ronnie-pre-blackout-colorful-tats-2023-04-17.png",
+      "related": [],
+      "importance_score": 0.65,
+      "t": 0.9302,
+      "detail_path": "data/moments/life-colorful-tats-reference.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "life-blackout-complete-2023",
+      "year": 2023,
+      "month": 6,
+      "strand": "life",
+      "category": "personal",
+      "title": "Blackout aesthetic locked in",
+      "summary": "Blastover complete; monochrome ink matches cinematic MV era.",
+      "importance": 0.7,
+      "thumbnail": "assets/ref/library/ronnie-blackout-tattoos-mirror-selfie.png",
+      "related": [],
+      "importance_score": 0.7,
+      "t": 0.9302,
+      "detail_path": "data/moments/life-blackout-complete-2023.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "mv-zX_FrxWlnUQ",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2023,
+      "month": 6,
+      "day": 1,
+      "title": "Ronnie Radke mocking laptop & backing tracks issue (with AXS TV/\"The Power Hour\", Sonic Temple 2023)",
+      "summary": "Source: Ronnie Radke on Twitter, adding: \"not lip syncing I swear\", https://twitter.com/RonnieRadke/status/1664319163240792064 ABOUT \"The Power Hour\" episodes: https://usrockermusic.com/2023/04/27/sunday-night-rocks-lineup-the-power-hour-on-axs-gets-seven-more-episodes/ FALLING",
+      "youtube_id": "zX_FrxWlnUQ",
+      "url": "https://www.youtube.com/watch?v=zX_FrxWlnUQ",
+      "thumbnail": "https://i.ytimg.com/vi/zX_FrxWlnUQ/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AHUBoAC3AOKAgwIABABGH8gPyg5MA8=&rs=AOn4CLCmFekWkEo0-QGDBsXv4VqA365t5A",
+      "view_count": 2337,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "zX_FrxWlnUQ"
+      },
+      "related": [],
+      "importance_score": 0.5618,
+      "t": 0.9302,
+      "detail_path": "data/moments/mv-zX_FrxWlnUQ.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "music-last-resort",
+      "year": 2023,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Last Resort (Reimagined)",
+      "summary": "Papa Roach cover goes viral beyond rock audience.",
+      "importance": 0.78,
+      "youtube_id": "ESOjt2_yJrU",
+      "view_count": 47535740,
+      "month": 6,
+      "day": 26,
+      "url": "https://www.youtube.com/watch?v=ESOjt2_yJrU",
+      "thumbnail": "https://i.ytimg.com/vi/ESOjt2_yJrU/hqdefault.jpg",
+      "views_per_day": 39878.98,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-ESOjt2_yJrU",
+        "video_id": "ESOjt2_yJrU"
+      },
+      "related": [],
+      "importance_score": 0.9112,
+      "t": 0.9302,
+      "detail_path": "data/moments/music-last-resort.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-BnTDlaXxRrE",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2023,
+      "month": 6,
+      "day": 30,
+      "title": "Jacoby Shaddix of Papa Roach reacts to Falling In Reverse - \"Last Resort (Reimagined)\"",
+      "summary": "Jacoby Shaddix of Papa Roach reacts to @FallingInReverse - \"Last Resort (Reimagined)\" Watch The Original Video: https://youtu.be/ESOjt2_yJrU Stream & Download: https://fallinginreverse.ffm.to/lastresort Lyrics Cut my life into pieces This is my last resort Suffocation, no breat",
+      "youtube_id": "BnTDlaXxRrE",
+      "url": "https://www.youtube.com/watch?v=BnTDlaXxRrE",
+      "thumbnail": "https://i.ytimg.com/vi/BnTDlaXxRrE/maxresdefault.jpg",
+      "view_count": 2643070,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "BnTDlaXxRrE"
+      },
+      "related": [],
+      "importance_score": 0.6904,
+      "t": 0.9302,
+      "detail_path": "data/moments/mv-BnTDlaXxRrE.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-Id6uK6oJ5nk",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2023,
+      "month": 12,
+      "day": 15,
+      "title": "Ronnie Radke behind the scenes shooting \"Popular Monster\" (2019)",
+      "summary": "#ronnieradke #fallinginreverse #behindthescenes #popularmonster #shooting #musicvideo Source: https://www.instagram.com/reel/C016jjFAIci/?igshid=ZWQ3ODFjY2VlOQ== FALLING IN REVERSE is heading to EUROPE AND UNITED KINGDOM!! ❤️‍🔥❤️‍🔥❤️‍🔥 Popular MonsTOUR II - World Domination hea",
+      "youtube_id": "Id6uK6oJ5nk",
+      "url": "https://www.youtube.com/watch?v=Id6uK6oJ5nk",
+      "thumbnail": "https://i.ytimg.com/vi/Id6uK6oJ5nk/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH8BIAC7gKKAgwIABABGE8gWyhlMA8=&rs=AOn4CLAC3l_-CKOT3oWbdjgRfTfCe7u7wQ",
+      "view_count": 2043,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "Id6uK6oJ5nk"
+      },
+      "related": [
+        {
+          "id": "music-popular-monster",
+          "rel_type": "callback",
+          "title": "Popular Monster"
+        }
+      ],
+      "importance_score": 0.5594,
+      "t": 0.9302,
+      "detail_path": "data/moments/mv-Id6uK6oJ5nk.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-live-from-unknown",
+      "year": 2024,
+      "strand": "life",
+      "category": "career",
+      "title": "Live From The Unknown",
+      "summary": "Live film / trailer push treats shows as cinematic events.",
+      "importance": 0.5,
+      "related": [],
+      "importance_score": 0.5,
+      "t": 0.9535,
+      "detail_path": "data/moments/life-live-from-unknown.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "music-all-my-life",
+      "year": 2024,
+      "strand": "music",
+      "category": "music_video",
+      "title": "All My Life (feat. Jelly Roll)",
+      "summary": "Cross-genre collab expands FIR reach.",
+      "importance": 0.72,
+      "youtube_id": "Z116LsMiyKc",
+      "view_count": 24763588,
+      "related": [],
+      "importance_score": 0.7433,
+      "t": 0.9535,
+      "detail_path": "data/moments/music-all-my-life.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "music-prequel",
+      "year": 2024,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Prequel",
+      "summary": "Lore-heavy narrative tying MV universe threads.",
+      "importance": 0.8,
+      "youtube_id": "Y6c_aC3suP8",
+      "view_count": 38018573,
+      "related": [],
+      "importance_score": 0.7991,
+      "t": 0.9535,
+      "detail_path": "data/moments/music-prequel.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "music-bad-girls-club",
+      "year": 2024,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Bad Girls Club",
+      "summary": "Stylized MV with celebrity cameo discourse.",
+      "importance": 0.6,
+      "youtube_id": "vdaKzHPG4_0",
+      "view_count": 10710957,
+      "related": [
+        {
+          "id": "music-watch-the-world-burn",
+          "rel_type": "callback",
+          "title": "Watch The World Burn"
+        }
+      ],
+      "importance_score": 0.656,
+      "t": 0.9535,
+      "detail_path": "data/moments/music-bad-girls-club.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-2024-personal-life-in-december-2024-radke-was-de",
+      "strand": "life",
+      "category": "personal",
+      "year": 2024,
+      "month": null,
+      "day": null,
+      "title": "Denied UK entry (2024 tour)",
+      "summary": "In December 2024, Radke was denied entry to the United Kingdom because of his prior prison sentence, which affected Falling in Reverse tour plans.",
+      "importance": 0.45,
+      "provenance": {
+        "event_id": "2024-personal-life-in-december-2024-radke-was-de"
+      },
+      "related": [],
+      "importance_score": 0.45,
+      "t": 0.9535,
+      "detail_path": "data/moments/life-2024-personal-life-in-december-2024-radke-was-de.json",
+      "verification": {
+        "status": "unproven",
+        "label": "Unproven - Site source"
+      }
+    },
+    {
+      "id": "music-ronald",
+      "year": 2024,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Ronald",
+      "summary": "Tech N9ne & Alex Terrible; body-horror wrestling energy.",
+      "importance": 0.88,
+      "youtube_id": "wWoQ7PFSYlk",
+      "view_count": 51343705,
+      "month": 5,
+      "day": 7,
+      "url": "https://www.youtube.com/watch?v=wWoQ7PFSYlk",
+      "thumbnail": "https://i.ytimg.com/vi/wWoQ7PFSYlk/hqdefault.jpg",
+      "views_per_day": 58611.54,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-wWoQ7PFSYlk",
+        "video_id": "wWoQ7PFSYlk"
+      },
+      "related": [],
+      "importance_score": 0.9726,
+      "t": 0.9535,
+      "detail_path": "data/moments/music-ronald.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-6y9CgaTb7Wc",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2024,
+      "month": 5,
+      "day": 17,
+      "title": "Why Andy Biersack is in the Falling in Reverse \"Bad Girls Club\" music video",
+      "summary": "Andy Biersack from Black Veil Brides talks about his history with Ronnie Radke and how he ended up in the Falling in Reverse video for \"Bad Girls Club\" Full interview here: https://youtu.be/ZVuxpf27jSc?si=wRba0MWPe2Kmr0Zl TikTok https://www.tiktok.com/@jesealee Instagram https",
+      "youtube_id": "6y9CgaTb7Wc",
+      "url": "https://www.youtube.com/watch?v=6y9CgaTb7Wc",
+      "thumbnail": "https://i.ytimg.com/vi/6y9CgaTb7Wc/maxresdefault.jpg",
+      "view_count": 74056,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "6y9CgaTb7Wc"
+      },
+      "related": [],
+      "importance_score": 0.625,
+      "t": 0.9535,
+      "detail_path": "data/moments/mv-6y9CgaTb7Wc.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-nPMZCC3-Lw8",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2024,
+      "month": 5,
+      "day": 29,
+      "title": "Falling In Reverse - \"Ronald\" (Behind The Scenes)",
+      "summary": "\"Ronald\" by @FallingInReverse from the upcoming album 'Popular Monster', out on July 26, 2024 Stream & download: https://fallinginreverse.ffm.to/popularmonster Pre-Order LP & CD: https://fallinginreverse.ffm.to/allstores Filmed by: Jeremy Pavia Edited by: Josh Moon Produced by",
+      "youtube_id": "nPMZCC3-Lw8",
+      "url": "https://www.youtube.com/watch?v=nPMZCC3-Lw8",
+      "thumbnail": "https://i.ytimg.com/vi/nPMZCC3-Lw8/maxresdefault.jpg",
+      "view_count": 330362,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "nPMZCC3-Lw8"
+      },
+      "related": [],
+      "importance_score": 0.6524,
+      "t": 0.9535,
+      "detail_path": "data/moments/mv-nPMZCC3-Lw8.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-dy8YWui2FxY",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2024,
+      "month": 6,
+      "day": 5,
+      "title": "Falling In Reverse - \"Drugs\" [4K, 60 FPS, Remastered]",
+      "summary": "@FallingInReverse @epitaph Its not official video, off here - https://youtu.be/sRAG2NG5bkQ?si=DvoDYeGQ6YwpNv8k \"Drugs\" by Falling In Reverse Listen on Spotify: https://spoti.fi/2UlGdQF Listen on Apple Music: https://apple.co/2UmlDje Lyrics Kill yourself is what they said to",
+      "youtube_id": "dy8YWui2FxY",
+      "url": "https://www.youtube.com/watch?v=dy8YWui2FxY",
+      "thumbnail": "https://i.ytimg.com/vi/dy8YWui2FxY/maxresdefault.jpg",
+      "view_count": 19973,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "dy8YWui2FxY"
+      },
+      "related": [],
+      "importance_score": 0.6011,
+      "t": 0.9535,
+      "detail_path": "data/moments/mv-dy8YWui2FxY.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-MP8kpuYAyd8",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2024,
+      "month": 6,
+      "day": 18,
+      "title": "Falling In Reverse - All My Life feat. Jelly Roll",
+      "summary": "Falling In Reverse - \"All My Life feat. Jelly Roll\" Stream/Download: https://fallinginreverse.ffm.to/popularmonster Follow Falling In Reverse: https://www.facebook.com/fallinginreverseofficial https://www.instagram.com/fallinginreverse/ (Lyrics): [Verse 1: Ronnie Radke] Yeah, I",
+      "youtube_id": "MP8kpuYAyd8",
+      "url": "https://www.youtube.com/watch?v=MP8kpuYAyd8",
+      "thumbnail": "https://i.ytimg.com/vi/MP8kpuYAyd8/maxresdefault.jpg",
+      "view_count": 395106,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "MP8kpuYAyd8"
+      },
+      "related": [],
+      "importance_score": 0.6556,
+      "t": 0.9535,
+      "detail_path": "data/moments/mv-MP8kpuYAyd8.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-PsjAXOA55ec",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2024,
+      "month": 8,
+      "day": 16,
+      "title": "NO FEAR",
+      "summary": "Official release: NO FEAR.",
+      "youtube_id": "PsjAXOA55ec",
+      "url": "https://www.youtube.com/watch?v=PsjAXOA55ec",
+      "thumbnail": "https://i.ytimg.com/vi/PsjAXOA55ec/hqdefault.jpg",
+      "view_count": 2740928,
+      "views_per_day": 3536.68,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "importance": 0.55,
+      "provenance": {
+        "release_id": "rel-PsjAXOA55ec",
+        "video_id": "PsjAXOA55ec"
+      },
+      "related": [
+        {
+          "id": "music-drug-reimagined",
+          "rel_type": "callback",
+          "title": "The Drug In Me Is Reimagined"
+        }
+      ],
+      "importance_score": 0.721,
+      "t": 0.9535,
+      "detail_path": "data/moments/mv-PsjAXOA55ec.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-ybmwImclRBo",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2024,
+      "month": 8,
+      "day": 16,
+      "title": "Trigger Warning",
+      "summary": "Official release: Trigger Warning.",
+      "youtube_id": "ybmwImclRBo",
+      "url": "https://www.youtube.com/watch?v=ybmwImclRBo",
+      "thumbnail": "https://i.ytimg.com/vi/ybmwImclRBo/hqdefault.jpg",
+      "view_count": 2708911,
+      "views_per_day": 3495.37,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "importance": 0.55,
+      "provenance": {
+        "release_id": "rel-ybmwImclRBo",
+        "video_id": "ybmwImclRBo"
+      },
+      "related": [
+        {
+          "id": "music-drug-reimagined",
+          "rel_type": "callback",
+          "title": "The Drug In Me Is Reimagined"
+        }
+      ],
+      "importance_score": 0.7208,
+      "t": 0.9535,
+      "detail_path": "data/moments/mv-ybmwImclRBo.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-da7qJvYFfpc",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2024,
+      "month": 8,
+      "day": 16,
+      "title": "Bad Guy (feat. Saraya)",
+      "summary": "Official release: Bad Guy (feat. Saraya).",
+      "youtube_id": "da7qJvYFfpc",
+      "url": "https://www.youtube.com/watch?v=da7qJvYFfpc",
+      "thumbnail": "https://i.ytimg.com/vi/da7qJvYFfpc/hqdefault.jpg",
+      "view_count": 10710957,
+      "views_per_day": 13820.59,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "importance": 0.55,
+      "provenance": {
+        "release_id": "rel-da7qJvYFfpc",
+        "video_id": "da7qJvYFfpc"
+      },
+      "related": [
+        {
+          "id": "music-drug-reimagined",
+          "rel_type": "callback",
+          "title": "The Drug In Me Is Reimagined"
+        }
+      ],
+      "importance_score": 0.746,
+      "t": 0.9535,
+      "detail_path": "data/moments/mv-da7qJvYFfpc.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-4XDux0iho0M",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2024,
+      "month": 8,
+      "day": 17,
+      "title": "Falling in Reverse No Fear (unofficial music video)",
+      "summary": "Please like and Subscribe to my channel for new videos I made this video for fans of Falling in Reverse just because I love editing and putting out my own fan made vids and lyric videos its fun to do hope you will like it please be nice with any comments I do my best I don't ow",
+      "youtube_id": "4XDux0iho0M",
+      "url": "https://www.youtube.com/watch?v=4XDux0iho0M",
+      "thumbnail": "https://i.ytimg.com/vi/4XDux0iho0M/maxresdefault.jpg",
+      "view_count": 4057,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "4XDux0iho0M"
+      },
+      "related": [
+        {
+          "id": "mv-S2e8xzVB6rA",
+          "rel_type": "callback",
+          "title": "Falling In Reverse - \"The Drug In Me Is Reimagined\" (Behind The Scenes)"
+        }
+      ],
+      "importance_score": 0.5719,
+      "t": 0.9535,
+      "detail_path": "data/moments/mv-4XDux0iho0M.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-MxrF_kRbL78",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2024,
+      "month": 9,
+      "day": 4,
+      "title": "Falling In Reverse - \"Prequel\" (Behind The Scenes)",
+      "summary": "\"Prequel\" by @FallingInReverse from the album 'Popular Monster', out now Stream & download: https://fallinginreverse.ffm.to/popularmonster Order LP & CD: https://fallinginreverse.ffm.to/allstores Filmed by: Jeremy Pavia Edited by: Mykyta Demydko Produced by Ronnie Radke, Tyler",
+      "youtube_id": "MxrF_kRbL78",
+      "url": "https://www.youtube.com/watch?v=MxrF_kRbL78",
+      "thumbnail": "https://i.ytimg.com/vi/MxrF_kRbL78/maxresdefault.jpg",
+      "view_count": 269307,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "MxrF_kRbL78"
+      },
+      "related": [],
+      "importance_score": 0.6486,
+      "t": 0.9535,
+      "detail_path": "data/moments/mv-MxrF_kRbL78.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-rock-am-ring-2025",
+      "year": 2025,
+      "strand": "life",
+      "category": "career",
+      "title": "Rock am Ring 2025",
+      "summary": "Major European festival set showcases catalog depth to massive crowds.",
+      "importance": 0.55,
+      "related": [],
+      "importance_score": 0.55,
+      "t": 0.9767,
+      "detail_path": "data/moments/life-rock-am-ring-2025.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "music-all-my-women",
+      "year": 2025,
+      "strand": "music",
+      "category": "music_video",
+      "title": "All My Women (feat. HARDY)",
+      "summary": "Country-rock crossover visual.",
+      "importance": 0.58,
+      "youtube_id": "WXkJk28f5Ow",
+      "view_count": 6359694,
+      "related": [],
+      "importance_score": 0.6344,
+      "t": 0.9767,
+      "detail_path": "data/moments/music-all-my-women.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "music-god-is-a-weapon",
+      "year": 2025,
+      "strand": "music",
+      "category": "music_video",
+      "title": "God Is A Weapon (feat. Marilyn Manson)",
+      "summary": "83M+ views; gothic industrial spectacle.",
+      "importance": 0.95,
+      "youtube_id": "xqJurrQKNdE",
+      "view_count": 83864868,
+      "month": 5,
+      "day": 20,
+      "url": "https://www.youtube.com/watch?v=xqJurrQKNdE",
+      "thumbnail": "https://i.ytimg.com/vi/xqJurrQKNdE/hqdefault.jpg",
+      "views_per_day": 168403.35,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-xqJurrQKNdE",
+        "video_id": "xqJurrQKNdE"
+      },
+      "related": [],
+      "importance_score": 1.0,
+      "t": 0.9767,
+      "detail_path": "data/moments/music-god-is-a-weapon.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-hZwhYRjcBGY",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2025,
+      "month": 8,
+      "day": 13,
+      "title": "Falling In Reverse - \"All My Women (feat. HARDY)\" (Behind The Scenes)",
+      "summary": "\"All My Women\" by @FallingInReverse featuring @HARDYmusic, out now Stream & download: https://fallinginreverse.ffm.to/allmywomen Filmed and Edited by Mykyta Demydko Produced by Ronnie Radke, Tyler Smyth, Jon Lundin & Charles Massabo Mixed by Ronnie Radke, Tyler Smyth & Charles",
+      "youtube_id": "hZwhYRjcBGY",
+      "url": "https://www.youtube.com/watch?v=hZwhYRjcBGY",
+      "thumbnail": "https://i.ytimg.com/vi/hZwhYRjcBGY/maxresdefault.jpg",
+      "view_count": 146430,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "hZwhYRjcBGY"
+      },
+      "related": [],
+      "importance_score": 0.6375,
+      "t": 0.9767,
+      "detail_path": "data/moments/mv-hZwhYRjcBGY.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "life-joseph-2026",
+      "year": 2026,
+      "strand": "life",
+      "category": "career",
+      "title": "Joseph — all-star collab",
+      "summary": "Corey Taylor and Serj Tankian feature on a landmark crossover single and video.",
+      "importance": 0.85,
+      "related": [],
+      "importance_score": 0.85,
+      "t": 1.0,
+      "detail_path": "data/moments/life-joseph-2026.json",
+      "verification": {
+        "status": "verified",
+        "label": "Curated — cited source"
+      }
+    },
+    {
+      "id": "mv-NOdqT2cs_j8",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2026,
+      "month": 5,
+      "day": 7,
+      "title": "Falling In Reverse - All My Life [Clean] (ft. Jelly Roll)",
+      "summary": "This video got moved from my old channel. I do NOT own this content, song, artwork, name, lyrics, and any others related. This is a clean version for home use or listening only for entertainment purposes. All this belongs to Falling In Reverse Views on other channel before tak",
+      "youtube_id": "NOdqT2cs_j8",
+      "url": "https://www.youtube.com/watch?v=NOdqT2cs_j8",
+      "thumbnail": "https://i.ytimg.com/vi/NOdqT2cs_j8/maxresdefault.jpg",
+      "view_count": 720,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "NOdqT2cs_j8"
+      },
+      "related": [],
+      "importance_score": 0.5403,
+      "t": 1.0,
+      "detail_path": "data/moments/mv-NOdqT2cs_j8.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "music-joseph",
+      "year": 2026,
+      "strand": "music",
+      "category": "music_video",
+      "title": "Joseph (feat. Corey Taylor & Serj Tankian)",
+      "summary": "Latest epic MV; nu-metal royalty crossover.",
+      "importance": 0.9,
+      "youtube_id": "Tk9TM7-eTmw",
+      "view_count": 17786043,
+      "month": 9,
+      "day": 14,
+      "url": "https://www.youtube.com/watch?v=Tk9TM7-eTmw",
+      "thumbnail": "https://i.ytimg.com/vi/Tk9TM7-eTmw/hqdefault.jpg",
+      "views_per_day": 1111627.69,
+      "era": "cinematic_sfx",
+      "rcu_tier": "core",
+      "provenance": {
+        "release_id": "rel-Tk9TM7-eTmw",
+        "video_id": "Tk9TM7-eTmw"
+      },
+      "related": [],
+      "importance_score": 0.9652,
+      "t": 1.0,
+      "detail_path": "data/moments/music-joseph.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-gjvv2jRMB8s",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2026,
+      "month": 9,
+      "day": 17,
+      "title": "Falling In Reverse - Joseph feat  Corey Taylor and Serj Tankian | Karaoke",
+      "summary": "Join this channel to get access to perks: https://www.youtube.com/channel/UC8AE6HaqZNrheX6FTE08P4g/join This is A FAN MADE BY THE MIXED GENRE SONG LYRICS version and KARAOKE version! Thank you for watching guys and hope you like this video! Note: You can use this instrumental",
+      "youtube_id": "gjvv2jRMB8s",
+      "url": "https://www.youtube.com/watch?v=gjvv2jRMB8s",
+      "thumbnail": "https://i.ytimg.com/vi/gjvv2jRMB8s/maxresdefault.jpg",
+      "view_count": 396,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "gjvv2jRMB8s"
+      },
+      "related": [],
+      "importance_score": 0.5294,
+      "t": 1.0,
+      "detail_path": "data/moments/mv-gjvv2jRMB8s.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-S6Unzlx0Jls",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2026,
+      "month": 9,
+      "day": 19,
+      "title": "MAKING OF Falling In Reverse \"JOSEPH\" - BTS/behind the scene video EDIT - by director @jensennoen",
+      "summary": "#fallinginreverse #ronnieradke #coreytaylor #slipknot #serjtankian #systemofadown #collab #epitaphrecords #newrelease #newsong #musicvideo #jensennoen #director Credit: @jensennoen (IG) @inception.post (IG) @tiltvfx (IG) Source: https://www.instagram.com/reel/Ddep_t-vvU1/?stkn=Z",
+      "youtube_id": "S6Unzlx0Jls",
+      "url": "https://www.youtube.com/watch?v=S6Unzlx0Jls",
+      "thumbnail": "https://i.ytimg.com/vi/S6Unzlx0Jls/maxresdefault.jpg",
+      "view_count": 110465,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "S6Unzlx0Jls"
+      },
+      "related": [],
+      "importance_score": 0.6323,
+      "t": 1.0,
+      "detail_path": "data/moments/mv-S6Unzlx0Jls.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    },
+    {
+      "id": "mv-D2XNQowXvxA",
+      "strand": "music",
+      "category": "music_video",
+      "year": 2026,
+      "month": 9,
+      "day": 23,
+      "title": "Falling In Reverse - Joseph  feat. Corey Taylor and Serj Tankian (Official Video) 2LM Reacts",
+      "summary": "Content Is Back!!! You requested it here it is! You already know how it goes down on this channel you either got something cooking up or you are delivering that undeniable flame! I'm not going to spoil this reaction, Enjoy! Falling In Reverse - Joseph feat. Corey Taylor and Ser",
+      "youtube_id": "D2XNQowXvxA",
+      "url": "https://www.youtube.com/watch?v=D2XNQowXvxA",
+      "thumbnail": "https://i.ytimg.com/vi/D2XNQowXvxA/maxresdefault.jpg",
+      "view_count": 61172,
+      "rcu_tier": "core",
+      "importance": 0.5,
+      "provenance": {
+        "video_id": "D2XNQowXvxA"
+      },
+      "related": [],
+      "importance_score": 0.6215,
+      "t": 1.0,
+      "detail_path": "data/moments/mv-D2XNQowXvxA.json",
+      "verification": {
+        "status": "verified",
+        "label": "Official release"
+      }
+    }
+  ],
+  "verification_pass": {
+    "checked_at": "2026-10-09T21:24:51.509599+00:00",
+    "rules_version": 1,
+    "counts_by_status": {
+      "verified": 75,
+      "unproven": 31
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "id": "music-voices",
+  "timeline": {
+    "title": "Voices In My Head",
+    "summary": "116M+ views; split-personality horror aesthetic.",
+    "year": 2022,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "a7_e_NY-f3g",
+    "url": "https://www.youtube.com/watch?v=a7_e_NY-f3g",
+    "view_count": 116811456,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} mental health self-doubt addiction",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@JoshuaForemanJr",
+      "text": "Still listening on September 6, 2026, on a Sunday",
+      "like_count": 8
+    },
+    {
+      "author": "@butwhy13",
+      "text": "Hate is not a power. If you hate yourself before, you cannot love yourself anymore.",
+      "like_count": 7
+    },
+    {
+      "author": "@aarondanforth2232",
+      "text": "Anyone Still Blasting This Great Song Today........?",
+      "like_count": 6
+    },
+    {
+      "author": "@SupriatnaLm10",
+      "text": "Ronnie's power is an eye laser",
+      "like_count": 6
+    },
+    {
+      "author": "@stetsonsydney",
+      "text": "Ronnie, my metal health therapist. We scream this out together on repeat on the regular. 🤘🖤",
+      "like_count": 4
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-a7_e_NY-f3g",
+    "video_id": "a7_e_NY-f3g"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.251033+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

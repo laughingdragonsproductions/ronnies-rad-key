@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "id": "music-drug-reimagined",
+  "timeline": {
+    "title": "The Drug In Me Is Reimagined",
+    "summary": "Ballad reimagining with gothic ballroom visuals.",
+    "year": 2020,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "B2cbhYihBWY",
+    "url": "https://www.youtube.com/watch?v=B2cbhYihBWY",
+    "view_count": 45870441,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} mortality addiction struggle with the past",
+    "related": [
+      {
+        "id": "mv-PsjAXOA55ec",
+        "rel_type": "callback",
+        "title": "NO FEAR"
+      },
+      {
+        "id": "mv-ybmwImclRBo",
+        "rel_type": "callback",
+        "title": "Trigger Warning"
+      },
+      {
+        "id": "mv-da7qJvYFfpc",
+        "rel_type": "callback",
+        "title": "Bad Guy (feat. Saraya)"
+      }
+    ]
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@justinteal3443",
+      "text": "I truly wish I could put into words how hard this version of this song hits me. It hits harder than any song I've ever heard. I can't listen to it in public because I absolutely break down when I hear it. Thank you for this version Ronnie. Thank you.",
+      "like_count": 10
+    },
+    {
+      "author": "@Kwhateveryousay",
+      "text": "When I was 14, I slowly sank into a depression so deep that it almost killed me. \nI'd put on \"The drug in me is you\" when shit hit the fan... Loved it then, love it now.\nListening to this song today, without it being exactly as I last heard it, makes me very emotional : I've been through hell and out ! \nIt's like I'm still me... But not exactly.",
+      "like_count": 7
+    },
+    {
+      "author": "@Stangc",
+      "text": "A lot of people dislike Ronnie but you can’t deny this isn’t one of the most, if not, beautifulest thing that we’ve ever heard.",
+      "like_count": 6
+    },
+    {
+      "author": "@triune_blades",
+      "text": "I love the string and piano additions to the reimagined and revamped songs. They're more incredible because of it.",
+      "like_count": 5
+    },
+    {
+      "author": "@werth7113",
+      "text": "Still beautiful",
+      "like_count": 4
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-B2cbhYihBWY",
+    "video_id": "B2cbhYihBWY"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.179315+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

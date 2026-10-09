@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "id": "music-superhero",
+  "timeline": {
+    "title": "Superhero",
+    "summary": "Early step toward bigger budgets on videos.",
+    "year": 2017,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "Wdz5quqdwjI",
+    "url": "https://www.youtube.com/watch?v=Wdz5quqdwjI",
+    "view_count": 8534817,
+    "era": "legacy_mv",
+    "rcu_tier": "peripheral"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@valmarie5858",
+      "text": "Any one in 2025",
+      "like_count": 131
+    },
+    {
+      "author": "@weszly",
+      "text": "You don’t need to save yourself brother, you have us. Just promise you’ll return the favour by continuing to bless us with your music xx",
+      "like_count": 33
+    },
+    {
+      "author": "@robertc2232",
+      "text": "2024 in the house!!!",
+      "like_count": 25
+    },
+    {
+      "author": "@IshPerez-k4j",
+      "text": "Anyone in November??",
+      "like_count": 19
+    },
+    {
+      "author": "@MrWii000",
+      "text": "You know, if Ronnie Radke hadn’t gone to jail, this might’ve never happened.",
+      "like_count": 8
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-Wdz5quqdwjI",
+    "video_id": "Wdz5quqdwjI"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.122828+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

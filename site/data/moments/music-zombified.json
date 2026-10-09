@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "id": "music-zombified",
+  "timeline": {
+    "title": "Zombified",
+    "summary": "Horror-comedy zombie apocalypse concept.",
+    "year": 2022,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "YDDz1Er2IXA",
+    "url": "https://www.youtube.com/watch?v=YDDz1Er2IXA",
+    "view_count": 63637408,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} negative voices societal pressures zombies as metaphor",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@apriltriggs2737",
+      "text": "Anyone still rocking this in June 2026?",
+      "like_count": 52
+    },
+    {
+      "author": "@Jess-o7j",
+      "text": "Every time this song gets a like i have to listen to it again.                   👇",
+      "like_count": 6
+    },
+    {
+      "author": "@renditgsbalap2916",
+      "text": "Lyrics :\n\nZombified\n\nThe monsters aren't living under your bed\n'Cause they are the voices in your head\n\nZombified by the lies they've said\nWe've become the walking dead\n\n'Cause everybody's talking, bitch\n\nOh no, they'll never let go\nOf something you said ten years ago\nThey're canceling, canceling you\n\nAnd they won't stop 'til everybody's zombified\nThey're pumping us with lies like it's formaldehyde\nWe're dead inside\nIt goes on and on, let this go\nWhen it stops, we'll never know\nWe're hypnotized\nAnd they won't stop 'til you're zombified\n\nYou better shut your mouth and bite your tongue\n'Cause you don't wanna piss off anyone\n\nWe're traumatized by the damage done\nWelcome to America\n\n'Cause everybody's talking, bitch\n\nOh no, they'll never let go\nOf something you said ten years ago\nThey're canceling, canceling you\n\nAnd they won't stop 'til everybody's zombified\nThey're pumping us with lies like it's formaldehyde\nWe're dead inside\nIt goes on and on, let this go\nWhen it stops, we'll never know\nWe're hypnotized\nAnd they won't stop 'til you're (zombified), go\n\nThey're feeding off your broken mind\nThey won't die, they multiply\nWe've become so fucking blind\nThey won't stop 'til you're zombified\n\nPick it up\n\nOh, oh\n\nNow everybody's zombified\nThey're pumping us with lies like it's formaldehyde\nThey're dead inside\nIt goes on and on, let this go\nWhen it stops, we'll never know\nWe're hypnotized\nAnd they won't stop 'til you're\nThey won't stop 'til I'm, they won't stop 'til we're all zombified\n\nZombified",
+      "like_count": 6
+    },
+    {
+      "author": "@Durbin-m6c",
+      "text": "This riif is literally one step closer",
+      "like_count": 5
+    },
+    {
+      "author": "@GreasePekasam",
+      "text": "Saraya is All Elite 4 years ago.",
+      "like_count": 5
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-YDDz1Er2IXA",
+    "video_id": "YDDz1Er2IXA"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.239777+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "life-2014-falling-in-reverse-2008present-thumbradke-w",
+  "timeline": {
+    "title": "FIR at Rock im Park 2014",
+    "summary": "Falling in Reverse performed at Rock im Park 2014; Radke appeared with the band during that festival cycle.",
+    "year": 2014,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "wiki-Ronnie_Radke-4",
+      "url": "https://en.wikipedia.org/wiki/Ronnie_Radke",
+      "title": "Wikipedia",
+      "kind": "wikipedia_section"
+    }
+  ],
+  "provenance": {
+    "event_id": "2014-falling-in-reverse-2008present-thumbradke-with-falling-in-re"
+  },
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "Imported from Wikipedia via RCU (automated scrape).",
+    "checked_at": "2026-10-09T21:24:51.063890+00:00",
+    "sources": [
+      {
+        "source_id": "wiki-Ronnie_Radke-4",
+        "url": "https://en.wikipedia.org/wiki/Ronnie_Radke",
+        "kind": "wikipedia_section",
+        "excerpt": "===Falling in Reverse (2008–present)===\nthumb|Radke with Falling in Reverse at [[Rock im Park 2014]]\nWhile serving his sentence at High Desert State Prison, Radke wrote the first material for his upcoming band, which he described as \"Norma Jean or Underoath with Katy Perry choruses.\" With the help of Nason Schoeffler, Radke formed Falling in Reverse, originally named From Behind these Walls. Upon his release from prison in December 2010, Radke returned to recording. Falling In Reverse released their first single \"Raised by Wolves\" in 2010, followed by the album ''The Drug in Me Is You'' which was released on July 26, 2011, through Epitaph Records.\nFalling in Reverse's first two albums reached the top 20 in the United States, and all four have charted in the top 40. The band's song \"Popular Monster\" became a No. 1 hit on ''Billboards Mainstream Rock chart in 2020, their first chart-topper."
+      }
+    ],
+    "conflicts": []
+  }
+}

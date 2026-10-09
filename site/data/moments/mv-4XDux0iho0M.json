@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "id": "mv-4XDux0iho0M",
+  "timeline": {
+    "title": "Falling in Reverse No Fear (unofficial music video)",
+    "summary": "Please like and Subscribe to my channel for new videos I made this video for fans of Falling in Reverse just because I love editing and putting out my own fan made vids and lyric videos its fun to do hope you will like it please be nice with any comments I do my best I don't ow",
+    "year": 2024,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "4XDux0iho0M",
+    "url": "https://www.youtube.com/watch?v=4XDux0iho0M",
+    "view_count": 4057,
+    "era": null,
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": [
+      {
+        "id": "mv-S2e8xzVB6rA",
+        "rel_type": "callback",
+        "title": "Falling In Reverse - \"The Drug In Me Is Reimagined\" (Behind The Scenes)"
+      }
+    ]
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@JoshuaPipper",
+      "text": "Wait never mind",
+      "like_count": 0
+    },
+    {
+      "author": "@undeadgang6440",
+      "text": "I put all different videos together",
+      "like_count": 0
+    },
+    {
+      "author": "@JoshuaPipper",
+      "text": "Bro that is that is popular monster",
+      "like_count": 0
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "video_id": "4XDux0iho0M"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.401901+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

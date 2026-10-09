@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ronniesradkey.com/schema/timeline-v2.schema.json",
+  "title": "Ronnie's Rad Key timeline bundle",
+  "type": "object",
+  "required": ["schema_version", "moments", "year_min", "year_max"],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "rcu_name": { "type": "string" },
+    "year_min": { "type": "number" },
+    "year_max": { "type": "number" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "eras": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "start", "end"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "start": { "type": "number" },
+          "end": { "type": "number" },
+          "color": { "type": "string" }
+        }
+      }
+    },
+    "tattoo_eras": { "type": "array" },
+    "rcu_meta": { "type": "object" },
+    "stats": { "type": "object" },
+    "moments": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/momentSummary" }
+    }
+  },
+  "$defs": {
+    "momentSummary": {
+      "type": "object",
+      "required": ["id", "title", "year", "strand"],
+      "properties": {
+        "id": { "type": "string" },
+        "strand": { "enum": ["life", "music", "lore"] },
+        "category": { "type": "string" },
+        "year": { "type": "number" },
+        "month": { "type": "number" },
+        "day": { "type": "number" },
+        "title": { "type": "string" },
+        "summary": { "type": "string" },
+        "youtube_id": { "type": "string" },
+        "url": { "type": "string" },
+        "thumbnail": { "type": "string" },
+        "view_count": { "type": "number" },
+        "views_per_day": { "type": "number" },
+        "era": { "type": ["string", "null"] },
+        "rcu_tier": { "type": "string" },
+        "rcu": { "type": "object" },
+        "related": { "type": "array" },
+        "importance_score": { "type": "number" },
+        "detail_path": { "type": "string" }
+      }
+    },
+    "momentDetail": {
+      "type": "object",
+      "required": ["schema_version", "id"],
+      "properties": {
+        "schema_version": { "type": "integer" },
+        "id": { "type": "string" },
+        "timeline": { "type": "object" },
+        "lore": { "type": "object" },
+        "frame_captions": { "type": "array" },
+        "comments_sample": { "type": "array" },
+        "sources": { "type": "array" }
+      }
+    }
+  }
+}

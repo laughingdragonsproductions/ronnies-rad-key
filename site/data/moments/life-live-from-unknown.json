@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "id": "life-live-from-unknown",
+  "timeline": {
+    "title": "Live From The Unknown",
+    "summary": "Live film / trailer push treats shows as cinematic events.",
+    "year": 2024,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "rcu-video",
+      "title": "rcu-video"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Curated — cited source",
+    "notes": "Hand-curated moment with RCU source ids.",
+    "checked_at": "2026-10-09T21:24:51.328642+00:00",
+    "sources": [
+      {
+        "source_id": "rcu-video"
+      }
+    ],
+    "conflicts": []
+  }
+}

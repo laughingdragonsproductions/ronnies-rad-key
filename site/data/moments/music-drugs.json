@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "id": "music-drugs",
+  "timeline": {
+    "title": "Drugs",
+    "summary": "Satirical, chaotic energy; fan-favorite deep cut video.",
+    "year": 2020,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "FlRP1lEt1JE",
+    "url": null,
+    "view_count": 16465010,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@patrickscanlon1006",
+      "text": "This is great, it elicits excitement!  I feel energized after listening to it!",
+      "like_count": 3
+    },
+    {
+      "author": "@MrDeadmanWalker",
+      "text": "Awesome remix! 👍👌🤘😉",
+      "like_count": 2
+    },
+    {
+      "author": "@nikolaineverdie7135",
+      "text": "Only question. Why isnt this on cyberpunk",
+      "like_count": 1
+    },
+    {
+      "author": "@skylteria2990",
+      "text": "Oh thats unusual, feel like you tried some new things on this track !\nLove it :D.",
+      "like_count": 1
+    },
+    {
+      "author": "@djlry828",
+      "text": "I have voices in my head after making this one. lol",
+      "like_count": 1
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.168884+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

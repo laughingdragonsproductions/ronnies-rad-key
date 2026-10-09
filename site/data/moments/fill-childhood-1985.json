@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-childhood-1985",
+  "timeline": {
+    "title": "Growing up in Las Vegas",
+    "summary": "Childhood in the Vegas valley; family life with brothers Anthony and Matthew.",
+    "year": 1985,
+    "strand": "life",
+    "category": "early_life",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:50.903489+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

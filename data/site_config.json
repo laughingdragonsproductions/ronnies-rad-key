@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "title": "Ronnie's Rad Key",
+  "subtitle": "The Key to Ronnie's Success is in his DNA - B.S.",
+  "rcu_name": "Ronnie Cinematic Universe",
+  "subject": "Ronnie Radke",
+  "subject_id": "ronnie-radke",
+  "year_min": 1983,
+  "year_max": 2026,
+  "eras": [
+    { "id": "etf", "label": "Escape the Fate", "start": 2004, "end": 2008, "color": "#e85d75" },
+    { "id": "fall", "label": "Fall & prison", "start": 2006, "end": 2010, "color": "#8b5cf6" },
+    { "id": "fir-rise", "label": "FIR rise", "start": 2010, "end": 2017, "color": "#22d3ee" },
+    { "id": "cinematic", "label": "Cinematic MV era", "start": 2018, "end": 2026, "color": "#fbbf24" }
+  ],
+  "tattoo_eras": [
+    {
+      "id": "colorful",
+      "start_year": 2004,
+      "end_year": 2021.9,
+      "backdrop": "colorful",
+      "label": "Colorful punk ink"
+    },
+    {
+      "id": "blastover",
+      "start_year": 2021.9,
+      "end_year": 2023.2,
+      "backdrop": "transition",
+      "label": "Blastover transition"
+    },
+    {
+      "id": "blackout",
+      "start_year": 2023.2,
+      "end_year": 2026,
+      "backdrop": "blackout",
+      "label": "Blackout era"
+    }
+  ],
+  "import": {
+    "release_tiers": ["epitaph_official"],
+    "video_rcu_tiers": ["core", "canonical"],
+    "max_lore_summary_chars": 600
+  }
+}

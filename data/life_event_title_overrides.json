@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "description": "Display titles for RCU life_events that use repeating Wikipedia section headings. Keys match life_events.event_id (prefix ok).",
+  "titles": {
+    "2004-escape-the-fate-20042008-in-high-school-radke-and-": "Radke & Max Green — Escape the Fate forms (2004)",
+    "2006-escape-the-fate-20042008-in-may-2006-recording-for": "Recording ETF EP & debut album (2006)",
+    "2006-with-escape-the-fate-dying-is-your-latest-fashi": "Dying Is Your Latest Fashion era",
+    "2006-with-escape-the-fate-theres-no-sympathy-for-th": "Recording ETF EP & debut album (2006)",
+    "2008-escape-the-fate-20042008-radke-was-later-kicked-ou": "Kicked out of Escape the Fate (2008)",
+    "2009-escape-the-fate-20042008-during-radkes-incarcerati": "Radke–Mabbitt feud during prison",
+    "2010-falling-in-reverse-2008present-while-serving-his-s": "FIR songs written in prison",
+    "2013-escape-the-fate-20042008-by-october-28-2013-radke-": "Reconciliation with Mabbitt; Bury the Hatchet tour",
+    "2013-personal-life-radke-has-one-daughter-from-hi": "Daughter & engagement with Crissy Henderson",
+    "2013-personal-life-radkes-older-brother-anthony": "Death of brother Anthony (2013)",
+    "2013-solo-and-iwatch-mei-2013present-on-may-31-2013-rad": "Solo single “Fair-Weather Fans” & YouTube channel",
+    "2013-solo-and-iwatch-mei-2013present-in-part-3-of-his-i": "Rap mixtape plans (Alternative Press)",
+    "none-solo-and-iwatch-mei-2013present-a-diss-track-title": "Diss track “I Wash Cars” (Sumerian feud)",
+    "2014-falling-in-reverse-2008present-thumbradke-with-fal": "FIR at Rock im Park 2014",
+    "2020-falling-in-reverse-2008present-falling-in-reverses": "FIR albums — Billboard top 40 streak",
+    "2021-solo-and-iwatch-mei-2013present-in-an-interview-wi": "Rap mixtape in progress (Loudwire)",
+    "2022-solo-and-iwatch-mei-2013present-in-mid-2022-radke-": "Radke & Jacoby Shaddix headlines",
+    "2022-personal-life-in-december-2022-radke-releas": "Memoir I Can Explain published",
+    "2024-personal-life-in-december-2024-radke-was-de": "Denied UK entry (2024 tour)"
+  },
+  "skip_event_id_prefixes": [
+    "2013-solo-and-iwatch-mei-2013present-solo-and-watch-me-2013"
+  ]
+}

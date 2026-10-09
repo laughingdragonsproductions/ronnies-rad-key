@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-teens-1995",
+  "timeline": {
+    "title": "Mid‑90s adolescence",
+    "summary": "Teen years in Vegas; hip‑hop, punk, and metal start shaping his taste.",
+    "year": 1995,
+    "strand": "life",
+    "category": "early_life",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:50.907594+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 2,
+  "id": "music-all-my-life",
+  "timeline": {
+    "title": "All My Life (feat. Jelly Roll)",
+    "summary": "Cross-genre collab expands FIR reach.",
+    "year": 2024,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "Z116LsMiyKc",
+    "url": null,
+    "view_count": 24763588,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Lead vocalist of Falling In Reverse', 'entity_slug': 'ronnie-radke'} live performance rock music fan engagement",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@BVTV",
+      "text": "New videos from Warped Tour 2018 coming all summer long! Be sure to subscribe! :)\n\nWhat bands do you guys want to see next?! Let us know in the comments below!",
+      "like_count": 740
+    },
+    {
+      "author": "@MissingLifestyle63",
+      "text": "Who's here in 2025?",
+      "like_count": 247
+    },
+    {
+      "author": "@imyourk1ng",
+      "text": "2026 anyone?",
+      "like_count": 170
+    },
+    {
+      "author": "@angele.3424",
+      "text": "This is beautiful the quality the sound everything noice",
+      "like_count": 12
+    },
+    {
+      "author": "@vikywahyufirmansyah2801",
+      "text": "Who's here in 2026?",
+      "like_count": 11
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.334105+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

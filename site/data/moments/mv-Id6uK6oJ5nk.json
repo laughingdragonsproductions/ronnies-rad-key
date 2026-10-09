@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "id": "mv-Id6uK6oJ5nk",
+  "timeline": {
+    "title": "Ronnie Radke behind the scenes shooting \"Popular Monster\" (2019)",
+    "summary": "#ronnieradke #fallinginreverse #behindthescenes #popularmonster #shooting #musicvideo Source: https://www.instagram.com/reel/C016jjFAIci/?igshid=ZWQ3ODFjY2VlOQ== FALLING IN REVERSE is heading to EUROPE AND UNITED KINGDOM!! ❤️‍🔥❤️‍🔥❤️‍🔥 Popular MonsTOUR II - World Domination hea",
+    "year": 2023,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "Id6uK6oJ5nk",
+    "url": "https://www.youtube.com/watch?v=Id6uK6oJ5nk",
+    "view_count": 2043,
+    "era": null,
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse and lead actor in the video.', 'entity_slug': 'ronnie-radke'} Music video production Behind-the-scenes content",
+    "related": [
+      {
+        "id": "music-popular-monster",
+        "rel_type": "callback",
+        "title": "Popular Monster"
+      }
+    ]
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@FIR_RR",
+      "text": "It's really like filming a big movie. Ronnie is absolutely talented.❤",
+      "like_count": 5
+    },
+    {
+      "author": "@YeahButCanISniffUrPantsFist",
+      "text": "He REALLY became a Beef Castle! Hes so much skinnier on here! \nNot that its bad, the change is just so stunning",
+      "like_count": 3
+    },
+    {
+      "author": "@juanytorres6007",
+      "text": "EL ROCK SUPERO EL CINE SUPERO EL CINEMA SUPERO LAS PELICULAS SUPERO LA SUPERIORIDAD Y MAS ALLA Y SUPERO EL MAS ALLA DEL MAS ALLA 😮🙆‍♀️🙆‍♂️😻🤯😳🤪🤪👹😈👿😻😘🥁🤩🎸🎤☄🔥🚬🥃❤💥💫🤘🎸🥁♾🤯😈👿👹😍🤩😘😍😍😍😘😍❤",
+      "like_count": 1
+    },
+    {
+      "author": "@juanytorres6007",
+      "text": "POWER POWER POWER POWER POWER POWER POWER POWER POWER POWER POWER POWER POWER POWER IS ROCK ROCK ROCK ROCK ROCK ROCK ROCK ROCK ROCKING ROCK ROCKING ROCK ROCKING ROCK ROCKING ROCK IS ROCKSTAR RONNIE RADKE🤴 IS ❤ROCK ❤🤘🎸🥁🥁🎤🎤🎤🥁🎤🥁🎤🥁🎤🎤🎤🎸🎤🎸🎤🎸🎤🎸🎤🥁❤💫💥💥🚬🥃🤪😻🤯🚬🥃😳😻🤯👹😳👿🤪😈😈😈🤪😻🤪😈🙆‍♂️🤩🙆‍♂️🙆‍♀️🙆‍♀️🙆‍♂️🙆‍♂️🤩😍😘🥁😘⚡🔥♾🎤💥💫🥁🎸🎤❤💫",
+      "like_count": 1
+    },
+    {
+      "author": "@Meow-Meow501",
+      "text": "So good. It’s hard to have a favorite, but Popular Monster is the one for me.",
+      "like_count": 0
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "video_id": "Id6uK6oJ5nk"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.322743+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

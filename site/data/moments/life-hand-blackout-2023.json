@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "id": "life-hand-blackout-2023",
+  "timeline": {
+    "title": "Hand blackout tattoos",
+    "summary": "Hand tattoo sessions complete the shift from colorful sleeves to full blackout aesthetic.",
+    "year": 2023,
+    "strand": "life",
+    "category": "personal",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "rcu-video-hand-2023",
+      "title": "rcu-video-hand-2023"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Curated — cited source",
+    "notes": "Hand-curated moment with RCU source ids.",
+    "checked_at": "2026-10-09T21:24:51.272727+00:00",
+    "sources": [
+      {
+        "source_id": "rcu-video-hand-2023"
+      }
+    ],
+    "conflicts": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "id": "legal-2012-charge",
+  "timeline": {
+    "title": "2012 legal issues",
+    "summary": "Additional legal headlines during early FIR touring years.",
+    "year": 2012,
+    "strand": "life",
+    "category": "legal",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "wiki-Ronnie_Radke-1",
+      "url": "https://en.wikipedia.org/wiki/Ronnie_Radke",
+      "title": "Wikipedia",
+      "kind": "wikipedia_section"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Curated — cited source",
+    "notes": "Hand-curated moment with RCU source ids.",
+    "checked_at": "2026-10-09T21:24:51.006316+00:00",
+    "sources": [
+      {
+        "source_id": "wiki-Ronnie_Radke-1",
+        "url": "https://en.wikipedia.org/wiki/Ronnie_Radke",
+        "kind": "wikipedia_section",
+        "excerpt": "==Early life==\nRonald Joseph Radke was born on December 15, 1983, in St. Rose Hospital, in Las Vegas, Nevada, one of three children born to Russell Radke, the others being his brothers, Anthony James Radke (1980–2013) and Matthew Radke. Radke's mother was a drug addict and was absent for much of his childhood. In a 2018 interview with ''Rock Sound'', he reflected that growing up without a mother figure led to difficulties in respecting women during his youth and early adulthood, and said that becoming a father helped him gain a new sense of respect and emotional maturity. He later forgave his mother and posted a picture of the two of them on Instagram after a Falling in Reverse show in 2014."
+      }
+    ],
+    "conflicts": []
+  }
+}

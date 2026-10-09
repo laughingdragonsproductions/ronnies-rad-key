@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "id": "life-colorful-tats-reference",
+  "timeline": {
+    "title": "Colorful tattoo era (reference)",
+    "summary": "Full sleeves, chest owl, and face ink — last vivid look before blackout coverage.",
+    "year": 2023,
+    "strand": "life",
+    "category": "personal",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "rcu-library",
+      "title": "rcu-library"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Curated — cited source",
+    "notes": "Hand-curated moment with RCU source ids.",
+    "checked_at": "2026-10-09T21:24:51.278038+00:00",
+    "sources": [
+      {
+        "source_id": "rcu-library"
+      }
+    ],
+    "conflicts": []
+  }
+}

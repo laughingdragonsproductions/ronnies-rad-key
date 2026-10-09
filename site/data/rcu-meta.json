@@ -1,0 +1,13 @@
+{
+  "universe_id": "rcu",
+  "display_name": "Ronnie Cinematic Universe",
+  "synced_at": "2026-09-30T01:20:58.797645+00:00",
+  "counts": {
+    "moments": 106,
+    "videos_in_db": 156,
+    "releases": 27,
+    "entities": 50,
+    "relations": 19,
+    "life_events": 57
+  }
+}

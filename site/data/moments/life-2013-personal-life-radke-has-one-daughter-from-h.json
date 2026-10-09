@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "id": "life-2013-personal-life-radke-has-one-daughter-from-h",
+  "timeline": {
+    "title": "Daughter & engagement with Crissy Henderson",
+    "summary": "Radke has a daughter from his relationship with model Crissy Henderson. He was engaged to Henderson at one point; the couple later separated.",
+    "year": 2013,
+    "strand": "life",
+    "category": "personal",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "wiki-Ronnie_Radke-6",
+      "url": "https://en.wikipedia.org/wiki/Ronnie_Radke",
+      "title": "Wikipedia",
+      "kind": "wikipedia_section"
+    }
+  ],
+  "provenance": {
+    "event_id": "2013-personal-life-radke-has-one-daughter-from-hi"
+  },
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "Imported from Wikipedia via RCU (automated scrape).",
+    "checked_at": "2026-10-09T21:24:51.031341+00:00",
+    "sources": [
+      {
+        "source_id": "wiki-Ronnie_Radke-6",
+        "url": "https://en.wikipedia.org/wiki/Ronnie_Radke",
+        "kind": "wikipedia_section",
+        "excerpt": "==Personal life==\nRadke has one daughter from his relationship with model Crissy Henderson. At one point, he was engaged to Henderson, but their relationship ended in 2013 due to infidelity on his part.\nRadke's older brother, Anthony, died from a traffic collision in 2013. They broke up in late 2024.\nIn December 2022, Radke released a memoir, ''I Can Explain'', written with journalist Ryan J. Downey. Radke said, \"I named it that 'cause it's really funny to me 'cause I've gotten in so much trouble and have a bad reputation.\"\nIn December 2024, Radke was denied entry into the United Kingdom because of his prison sentence, forcing Falling in Reverse to cancel and postpone a scheduled UK tour."
+      }
+    ],
+    "conflicts": []
+  }
+}

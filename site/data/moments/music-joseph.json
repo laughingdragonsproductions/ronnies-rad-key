@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "id": "music-joseph",
+  "timeline": {
+    "title": "Joseph (feat. Corey Taylor & Serj Tankian)",
+    "summary": "Latest epic MV; nu-metal royalty crossover.",
+    "year": 2026,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "Tk9TM7-eTmw",
+    "url": "https://www.youtube.com/watch?v=Tk9TM7-eTmw",
+    "view_count": 17786043,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@suckmegently",
+      "text": "This is probably the worst song I have ever heard in 2026 tbh",
+      "like_count": 5
+    },
+    {
+      "author": "@bradley6727",
+      "text": "11 days, 17.5 million views, 607k likes. Great job! Made without AI! 🎉🎉🎉🎉 Generational Talent",
+      "like_count": 4
+    },
+    {
+      "author": "@user-ui5pz5cr1l",
+      "text": "what kind of bullshit is that",
+      "like_count": 4
+    },
+    {
+      "author": "@fatboi3990",
+      "text": "Thumbnail looks like a phonk edit",
+      "like_count": 3
+    },
+    {
+      "author": "@davidbass6119",
+      "text": "Terrible fucking song thanks for nothing",
+      "like_count": 3
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-Tk9TM7-eTmw",
+    "video_id": "Tk9TM7-eTmw"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.444142+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

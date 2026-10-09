@@ -1,0 +1,93 @@
+{
+  "schema_version": 2,
+  "id": "music-prequel",
+  "timeline": {
+    "title": "Prequel",
+    "summary": "Lore-heavy narrative tying MV universe threads.",
+    "year": 2024,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "Y6c_aC3suP8",
+    "url": null,
+    "view_count": 38018573,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse.', 'entity_slug': 'ronnie-radke'} {'name': 'Jelly Roll (Jason Bradley DeFord)', 'description': \"Guest vocalist for 'All My Life'.\", 'entity_slug': 'jelly-roll'} Music production Collaboration Behind-the-scenes content",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@manuelcorrea2365",
+      "text": "That line dancing coreograpgy with metal music in the background is definitely the best part of all 👏👏👏",
+      "like_count": 170
+    },
+    {
+      "author": "@rxbsdk",
+      "text": "The modern day ATM in the bank scene is so funny",
+      "like_count": 87
+    },
+    {
+      "author": "@RyanWasyluk",
+      "text": "the format of this behind the scenes is so smart, its like a secondary music video. well done",
+      "like_count": 52
+    },
+    {
+      "author": "@solidfifth",
+      "text": "I lost it when they started line dancing during the breakdown. Awesome",
+      "like_count": 38
+    },
+    {
+      "author": "@ifelthope100",
+      "text": "Off of 50-year-old grandmother of two from Texas. I've loved rock and metal my whole life. Never been a fan of country music but if anyone can change my mind about it it's Ronnie😊",
+      "like_count": 20
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.339485+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

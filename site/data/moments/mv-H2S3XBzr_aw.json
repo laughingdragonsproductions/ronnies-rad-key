@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "id": "mv-H2S3XBzr_aw",
+  "timeline": {
+    "title": "Straight To Hell",
+    "summary": "Official release: Straight To Hell.",
+    "year": 2017,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "H2S3XBzr_aw",
+    "url": "https://www.youtube.com/watch?v=H2S3XBzr_aw",
+    "view_count": 1761019,
+    "era": "legacy_mv",
+    "rcu_tier": "peripheral"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@ChickenNuggetBomber",
+      "text": "Why aren't there more recent comments? Ronnie is amazing <3",
+      "like_count": 71
+    },
+    {
+      "author": "@TheSuperScaryMonster",
+      "text": "if you dislike Falling In Reverse than you can go STRAIGHT TO HELL",
+      "like_count": 58
+    },
+    {
+      "author": "@JorgeFernandez-yz3vm",
+      "text": "“You never know what you got till it’s gone forever”\nThis phrase really hits deep down my heart",
+      "like_count": 57
+    },
+    {
+      "author": "@michelle-ct2nt",
+      "text": "If I could cast a spell, it would be to be as talented as Ronnie😭",
+      "like_count": 56
+    },
+    {
+      "author": "@matthewkenneally4988",
+      "text": "Yo g,s 2025 anybody 🎉❤",
+      "like_count": 43
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "release_id": "rel-H2S3XBzr_aw",
+    "video_id": "H2S3XBzr_aw"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.106761+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

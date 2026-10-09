@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "id": "music-popular-monster",
+  "timeline": {
+    "title": "Popular Monster",
+    "summary": "205M+ views; monster makeup and story beats become FIR signature.",
+    "year": 2019,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "jakpo7tj7Qw",
+    "url": "https://www.youtube.com/watch?v=jakpo7tj7Qw",
+    "view_count": 205641244,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Lead vocalist and frontman of Falling In Reverse', 'entity_slug': 'ronnie-radke'} depression self-deception struggle for meaning emotional breakdown",
+    "related": [
+      {
+        "id": "mv-Id6uK6oJ5nk",
+        "rel_type": "callback",
+        "title": "Ronnie Radke behind the scenes shooting \"Popular Monster\" (2019)"
+      }
+    ]
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@majogl188",
+      "text": "Linkin Park brought me to this band and this song... I can see why... Depression is not just sadness and lethargy, it's very much about the rage at being helpless in the state you find yourself in. Chester chanelled that rage very well and gave voice to what I've felt since childhood, and I feel the same about this too.",
+      "like_count": 26
+    },
+    {
+      "author": "@AmyPoindexter-j4v",
+      "text": "I suffer from depression, severe anxiety, and I'm bopolar and just found out I have psychosis.. this song hits the facts so hard",
+      "like_count": 12
+    },
+    {
+      "author": "@lexidavis9816",
+      "text": "i love this song to lock in on fortnite",
+      "like_count": 5
+    },
+    {
+      "author": "@AlKoholic-i3z",
+      "text": "This sucz",
+      "like_count": 3
+    },
+    {
+      "author": "@BrandonRittgers",
+      "text": "I do shut like shut up fucker",
+      "like_count": 3
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-jakpo7tj7Qw",
+    "video_id": "jakpo7tj7Qw"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.158223+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

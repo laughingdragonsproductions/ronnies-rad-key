@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "id": "music-ronald",
+  "timeline": {
+    "title": "Ronald",
+    "summary": "Tech N9ne & Alex Terrible; body-horror wrestling energy.",
+    "year": 2024,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "wWoQ7PFSYlk",
+    "url": "https://www.youtube.com/watch?v=wWoQ7PFSYlk",
+    "view_count": 51343705,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} {'name': 'Tech N9ne', 'description': 'Rapper and member of Strange Music, Inc.', 'entity_slug': 'tech-n9ne'} {'name': 'Alex Terrible', 'description': 'Musician and collaborator with Ronnie Radke', 'entity_slug': 'alex-terrible'} Versatility Darkness Conflict",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@TheLionHippo",
+      "text": "You might wondering how I got here.\nIf you guessed because I just watched the new \"Joseph\" video, you would be correct.",
+      "like_count": 1300
+    },
+    {
+      "author": "@Phrasenverschiebung",
+      "text": "Thank you Mr. Joseph for bringing me here",
+      "like_count": 394
+    },
+    {
+      "author": "@caleblake4405",
+      "text": "If you’re watching the videos for Ronald and Joseph back to back, you have my respect.",
+      "like_count": 288
+    },
+    {
+      "author": "@ambiental.luizalamas",
+      "text": "Just watched Joseph and came here to fulfill my needs for more Falling in Reverse",
+      "like_count": 43
+    },
+    {
+      "author": "@VenomTsX",
+      "text": "Next song in coming RADKE",
+      "like_count": 25
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-wWoQ7PFSYlk",
+    "video_id": "wWoQ7PFSYlk"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.356538+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

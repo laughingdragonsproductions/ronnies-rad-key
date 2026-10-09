@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-etf-ep-2005",
+  "timeline": {
+    "title": "There's No Sympathy for the Dead EP (2005)",
+    "summary": "Early ETF EP cycle — studio work that feeds the debut album sessions.",
+    "year": 2005,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:50.948062+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

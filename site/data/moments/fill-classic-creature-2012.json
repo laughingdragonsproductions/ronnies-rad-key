@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-classic-creature-2012",
+  "timeline": {
+    "title": "The Classico Reissue era",
+    "summary": "Early FIR catalog and reissues keep momentum between album cycles.",
+    "year": 2012,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:51.011033+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

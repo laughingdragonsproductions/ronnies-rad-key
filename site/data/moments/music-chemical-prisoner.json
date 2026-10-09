@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "id": "music-chemical-prisoner",
+  "timeline": {
+    "title": "Chemical Prisoner",
+    "summary": "Early FIR visual storytelling on Epitaph.",
+    "year": 2016,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "DTHFyvGY_FU",
+    "url": "https://www.youtube.com/watch?v=DTHFyvGY_FU",
+    "view_count": 21532531,
+    "era": "legacy_mv",
+    "rcu_tier": "peripheral"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@SarahKay-i1m",
+      "text": "2026 anyone?",
+      "like_count": 367
+    },
+    {
+      "author": "@juniorberardo46",
+      "text": "Anyone here in 2026?",
+      "like_count": 49
+    },
+    {
+      "author": "@kats110-78",
+      "text": "Anyone  herein 2026 is forever?",
+      "like_count": 16
+    },
+    {
+      "author": "@Harrrambe",
+      "text": "No. I came back from 2157 to save john Connor,  & prevent Skynet from taking over. But  before returning,  I stopped in to comment on 1 of my fav songs. 😮",
+      "like_count": 11
+    },
+    {
+      "author": "@JulianaAntonellaConiglioBiurru",
+      "text": "This song hits so close, makes me pround of myself for getting my sh together and breaking free from the chemical prison",
+      "like_count": 11
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-DTHFyvGY_FU",
+    "video_id": "DTHFyvGY_FU"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.087690+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

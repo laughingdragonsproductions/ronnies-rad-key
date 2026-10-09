@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "description": "When anchor moment id is on the timeline, skip wiki life_events whose event_id starts with any listed prefix.",
+  "rules": [
+    {
+      "anchor_id": "life-etf-forms-2004",
+      "skip_event_id_prefixes": [
+        "2004-escape-the-fate-20042008-in-high-school",
+        "2004-career-in-high-school"
+      ]
+    },
+    {
+      "anchor_id": "life-etf-departure-2008",
+      "skip_event_id_prefixes": [
+        "2008-escape-the-fate-20042008-radke-was-later-kicked"
+      ]
+    },
+    {
+      "anchor_id": "life-diylf-2006",
+      "skip_event_id_prefixes": [
+        "2006-escape-the-fate-20042008-in-may-2006",
+        "2006-with-escape-the-fate-dying-is-your-latest",
+        "2006-with-escape-the-fate-theres-no-sympathy"
+      ]
+    },
+    {
+      "anchor_id": "fill-etf-ep-2005",
+      "skip_event_id_prefixes": [
+        "2006-with-escape-the-fate-theres-no-sympathy"
+      ]
+    },
+    {
+      "anchor_id": "life-fir-conceived-2008",
+      "skip_event_id_prefixes": [
+        "2010-falling-in-reverse-2008present-while-serving"
+      ]
+    },
+    {
+      "anchor_id": "life-released-2010",
+      "skip_event_id_prefixes": [
+        "2010-career-while-serving-his-sentence"
+      ]
+    },
+    {
+      "anchor_id": "fill-bury-hatchet-2013",
+      "skip_event_id_prefixes": [
+        "2013-escape-the-fate-20042008-by-october-28-2013"
+      ]
+    },
+    {
+      "anchor_id": "life-born-1983",
+      "skip_event_id_prefixes": [
+        "1983-early-life-ronald-joseph-radke-was-born"
+      ]
+    }
+  ]
+}

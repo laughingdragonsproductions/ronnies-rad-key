@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "id": "mv-hZwhYRjcBGY",
+  "timeline": {
+    "title": "Falling In Reverse - \"All My Women (feat. HARDY)\" (Behind The Scenes)",
+    "summary": "\"All My Women\" by @FallingInReverse featuring @HARDYmusic, out now Stream & download: https://fallinginreverse.ffm.to/allmywomen Filmed and Edited by Mykyta Demydko Produced by Ronnie Radke, Tyler Smyth, Jon Lundin & Charles Massabo Mixed by Ronnie Radke, Tyler Smyth & Charles",
+    "year": 2025,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "hZwhYRjcBGY",
+    "url": "https://www.youtube.com/watch?v=hZwhYRjcBGY",
+    "view_count": 146430,
+    "era": null,
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@GojiraRising",
+      "text": "All the proceeds are going to Fantano.",
+      "like_count": 153
+    },
+    {
+      "author": "@vvb777-k9c",
+      "text": "Cool way to raise money for Fantano",
+      "like_count": 68
+    },
+    {
+      "author": "@shrimpngritz7",
+      "text": "I feel like it’s been years since there’s been an artist who makes good music videos! Ronnie brings such great energy",
+      "like_count": 52
+    },
+    {
+      "author": "@loyal_sea_turtle",
+      "text": "Elvis Radke was not on my 2025 bingo card",
+      "like_count": 50
+    },
+    {
+      "author": "@PIZZASNOTFORBREAKFAST",
+      "text": "This is going to go so hard for 12 year olds with self harm addictions.",
+      "like_count": 41
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "video_id": "hZwhYRjcBGY"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.429492+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

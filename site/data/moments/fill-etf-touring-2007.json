@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-etf-touring-2007",
+  "timeline": {
+    "title": "ETF touring cycle",
+    "summary": "Debut album touring; Radke's look and voice become scene‑defining.",
+    "year": 2007,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:50.963519+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

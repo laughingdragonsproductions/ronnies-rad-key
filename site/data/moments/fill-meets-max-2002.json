@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-meets-max-2002",
+  "timeline": {
+    "title": "Meets Max Green",
+    "summary": "Friendship with Max Green — the connection that leads toward Escape the Fate.",
+    "year": 2002,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:50.926570+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

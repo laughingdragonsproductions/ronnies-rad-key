@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "id": "music-last-resort",
+  "timeline": {
+    "title": "Last Resort (Reimagined)",
+    "summary": "Papa Roach cover goes viral beyond rock audience.",
+    "year": 2023,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "ESOjt2_yJrU",
+    "url": "https://www.youtube.com/watch?v=ESOjt2_yJrU",
+    "view_count": 47535740,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} emotional struggle suicide contemplation resilience",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@DanLivington-fv8om",
+      "text": "Anyone in August 2026,hell YES 😅😮😮😮😊😊❤❤❤",
+      "like_count": 9
+    },
+    {
+      "author": "@sallymae36",
+      "text": "I'll come back to listen to this song  every time this comment gets a like or comment",
+      "like_count": 5
+    },
+    {
+      "author": "@ItzMeeeeTanya",
+      "text": "1:03 gave me goosebumps😭😍",
+      "like_count": 4
+    },
+    {
+      "author": "@yaguabina",
+      "text": "I lost my mom this week and this is just what I needed. I can’t believe I’m still sober through this. I almost feel like she waited until I was strong enough to keep standing without her 😢",
+      "like_count": 4
+    },
+    {
+      "author": "@desirediiesu7820",
+      "text": "This version is so heartbreaking",
+      "like_count": 3
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-ESOjt2_yJrU",
+    "video_id": "ESOjt2_yJrU"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.293738+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

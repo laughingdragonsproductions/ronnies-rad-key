@@ -1,0 +1,631 @@
+{
+  "schema_version": 1,
+  "nodes": [
+    {
+      "id": "ent-alex-terrible",
+      "type": "entity",
+      "label": "Alex Terrible",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-all-my-life-filming-location",
+      "type": "entity",
+      "label": "Filming location",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-balrog",
+      "type": "entity",
+      "label": "Balrog",
+      "entity_type": "prop"
+    },
+    {
+      "id": "ent-bazooka",
+      "type": "entity",
+      "label": "Bazooka",
+      "entity_type": "prop"
+    },
+    {
+      "id": "ent-bazooka-held-by-old-lady",
+      "type": "entity",
+      "label": "Bazooka",
+      "entity_type": "prop"
+    },
+    {
+      "id": "ent-blaire-white",
+      "type": "entity",
+      "label": "Blaire White",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-bunnie-xo",
+      "type": "entity",
+      "label": "Bunnie Xo",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-church",
+      "type": "entity",
+      "label": "Church",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-church-mentioned",
+      "type": "entity",
+      "label": "Church",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-credit-union-1-amphitheatre-tinley-park-il",
+      "type": "entity",
+      "label": "Credit Union 1 Amphitheatre, Tinley Park, IL",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-dream-reality-boundary",
+      "type": "entity",
+      "label": "Dream/Reality Boundary",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-dream-setting",
+      "type": "entity",
+      "label": "Dream Setting",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-editing-suite",
+      "type": "entity",
+      "label": "Editing suite",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-falling-in-reverse-band-members",
+      "type": "entity",
+      "label": "Falling In Reverse Band Members",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-falling-in-reverse-frontman",
+      "type": "entity",
+      "label": "Ronnie Radke",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-falling-in-reverse-studio",
+      "type": "entity",
+      "label": "Falling in Reverse studio",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-falling-in-reverse-studio-set",
+      "type": "entity",
+      "label": "Falling in Reverse studio or set",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-film-set",
+      "type": "entity",
+      "label": "Film set",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-filming-location",
+      "type": "entity",
+      "label": "Filming Location",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-high-school-of-the-dead-anime",
+      "type": "entity",
+      "label": "High School of the Dead anime",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-home",
+      "type": "entity",
+      "label": "Home",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-jelly-roll",
+      "type": "entity",
+      "label": "Jelly Roll",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-machine-gun-drums",
+      "type": "entity",
+      "label": "Machine Gun Drums",
+      "entity_type": "prop"
+    },
+    {
+      "id": "ent-makeup-artists",
+      "type": "entity",
+      "label": "Nadia Teichmann, Olya Tarnovetska",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-marilyn-manson",
+      "type": "entity",
+      "label": "Marilyn Manson",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-night-city-cyberpunk-2077",
+      "type": "entity",
+      "label": "Night City",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-north-america-tour",
+      "type": "entity",
+      "label": "Various locations during tour",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-performance-venue",
+      "type": "entity",
+      "label": "Performance Venue",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-popular-monster-shooting-location",
+      "type": "entity",
+      "label": "Shooting location for 'Popular Monster'",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-recording-studio",
+      "type": "entity",
+      "label": "Recording studio",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-ronnie-radke",
+      "type": "entity",
+      "label": "Ronnie Radke",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-ronnies-home",
+      "type": "entity",
+      "label": "Ronnie's Home",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-saloon",
+      "type": "entity",
+      "label": "Saloon",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-saloon-setting",
+      "type": "entity",
+      "label": "Saloon",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-saraya-bevis",
+      "type": "entity",
+      "label": "Saraya Bevis",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-special-effects-makeup-tools",
+      "type": "entity",
+      "label": "Makeup brushes and products",
+      "entity_type": "prop"
+    },
+    {
+      "id": "ent-stool-used-by-ronnie-radke",
+      "type": "entity",
+      "label": "Stool",
+      "entity_type": "prop"
+    },
+    {
+      "id": "ent-stroller",
+      "type": "entity",
+      "label": "Stroller",
+      "entity_type": "prop"
+    },
+    {
+      "id": "ent-studio-equipment",
+      "type": "entity",
+      "label": "Studio equipment",
+      "entity_type": "prop"
+    },
+    {
+      "id": "ent-studio-falling-in-reverse",
+      "type": "entity",
+      "label": "Studio",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-studio-setting",
+      "type": "entity",
+      "label": "Studio",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-tech-n9ne",
+      "type": "entity",
+      "label": "Tech N9ne",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-the-popular-monstour-sacramento-ca",
+      "type": "entity",
+      "label": "The Popular Monstour, Sacramento, CA",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-tyler-smyth",
+      "type": "entity",
+      "label": "Tyler Smyth",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-unknown-location",
+      "type": "entity",
+      "label": "Unknown Location",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-various-locations",
+      "type": "entity",
+      "label": "Various locations",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-video-footage",
+      "type": "entity",
+      "label": "Video footage",
+      "entity_type": "prop"
+    },
+    {
+      "id": "ent-warped-tour-2018",
+      "type": "entity",
+      "label": "Warped Tour 2018",
+      "entity_type": "location"
+    },
+    {
+      "id": "ent-willow-radke",
+      "type": "entity",
+      "label": "Willow",
+      "entity_type": "character"
+    },
+    {
+      "id": "ent-zac-Phoenix",
+      "type": "entity",
+      "label": "Zac Phoenix",
+      "entity_type": "character"
+    },
+    {
+      "id": "life-losing-my-mind-2018",
+      "type": "video",
+      "label": "Losing My Mind",
+      "youtube_id": "2EMst_OFRF8"
+    },
+    {
+      "id": "music-chemical-prisoner",
+      "type": "video",
+      "label": "Chemical Prisoner",
+      "youtube_id": "DTHFyvGY_FU"
+    },
+    {
+      "id": "music-losing-my-life",
+      "type": "video",
+      "label": "Losing My Life",
+      "youtube_id": "SEbxwmjScr8"
+    },
+    {
+      "id": "music-popular-monster",
+      "type": "video",
+      "label": "Popular Monster",
+      "youtube_id": "jakpo7tj7Qw"
+    },
+    {
+      "id": "music-drug-reimagined",
+      "type": "video",
+      "label": "The Drug In Me Is Reimagined",
+      "youtube_id": "B2cbhYihBWY"
+    },
+    {
+      "id": "music-drugs",
+      "type": "video",
+      "label": "Drugs",
+      "youtube_id": "FlRP1lEt1JE"
+    },
+    {
+      "id": "music-vampire-revamped",
+      "type": "video",
+      "label": "I'm Not a Vampire (Revamped)",
+      "youtube_id": "2nWmBJxW9q0"
+    },
+    {
+      "id": "music-zombified",
+      "type": "video",
+      "label": "Zombified",
+      "youtube_id": "YDDz1Er2IXA"
+    },
+    {
+      "id": "music-voices",
+      "type": "video",
+      "label": "Voices In My Head",
+      "youtube_id": "a7_e_NY-f3g"
+    },
+    {
+      "id": "music-watch-the-world-burn",
+      "type": "video",
+      "label": "Watch The World Burn",
+      "youtube_id": "qMXESlny4-I"
+    },
+    {
+      "id": "music-last-resort",
+      "type": "video",
+      "label": "Last Resort (Reimagined)",
+      "youtube_id": "ESOjt2_yJrU"
+    },
+    {
+      "id": "music-ronald",
+      "type": "video",
+      "label": "Ronald",
+      "youtube_id": "wWoQ7PFSYlk"
+    },
+    {
+      "id": "music-all-my-life",
+      "type": "video",
+      "label": "All My Life (feat. Jelly Roll)",
+      "youtube_id": "Z116LsMiyKc"
+    },
+    {
+      "id": "music-prequel",
+      "type": "video",
+      "label": "Prequel",
+      "youtube_id": "Y6c_aC3suP8"
+    },
+    {
+      "id": "music-god-is-a-weapon",
+      "type": "video",
+      "label": "God Is A Weapon (feat. Marilyn Manson)",
+      "youtube_id": "xqJurrQKNdE"
+    },
+    {
+      "id": "music-joseph",
+      "type": "video",
+      "label": "Joseph (feat. Corey Taylor & Serj Tankian)",
+      "youtube_id": "Tk9TM7-eTmw"
+    },
+    {
+      "id": "music-carry-on",
+      "type": "video",
+      "label": "Carry On",
+      "youtube_id": "AKHSWvmiwP8"
+    },
+    {
+      "id": "music-coming-home",
+      "type": "video",
+      "label": "Coming Home",
+      "youtube_id": "L3QB4VnUOUA"
+    },
+    {
+      "id": "music-superhero",
+      "type": "video",
+      "label": "Superhero",
+      "youtube_id": "Wdz5quqdwjI"
+    },
+    {
+      "id": "music-bad-girls-club",
+      "type": "video",
+      "label": "Bad Girls Club",
+      "youtube_id": "vdaKzHPG4_0"
+    },
+    {
+      "id": "music-all-my-women",
+      "type": "video",
+      "label": "All My Women (feat. HARDY)",
+      "youtube_id": "WXkJk28f5Ow"
+    },
+    {
+      "id": "mv-LhVRqzogj5Y",
+      "type": "video",
+      "label": "Hanging On",
+      "youtube_id": "LhVRqzogj5Y"
+    },
+    {
+      "id": "mv-H2S3XBzr_aw",
+      "type": "video",
+      "label": "Straight To Hell",
+      "youtube_id": "H2S3XBzr_aw"
+    },
+    {
+      "id": "mv-h_9Muqi0R_8",
+      "type": "video",
+      "label": "I'm Bad At Life",
+      "youtube_id": "h_9Muqi0R_8"
+    },
+    {
+      "id": "mv-3_QB87vt4i0",
+      "type": "video",
+      "label": "I Don't Mind",
+      "youtube_id": "3_QB87vt4i0"
+    },
+    {
+      "id": "mv-0rVwuowU6Fs",
+      "type": "video",
+      "label": "Fuck You And All Your Friends",
+      "youtube_id": "0rVwuowU6Fs"
+    },
+    {
+      "id": "mv-PsjAXOA55ec",
+      "type": "video",
+      "label": "NO FEAR",
+      "youtube_id": "PsjAXOA55ec"
+    },
+    {
+      "id": "mv-ybmwImclRBo",
+      "type": "video",
+      "label": "Trigger Warning",
+      "youtube_id": "ybmwImclRBo"
+    },
+    {
+      "id": "mv-da7qJvYFfpc",
+      "type": "video",
+      "label": "Bad Guy (feat. Saraya)",
+      "youtube_id": "da7qJvYFfpc"
+    },
+    {
+      "id": "mv-Y4ilUrpq05A",
+      "type": "video",
+      "label": "Falling In Reverse - The Drug In Me Is Reimagined Lyrics | Official Music Video Lyrics",
+      "youtube_id": "Y4ilUrpq05A"
+    },
+    {
+      "id": "mv-S2e8xzVB6rA",
+      "type": "video",
+      "label": "Falling In Reverse - \"The Drug In Me Is Reimagined\" (Behind The Scenes)",
+      "youtube_id": "S2e8xzVB6rA"
+    },
+    {
+      "id": "mv-PZjS2iiKWgM",
+      "type": "video",
+      "label": "Falling in Reverse - \"Straight To Hell\" (Lyrics)",
+      "youtube_id": "PZjS2iiKWgM"
+    },
+    {
+      "id": "mv-LlqD7cMvQbw",
+      "type": "video",
+      "label": "Falling In Reverse - \"Zombified\" (LYRICS VIDEO - VISUALIZER)",
+      "youtube_id": "LlqD7cMvQbw"
+    },
+    {
+      "id": "mv-u7zPO8oG4gQ",
+      "type": "video",
+      "label": "Falling In Reverse/ Ronnie Radke behind the scenes \"Watch The World Burn\" (2022), cr: Tanner Gordon*",
+      "youtube_id": "u7zPO8oG4gQ"
+    },
+    {
+      "id": "mv-zX_FrxWlnUQ",
+      "type": "video",
+      "label": "Ronnie Radke mocking laptop & backing tracks issue (with AXS TV/\"The Power Hour\", Sonic Temple 2023)",
+      "youtube_id": "zX_FrxWlnUQ"
+    },
+    {
+      "id": "mv-BnTDlaXxRrE",
+      "type": "video",
+      "label": "Jacoby Shaddix of Papa Roach reacts to Falling In Reverse - \"Last Resort (Reimagined)\"",
+      "youtube_id": "BnTDlaXxRrE"
+    },
+    {
+      "id": "mv-Id6uK6oJ5nk",
+      "type": "video",
+      "label": "Ronnie Radke behind the scenes shooting \"Popular Monster\" (2019)",
+      "youtube_id": "Id6uK6oJ5nk"
+    },
+    {
+      "id": "mv-6y9CgaTb7Wc",
+      "type": "video",
+      "label": "Why Andy Biersack is in the Falling in Reverse \"Bad Girls Club\" music video",
+      "youtube_id": "6y9CgaTb7Wc"
+    },
+    {
+      "id": "mv-nPMZCC3-Lw8",
+      "type": "video",
+      "label": "Falling In Reverse - \"Ronald\" (Behind The Scenes)",
+      "youtube_id": "nPMZCC3-Lw8"
+    },
+    {
+      "id": "mv-dy8YWui2FxY",
+      "type": "video",
+      "label": "Falling In Reverse - \"Drugs\" [4K, 60 FPS, Remastered]",
+      "youtube_id": "dy8YWui2FxY"
+    },
+    {
+      "id": "mv-MP8kpuYAyd8",
+      "type": "video",
+      "label": "Falling In Reverse - All My Life feat. Jelly Roll",
+      "youtube_id": "MP8kpuYAyd8"
+    },
+    {
+      "id": "mv-4XDux0iho0M",
+      "type": "video",
+      "label": "Falling in Reverse No Fear (unofficial music video)",
+      "youtube_id": "4XDux0iho0M"
+    },
+    {
+      "id": "mv-MxrF_kRbL78",
+      "type": "video",
+      "label": "Falling In Reverse - \"Prequel\" (Behind The Scenes)",
+      "youtube_id": "MxrF_kRbL78"
+    },
+    {
+      "id": "mv-hZwhYRjcBGY",
+      "type": "video",
+      "label": "Falling In Reverse - \"All My Women (feat. HARDY)\" (Behind The Scenes)",
+      "youtube_id": "hZwhYRjcBGY"
+    },
+    {
+      "id": "mv-NOdqT2cs_j8",
+      "type": "video",
+      "label": "Falling In Reverse - All My Life [Clean] (ft. Jelly Roll)",
+      "youtube_id": "NOdqT2cs_j8"
+    },
+    {
+      "id": "mv-gjvv2jRMB8s",
+      "type": "video",
+      "label": "Falling In Reverse - Joseph feat  Corey Taylor and Serj Tankian | Karaoke",
+      "youtube_id": "gjvv2jRMB8s"
+    },
+    {
+      "id": "mv-S6Unzlx0Jls",
+      "type": "video",
+      "label": "MAKING OF Falling In Reverse \"JOSEPH\" - BTS/behind the scene video EDIT - by director @jensennoen",
+      "youtube_id": "S6Unzlx0Jls"
+    },
+    {
+      "id": "mv-D2XNQowXvxA",
+      "type": "video",
+      "label": "Falling In Reverse - Joseph  feat. Corey Taylor and Serj Tankian (Official Video) 2LM Reacts",
+      "youtube_id": "D2XNQowXvxA"
+    }
+  ],
+  "edges": [
+    {
+      "from": "mv-S2e8xzVB6rA",
+      "to": "mv-4XDux0iho0M",
+      "rel_type": "callback",
+      "confidence": 0.773
+    },
+    {
+      "from": "music-bad-girls-club",
+      "to": "music-watch-the-world-burn",
+      "rel_type": "callback",
+      "confidence": 0.754
+    },
+    {
+      "from": "mv-Id6uK6oJ5nk",
+      "to": "music-popular-monster",
+      "rel_type": "callback",
+      "confidence": 0.726
+    },
+    {
+      "from": "mv-PsjAXOA55ec",
+      "to": "music-drug-reimagined",
+      "rel_type": "callback",
+      "confidence": 0.784
+    },
+    {
+      "from": "mv-ybmwImclRBo",
+      "to": "music-drug-reimagined",
+      "rel_type": "callback",
+      "confidence": 0.784
+    },
+    {
+      "from": "mv-da7qJvYFfpc",
+      "to": "music-drug-reimagined",
+      "rel_type": "callback",
+      "confidence": 0.784
+    }
+  ]
+}

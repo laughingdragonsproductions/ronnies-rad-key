@@ -1,0 +1,15 @@
+name = "ronnies-rad-key-api"
+main = "worker/radkey-api.js"
+compatibility_date = "2026-09-07"
+
+[vars]
+PAGES_HOST = "ronnies-rad-key.pages.dev"
+
+# Optional: bind KV and upload search-index.json + rcu-meta.json after RCU build
+# [[kv_namespaces]]
+# binding = "RADKEY_KV"
+# id = "<your-kv-namespace-id>"
+
+# [[routes]]
+# pattern = "ronniesradkey.com"
+# custom_domain = true

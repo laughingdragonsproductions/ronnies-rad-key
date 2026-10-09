@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "id": "mv-ybmwImclRBo",
+  "timeline": {
+    "title": "Trigger Warning",
+    "summary": "Official release: Trigger Warning.",
+    "year": 2024,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "ybmwImclRBo",
+    "url": "https://www.youtube.com/watch?v=ybmwImclRBo",
+    "view_count": 2708911,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": [
+      {
+        "id": "music-drug-reimagined",
+        "rel_type": "callback",
+        "title": "The Drug In Me Is Reimagined"
+      }
+    ]
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@thatboifrmtx7316",
+      "text": "The guy riding the bike brought me hear",
+      "like_count": 477
+    },
+    {
+      "author": "@MainelyJonathan",
+      "text": "Man this song hits different in 2026",
+      "like_count": 161
+    },
+    {
+      "author": "@realmadzero",
+      "text": "Bro, same😂",
+      "like_count": 20
+    },
+    {
+      "author": "@shiririmp",
+      "text": "1:40 fucking beautiful 😭🔥",
+      "like_count": 16
+    },
+    {
+      "author": "@JenniferDziob",
+      "text": "I'm going to be 60 and just heard this ...it definitely goes with the times....you nailed it Ronnie...",
+      "like_count": 13
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "release_id": "rel-ybmwImclRBo",
+    "video_id": "ybmwImclRBo"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.391861+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

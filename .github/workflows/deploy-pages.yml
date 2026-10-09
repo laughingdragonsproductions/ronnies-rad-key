@@ -1,0 +1,44 @@
+name: Deploy Rad Key (Cloudflare Pages)
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build from RCU (optional)
+        env:
+          RCU_DB: ${{ secrets.RCU_DB }}
+        run: |
+          if [ -n "$RCU_DB" ] && [ -f "$RCU_DB" ]; then
+            python scripts/build_from_rcu.py
+            python scripts/verify_claims.py
+            python scripts/validate_data.py
+          else
+            echo "RCU_DB not set or file missing — using committed site/data/*"
+            python scripts/verify_claims.py
+            python scripts/validate_data.py
+          fi
+        working-directory: ${{ github.workspace }}
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ronnies-rad-key
+          directory: site
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

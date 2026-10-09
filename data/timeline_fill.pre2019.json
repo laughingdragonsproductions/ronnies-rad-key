@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "note": "Editorial waypoints to fill sparse years on the helix; merged at build time.",
+  "moments": [
+    {
+      "id": "fill-childhood-1985",
+      "year": 1985,
+      "strand": "life",
+      "category": "early_life",
+      "title": "Growing up in Las Vegas",
+      "summary": "Childhood in the Vegas valley; family life with brothers Anthony and Matthew.",
+      "importance": 0.4
+    },
+    {
+      "id": "fill-teens-1995",
+      "year": 1995,
+      "strand": "life",
+      "category": "early_life",
+      "title": "Mid‑90s adolescence",
+      "summary": "Teen years in Vegas; hip‑hop, punk, and metal start shaping his taste.",
+      "importance": 0.38
+    },
+    {
+      "id": "fill-music-discovery-1998",
+      "year": 1998,
+      "strand": "life",
+      "category": "early_life",
+      "title": "Discovering post‑hardcore",
+      "summary": "Deepens into screamo and punk — the lane that later defines ETF and FIR.",
+      "importance": 0.42
+    },
+    {
+      "id": "fill-high-school-2000",
+      "year": 2000,
+      "strand": "life",
+      "category": "early_life",
+      "title": "High school years",
+      "summary": "Las Vegas high school era; writing lyrics and chasing a frontman role.",
+      "importance": 0.45
+    },
+    {
+      "id": "fill-local-shows-2001",
+      "year": 2001,
+      "strand": "life",
+      "category": "career",
+      "title": "First local shows",
+      "summary": "Playing Vegas house shows and small venues with early projects.",
+      "importance": 0.44
+    },
+    {
+      "id": "fill-meets-max-2002",
+      "year": 2002,
+      "strand": "life",
+      "category": "career",
+      "title": "Meets Max Green",
+      "summary": "Friendship with Max Green — the connection that leads toward Escape the Fate.",
+      "importance": 0.48
+    },
+    {
+      "id": "fill-pre-etf-2003",
+      "year": 2003,
+      "strand": "life",
+      "category": "career",
+      "title": "Auditions & early lineup",
+      "summary": "Searching for the right drummer and guitarists before ETF solidifies.",
+      "importance": 0.46
+    },
+    {
+      "id": "fill-etf-scene-2005",
+      "year": 2005,
+      "strand": "life",
+      "category": "career",
+      "title": "Vegas post‑hardcore scene",
+      "summary": "ETF builds a local following; demo and EP buzz in the underground.",
+      "importance": 0.5
+    },
+    {
+      "id": "fill-etf-ep-2005",
+      "year": 2005,
+      "month": 9,
+      "strand": "life",
+      "category": "career",
+      "title": "There's No Sympathy for the Dead EP (2005)",
+      "summary": "Early ETF EP cycle — studio work that feeds the debut album sessions.",
+      "importance": 0.52
+    },
+    {
+      "id": "fill-etf-touring-2007",
+      "year": 2007,
+      "strand": "life",
+      "category": "career",
+      "title": "ETF touring cycle",
+      "summary": "Debut album touring; Radke's look and voice become scene‑defining.",
+      "importance": 0.55
+    },
+    {
+      "id": "fill-prison-writing-2009",
+      "year": 2009,
+      "strand": "life",
+      "category": "career",
+      "title": "Writing FIR material inside",
+      "summary": "Demoing and planning Falling in Reverse while serving time.",
+      "importance": 0.58
+    },
+    {
+      "id": "fill-fir-debut-cycle-2011",
+      "year": 2011,
+      "month": 7,
+      "strand": "life",
+      "category": "career",
+      "title": "The Drug in Me Is You — rollout",
+      "summary": "Debut singles and touring; FIR reintroduces Radke to a national audience.",
+      "importance": 0.62
+    },
+    {
+      "id": "fill-classic-creature-2012",
+      "year": 2012,
+      "strand": "life",
+      "category": "career",
+      "title": "The Classico Reissue era",
+      "summary": "Early FIR catalog and reissues keep momentum between album cycles.",
+      "importance": 0.48
+    },
+    {
+      "id": "fill-trilogy-2014",
+      "year": 2014,
+      "strand": "life",
+      "category": "career",
+      "title": "Just Like You — album cycle",
+      "summary": "Third album touring; heavier direction before the cinematic pivot.",
+      "importance": 0.55
+    },
+    {
+      "id": "fill-bury-hatchet-2013",
+      "year": 2013,
+      "month": 10,
+      "strand": "life",
+      "category": "career",
+      "title": "Bury the Hatchet tour",
+      "summary": "FIR and Escape the Fate co‑headline — public feud cools on stage.",
+      "importance": 0.6
+    },
+    {
+      "id": "fill-solo-watch-me-2014",
+      "year": 2014,
+      "strand": "life",
+      "category": "career",
+      "title": "Solo & Watch Me era begins",
+      "summary": "YouTube channel and solo drops expand beyond the band discography.",
+      "importance": 0.5
+    },
+    {
+      "id": "fill-2015-touring",
+      "year": 2015,
+      "strand": "life",
+      "category": "career",
+      "title": "FIR festival & tour run",
+      "summary": "Steady touring before the Coming Home pivot.",
+      "importance": 0.48
+    },
+    {
+      "id": "fill-2016-chemical",
+      "year": 2016,
+      "strand": "life",
+      "category": "career",
+      "title": "Chemical Prisoner — single push",
+      "summary": "Bridge single toward the Coming Home album and heavier visuals.",
+      "importance": 0.52
+    },
+    {
+      "id": "fill-2018-pre-monster",
+      "year": 2018,
+      "month": 6,
+      "strand": "life",
+      "category": "career",
+      "title": "Pre‑Popular Monster buildup",
+      "summary": "Losing My Life / Losing My Mind videos set up the breakout year.",
+      "importance": 0.58
+    }
+  ]
+}

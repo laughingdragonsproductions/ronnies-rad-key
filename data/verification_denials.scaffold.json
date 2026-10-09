@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "description": "Copy to verification_denials.json and append bot-scraper findings. verify_claims.py merges denials into moment verification.conflicts[].",
+  "denials": [
+    {
+      "match": { "moment_id": "example-moment-id" },
+      "denied_by": "ronnie_radke",
+      "source_url": "https://example.com/interview",
+      "summary": "Subject denied this claim in a primary-source interview.",
+      "checked_at": "2026-01-01T00:00:00+00:00",
+      "label": "Disputed — denial on record"
+    }
+  ],
+  "conflicts": [
+    {
+      "moment_ids": ["example-moment-id"],
+      "status": "conflict",
+      "label": "Conflicting sources",
+      "type": "third_party_contradiction",
+      "summary": "Two reputable sources disagree on the date.",
+      "sources": [{ "url": "https://example.com/a" }, { "url": "https://example.com/b" }]
+    }
+  ]
+}

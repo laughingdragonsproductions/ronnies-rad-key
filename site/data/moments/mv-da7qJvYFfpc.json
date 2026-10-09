@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "id": "mv-da7qJvYFfpc",
+  "timeline": {
+    "title": "Bad Guy (feat. Saraya)",
+    "summary": "Official release: Bad Guy (feat. Saraya).",
+    "year": 2024,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "da7qJvYFfpc",
+    "url": "https://www.youtube.com/watch?v=da7qJvYFfpc",
+    "view_count": 10710957,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
+    "related": [
+      {
+        "id": "music-drug-reimagined",
+        "rel_type": "callback",
+        "title": "The Drug In Me Is Reimagined"
+      }
+    ]
+  },
+  "frame_captions": [],
+  "comments_sample": [
+    {
+      "author": "@Maeli_themusiclvr",
+      "text": "Me after going to bed without brushing my teeth 😈",
+      "like_count": 320
+    },
+    {
+      "author": "@baudzens",
+      "text": "​\"If my eyes turn red, run.\" 😈🔥",
+      "like_count": 53
+    },
+    {
+      "author": "@Yoshi-xz5mg",
+      "text": "me using my thumb after pooping😈😈😈😈",
+      "like_count": 15
+    },
+    {
+      "author": "@linecasterz",
+      "text": "the shit that plays in my head after i break a pinky promise",
+      "like_count": 14
+    },
+    {
+      "author": "@EctoBuglogist",
+      "text": "the type of music your alchoholic uncle puts on when he gets home",
+      "like_count": 12
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "release_id": "rel-da7qJvYFfpc",
+    "video_id": "da7qJvYFfpc"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.396618+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

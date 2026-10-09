@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "id": "life-rise-fall-rise-doc",
+  "timeline": {
+    "title": "The Rise, Fall & Rise Again",
+    "summary": "Fan and press narratives frame redemption arc explicitly.",
+    "year": 2022,
+    "strand": "life",
+    "category": "personal",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [
+    {
+      "source_id": "rcu-video",
+      "title": "rcu-video"
+    }
+  ],
+  "provenance": null,
+  "verification": {
+    "status": "verified",
+    "label": "Curated — cited source",
+    "notes": "Hand-curated moment with RCU source ids.",
+    "checked_at": "2026-10-09T21:24:51.221862+00:00",
+    "sources": [
+      {
+        "source_id": "rcu-video"
+      }
+    ],
+    "conflicts": []
+  }
+}

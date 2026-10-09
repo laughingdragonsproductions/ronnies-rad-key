@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "id": "fill-trilogy-2014",
+  "timeline": {
+    "title": "Just Like You — album cycle",
+    "summary": "Third album touring; heavier direction before the cinematic pivot.",
+    "year": 2014,
+    "strand": "life",
+    "category": "career",
+    "youtube_id": null,
+    "url": null,
+    "view_count": null,
+    "era": null,
+    "rcu_tier": null
+  },
+  "lore": {
+    "summary": "",
+    "related": []
+  },
+  "frame_captions": [],
+  "comments_sample": [],
+  "sources": [],
+  "provenance": null,
+  "verification": {
+    "status": "unproven",
+    "label": "Unproven - Site source",
+    "notes": "No strong verification rule matched.",
+    "checked_at": "2026-10-09T21:24:51.055764+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

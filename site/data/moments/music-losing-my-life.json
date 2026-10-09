@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "id": "music-losing-my-life",
+  "timeline": {
+    "title": "Losing My Life",
+    "summary": "Narrative MV with high replay value; millions of views.",
+    "year": 2018,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "SEbxwmjScr8",
+    "url": "https://www.youtube.com/watch?v=SEbxwmjScr8",
+    "view_count": 59512157,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'The frontman of Falling in Reverse and the narrator of the video.', 'entity_slug': 'ronnie-radke'} {'name': 'Willow', 'description': \"Ronnie's daughter, who appears at the end of the video.\", 'entity_slug': 'willow-radke'} Redemption Self-Discovery Reflection on Past Actions Father-Daughter Relationship",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@francotapia9865",
+      "text": "Who's here in 2026?",
+      "like_count": 818
+    },
+    {
+      "author": "@VoltBenchEBikeRepair",
+      "text": "Everyone of their songs is timeless, they never get outdated or old, these songs will still sound modern in 10 years",
+      "like_count": 14
+    },
+    {
+      "author": "@MrMc-u6d",
+      "text": "2077 anyone?",
+      "like_count": 8
+    },
+    {
+      "author": "@АнтонИльин-д2п",
+      "text": "Те, кто за качественной музыкой всегда здесь !",
+      "like_count": 5
+    },
+    {
+      "author": "@Dend-x9m",
+      "text": "Drugs, Losing My Life, and Losing My Mind. Uff... way too intense. Very cinematic, deeply emotional, and musically speaking, wow... it's just incredible\r\n\r\nThere really should be a movie written and directed by Falling in Reverse",
+      "like_count": 4
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-SEbxwmjScr8",
+    "video_id": "SEbxwmjScr8"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.142835+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}

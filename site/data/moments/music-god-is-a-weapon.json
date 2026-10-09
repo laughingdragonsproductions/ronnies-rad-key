@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "id": "music-god-is-a-weapon",
+  "timeline": {
+    "title": "God Is A Weapon (feat. Marilyn Manson)",
+    "summary": "83M+ views; gothic industrial spectacle.",
+    "year": 2025,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "xqJurrQKNdE",
+    "url": "https://www.youtube.com/watch?v=xqJurrQKNdE",
+    "view_count": 83864868,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} {'name': 'Marilyn Manson', 'description': 'Co-writer and featured artist', 'entity_slug': 'marilyn-manson'} sin obsession worship confession",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@VynnLux",
+      "text": "Who's coming here after listening to Joseph?",
+      "like_count": 1200
+    },
+    {
+      "author": "@kaeislle",
+      "text": "At this rate, all that's left is to reunite with Till Lindemann for another masterpiece.",
+      "like_count": 23
+    },
+    {
+      "author": "@danihz5610",
+      "text": "I didn't like Joseph though. Too many variables (its unique yes but not everyone's style).",
+      "like_count": 11
+    },
+    {
+      "author": "@xcrovatum",
+      "text": "im here because of joseph",
+      "like_count": 7
+    },
+    {
+      "author": "@xPikaChuuuzz",
+      "text": " @theo008  \"Joseph\" his new music isn't better than God is a weapon or some other musics.",
+      "like_count": 7
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "release-epitaph",
+      "title": "release-epitaph"
+    }
+  ],
+  "provenance": {
+    "release_id": "rel-xqJurrQKNdE",
+    "video_id": "xqJurrQKNdE"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-10-09T21:24:51.424382+00:00",
+    "sources": [
+      {
+        "source_id": "release-epitaph"
+      }
+    ],
+    "conflicts": []
+  }
+}
