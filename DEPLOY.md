@@ -55,8 +55,9 @@ Outputs land in `site/data/` (`timeline.json`, `search-index.json`, `rcu-meta.js
 
 - **Project root for Pages:** `site/`
 - **Build command:** none (pre-built JSON committed or built in CI)
-- **GitHub Actions:** `.github/workflows/deploy-pages.yml`
-  - Set secrets: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
+- **GitHub Actions:** `.github/workflows/deploy-pages.yml` (uses `cloudflare/wrangler-action` → `pages deploy site`)
+  - Repo secrets (configured): `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
+  - Prefer a **Cloudflare API token** (Pages Edit) over a short-lived Wrangler OAuth token for CI longevity
   - Optional secret `RCU_DB`: absolute path only works on self-hosted runners; for GitHub-hosted runners, commit built `site/data/*` or mount RCU via submodule/checkout
 
 ## Optional Worker (Phase 2)
