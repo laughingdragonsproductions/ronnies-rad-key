@@ -5,3 +5,5 @@ __pycache__/
 .env
 .env.*
 data/verification_denials.json
+.cloudflare-ci-token.tmp
+.wrangler/

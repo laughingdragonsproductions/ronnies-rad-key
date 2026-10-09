@@ -1,6 +1,10 @@
-name = "ronnies-rad-key-api"
-main = "worker/radkey-api.js"
+name = "ronnies-rad-key"
+pages_build_output_dir = "site"
 compatibility_date = "2026-09-07"
+
+# Optional Worker (Phase 2) — separate deploy: npx wrangler deploy worker/radkey-api.js
+# name = "ronnies-rad-key-api"
+# main = "worker/radkey-api.js"
 
 [vars]
 PAGES_HOST = "ronnies-rad-key.pages.dev"
