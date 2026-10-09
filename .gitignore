@@ -7,3 +7,5 @@ __pycache__/
 data/verification_denials.json
 .cloudflare-ci-token.tmp
 .wrangler/
+cloudflare-*-debug.png
+cloudflare-token-form.png

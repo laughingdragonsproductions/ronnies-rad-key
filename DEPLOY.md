@@ -53,7 +53,10 @@ Outputs land in `site/data/` (`timeline.json`, `search-index.json`, `rcu-meta.js
 
 ## Cloudflare Pages (static-first)
 
+- **Production:** [https://ronniesradkey.com/](https://ronniesradkey.com/) (also [www](https://www.ronniesradkey.com/), [pages.dev](https://ronnies-rad-key.pages.dev/))
 - **Project root for Pages:** `site/`
+- **Custom domain:** attach with `py -3 scripts/cloudflare_pages_domain.py` after the Pages project exists
+- **Long-lived CI token:** `py -3 scripts/create_cloudflare_api_token.py` (Chrome Profile 8), then `gh secret set CLOUDFLARE_API_TOKEN`
 - **Build command:** none (pre-built JSON committed or built in CI)
 - **GitHub Actions:** `.github/workflows/deploy-pages.yml` (uses `cloudflare/wrangler-action` → `pages deploy site`)
   - Repo secrets (configured): `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`

@@ -7,7 +7,7 @@ compatibility_date = "2026-09-07"
 # main = "worker/radkey-api.js"
 
 [vars]
-PAGES_HOST = "ronnies-rad-key.pages.dev"
+PAGES_HOST = "ronniesradkey.com"
 
 # Optional: bind KV and upload search-index.json + rcu-meta.json after RCU build
 # [[kv_namespaces]]
