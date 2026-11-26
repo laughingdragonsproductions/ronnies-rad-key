@@ -116,6 +116,104 @@
   text-decoration: none;
 }
 
+.hippie-community {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(251, 191, 36, 0.22);
+}
+
+.hippie-community h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+  color: #86efac;
+}
+
+.hippie-community h4 {
+  margin: 0 0 0.35rem;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.hippie-blurb {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.hippie-motto {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #a7f3d0;
+}
+
+.hippie-links {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media (min-width: 520px) {
+  .hippie-links {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.hippie-links li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.5rem;
+  padding: 0.45rem 0.65rem;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.hippie-links a {
+  color: var(--strand-a);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hippie-links a:hover {
+  text-decoration: underline;
+}
+
+.hippie-links .link-label {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.hippie-links .handle {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.litprintz-block {
+  margin-bottom: 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(134, 239, 172, 0.28);
+  background: rgba(6, 40, 28, 0.45);
+}
+
+.litprintz-block p {
+  margin-bottom: 0.65rem;
+  font-size: 0.92rem;
+}
+
+.litprintz-btn {
+  margin-top: 0;
+  background: #86efac;
+}
+
+.hippie-credit {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 .about-footer {
   margin-top: 3rem;
   padding-top: 1.5rem;
