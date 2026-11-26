@@ -51,16 +51,18 @@ Same as Cloudflare Pages: only `site/` + JSON; no Local app badge or Sync button
 
 Outputs land in `site/data/` (`timeline.json`, `search-index.json`, `rcu-meta.json`, `graph.json`, `verification-report.json`, `moments/*.json` with optional `verification` blocks).
 
-## GitHub Pages (primary - free)
+## Cloudflare Pages (primary - production)
+
+- **Production:** [https://ronnieradkey.com/](https://ronnieradkey.com/) (also [www](https://www.ronnieradkey.com/), [pages.dev](https://ronnies-rad-key.pages.dev/))
+- **Workflow:** `.github/workflows/deploy-pages.yml` on push to `main` and manual dispatch.
+- **Note:** The live zone is `ronnieradkey.com` (no extra “s”). Misspelled `ronniesradkey.com` is not registered; do not use it.
+
+## GitHub Pages (mirror - free)
 
 - **Workflow:** `.github/workflows/github-pages.yml` on push to `main` (uploads `site/` only).
 - **Enable once:** repo **Settings → Pages → Build and deployment → GitHub Actions**.
-- **URL:** `https://laughingdragonsproductions.github.io/ronnies-rad-key/` (or custom domain if attached).
+- **URL:** `https://laughingdragonsproductions.github.io/ronnies-rad-key/`
 - Animations (Three.js helix, card materialize) run fully on static hosting; no server API required.
-
-## Cloudflare Pages (optional)
-
-- **Production:** [https://ronniesradkey.com/](https://ronniesradkey.com/) (also [www](https://www.ronniesradkey.com/), [pages.dev](https://ronnies-rad-key.pages.dev/))
 - **Project root for Pages:** `site/`
 - **Custom domain:** attach with `py -3 scripts/cloudflare_pages_domain.py` after the Pages project exists
 - **Long-lived CI token:** `py -3 scripts/create_cloudflare_api_token.py` (Chrome Profile 8), then `gh secret set CLOUDFLARE_API_TOKEN`

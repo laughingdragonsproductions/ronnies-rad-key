@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://ronniesradkey.com/schema/timeline-v2.schema.json",
+  "$id": "https://ronnieradkey.com/schema/timeline-v2.schema.json",
   "title": "Ronnie's Rad Key timeline bundle",
   "type": "object",
   "required": ["schema_version", "moments", "year_min", "year_max"],

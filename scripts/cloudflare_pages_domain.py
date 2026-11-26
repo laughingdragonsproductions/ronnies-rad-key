@@ -11,7 +11,7 @@ from pathlib import Path
 
 ACCOUNT_ID = "d3d0d817a23ee9ca53fc6bbbbf22cc0f"
 PROJECT = "ronnies-rad-key"
-DOMAINS = ("ronniesradkey.com", "www.ronniesradkey.com")
+DOMAINS = ("ronnieradkey.com", "www.ronnieradkey.com")
 WRANGLER_CONFIG = Path.home() / "AppData/Roaming/xdg.config/.wrangler/config/default.toml"
 
 
