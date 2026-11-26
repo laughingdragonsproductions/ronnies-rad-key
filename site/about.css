@@ -83,6 +83,20 @@
   background: rgba(12, 12, 20, 0.85);
 }
 
+.video-spotlight--official {
+  border-color: rgba(239, 70, 111, 0.45);
+}
+
+.video-helix-hint {
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.video-helix-hint a {
+  color: var(--strand-a);
+}
+
 .video-spotlight h2 {
   margin-top: 0;
 }
