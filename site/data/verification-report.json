@@ -4,7 +4,7 @@
   "rcu_db": "G:\\LocalAIagent\\rcu-universe\\data\\rcu.sqlite",
   "rules": [
     "music_video+youtube_id -> verified (Official release)",
-    "curated id + source_ids -> verified (Curated — cited source)",
+    "curated id + source_ids -> verified (Curated - cited source)",
     "life_events wiki-only or no event_sources -> unproven (Unproven - Site source)",
     "provenance.inferred_date -> unproven",
     "duplicate normalized title across different years -> conflict",

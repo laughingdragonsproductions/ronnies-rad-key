@@ -26,7 +26,7 @@ jobs:
             python scripts/verify_claims.py
             python scripts/validate_data.py
           else
-            echo "RCU_DB not set or file missing — using committed site/data/*"
+            echo "RCU_DB not set or file missing - using committed site/data/*"
             python scripts/verify_claims.py
             python scripts/validate_data.py
           fi

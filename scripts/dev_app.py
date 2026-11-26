@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Local Rad Key app — site at / plus Worker-style API on one origin.
+Local Rad Key app - site at / plus Worker-style API on one origin.
 
 Use instead of `python -m http.server` so search/meta/moment/rebuild work
 without Cloudflare. Serves `site/` as the web root (http://127.0.0.1:8790/).
@@ -119,7 +119,7 @@ class RadKeyAppHandler(BaseHTTPRequestHandler):
         if path == "/api/meta":
             meta = _read_json(DATA / "rcu-meta.json")
             if meta is None:
-                self._send_json({"error": "rcu-meta missing — run build_from_rcu.py"}, 503)
+                self._send_json({"error": "rcu-meta missing - run build_from_rcu.py"}, 503)
                 return
             self._send_json({**meta, "dev": True, "origin": "local"})
             return
@@ -181,7 +181,7 @@ class RadKeyAppHandler(BaseHTTPRequestHandler):
 
 def main() -> None:
     if not DATA.is_dir():
-        print("site/data missing — run: py scripts/build_from_rcu.py", file=sys.stderr)
+        print("site/data missing - run: py scripts/build_from_rcu.py", file=sys.stderr)
         sys.exit(1)
 
     httpd = ThreadingHTTPServer((HOST, PORT), RadKeyAppHandler)

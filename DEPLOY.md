@@ -1,4 +1,4 @@
-# Ronnie's Rad Key — deploy & RCU data
+# Ronnie's Rad Key - deploy & RCU data
 
 ## Local pipeline
 
@@ -21,7 +21,7 @@ py -3 scripts\verify_claims.py
 
 Future bot-scraper denials: copy `data/verification_denials.scaffold.json` → `data/verification_denials.json` and append entries; re-run `verify_claims.py`. Full report: `site/data/verification-report.json`.
 
-3. **Full local app** (recommended — same origin as production Worker):
+3. **Full local app** (recommended - same origin as production Worker):
 
 ```powershell
 .\run-local.ps1
@@ -47,11 +47,11 @@ Same as Cloudflare Pages: only `site/` + JSON; no Local app badge or Sync button
 | Variable | Purpose |
 |----------|---------|
 | `RCU_DB` | Path to `rcu.sqlite` for `scripts/build_from_rcu.py` (default: `G:\LocalAIagent\rcu-universe\data\rcu.sqlite`) |
-| `RCU_DATA` | Alias accepted by some tooling — set to the same path as `RCU_DB` if you prefer that name |
+| `RCU_DATA` | Alias accepted by some tooling - set to the same path as `RCU_DB` if you prefer that name |
 
 Outputs land in `site/data/` (`timeline.json`, `search-index.json`, `rcu-meta.json`, `graph.json`, `verification-report.json`, `moments/*.json` with optional `verification` blocks).
 
-## GitHub Pages (primary — free)
+## GitHub Pages (primary - free)
 
 - **Workflow:** `.github/workflows/github-pages.yml` on push to `main` (uploads `site/` only).
 - **Enable once:** repo **Settings → Pages → Build and deployment → GitHub Actions**.
@@ -74,9 +74,9 @@ Outputs land in `site/data/` (`timeline.json`, `search-index.json`, `rcu-meta.js
 
 `worker/radkey-api.js` + `wrangler.toml`:
 
-- `GET /api/search?q=` — same ranking as static `search-index.json`
-- `GET /api/meta` — `rcu-meta.json`
-- `GET /api/moment/:id` — detail shard proxy
+- `GET /api/search?q=` - same ranking as static `search-index.json`
+- `GET /api/meta` - `rcu-meta.json`
+- `GET /api/moment/:id` - detail shard proxy
 - Other paths proxy to `PAGES_HOST`
 
 Deploy:

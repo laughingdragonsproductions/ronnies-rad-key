@@ -210,7 +210,7 @@ export function createHelix(options) {
   let targetPanY = 0;
   let panX = 0;
   let panY = 0;
-  /** Twist around timeline axis (X) — opens rungs hidden in the helix curve. */
+  /** Twist around timeline axis (X) - opens rungs hidden in the helix curve. */
   let targetHelixRoll = 0.35;
   let helixRoll = 0.35;
   let pinchStartDist = 0;

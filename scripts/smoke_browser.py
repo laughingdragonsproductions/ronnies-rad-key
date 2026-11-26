@@ -16,7 +16,7 @@ def main() -> int:
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
-        print("smoke_browser: SKIP — playwright not installed")
+        print("smoke_browser: SKIP - playwright not installed")
         return 0
 
     with sync_playwright() as p:
@@ -31,7 +31,7 @@ def main() -> int:
             except Exception:
                 continue
         if not browser:
-            print("smoke_browser: SKIP — no Playwright browser (install chromium or use Edge)")
+            print("smoke_browser: SKIP - no Playwright browser (install chromium or use Edge)")
             return 0
 
         page = browser.new_page()
@@ -49,7 +49,7 @@ def main() -> int:
         try:
             page.goto(BASE, wait_until="networkidle", timeout=90_000)
         except Exception as e:
-            print(f"smoke_browser: FAIL navigation — {e}")
+            print(f"smoke_browser: FAIL navigation - {e}")
             browser.close()
             return 1
 
@@ -96,7 +96,7 @@ def main() -> int:
 
     critical_http = [u for u in failed_urls if "/data/" in u or "/js/" in u or "timeline.json" in u]
     if critical_http:
-        print("smoke_browser: FAIL — missing critical assets")
+        print("smoke_browser: FAIL - missing critical assets")
         return 1
 
     if errors:
@@ -107,15 +107,15 @@ def main() -> int:
         return 1
 
     if state.get("noWebgl") and not state.get("hasWebGL"):
-        print("smoke_browser: WebGL unavailable — helix skipped (check GPU/headless)")
+        print("smoke_browser: WebGL unavailable - helix skipped (check GPU/headless)")
         return 0
 
     if not state.get("canvasW") or not state.get("canvasH"):
-        print("smoke_browser: FAIL — canvas not sized")
+        print("smoke_browser: FAIL - canvas not sized")
         return 1
 
-    if not year_after.strip() or year_after.strip() == "—":
-        print("smoke_browser: FAIL — year display did not update on scrub")
+    if not year_after.strip() or year_after.strip() == "-":
+        print("smoke_browser: FAIL - year display did not update on scrub")
         return 1
 
     print("smoke_browser: OK")
@@ -127,6 +127,6 @@ if __name__ == "__main__":
     try:
         urllib.request.urlopen(BASE, timeout=5)
     except Exception as e:
-        print(f"smoke_browser: FAIL — server not reachable at {BASE} ({e})")
+        print(f"smoke_browser: FAIL - server not reachable at {BASE} ({e})")
         sys.exit(1)
     sys.exit(main())

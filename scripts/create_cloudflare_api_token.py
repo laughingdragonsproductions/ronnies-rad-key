@@ -169,7 +169,7 @@ def main() -> int:
         if not token:
             shot = ROOT / "cloudflare-token-debug.png"
             page.screenshot(path=str(shot), full_page=True)
-            print(f"Could not read token — see {shot}", file=sys.stderr)
+            print(f"Could not read token - see {shot}", file=sys.stderr)
             return 1
 
         OUT_FILE.write_text(token, encoding="utf-8")

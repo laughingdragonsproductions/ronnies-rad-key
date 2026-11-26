@@ -165,7 +165,7 @@
       "detail_path": "data/moments/life-born-1983.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -190,8 +190,8 @@
       "year": 1995,
       "strand": "life",
       "category": "early_life",
-      "title": "Mid‑90s adolescence",
-      "summary": "Teen years in Vegas; hip‑hop, punk, and metal start shaping his taste.",
+      "title": "Mid-90s adolescence",
+      "summary": "Teen years in Vegas; hip-hop, punk, and metal start shaping his taste.",
       "importance": 0.38,
       "related": [],
       "importance_score": 0.38,
@@ -207,8 +207,8 @@
       "year": 1998,
       "strand": "life",
       "category": "early_life",
-      "title": "Discovering post‑hardcore",
-      "summary": "Deepens into screamo and punk — the lane that later defines ETF and FIR.",
+      "title": "Discovering post-hardcore",
+      "summary": "Deepens into screamo and punk - the lane that later defines ETF and FIR.",
       "importance": 0.42,
       "related": [],
       "importance_score": 0.42,
@@ -259,7 +259,7 @@
       "strand": "life",
       "category": "career",
       "title": "Meets Max Green",
-      "summary": "Friendship with Max Green — the connection that leads toward Escape the Fate.",
+      "summary": "Friendship with Max Green - the connection that leads toward Escape the Fate.",
       "importance": 0.48,
       "related": [],
       "importance_score": 0.48,
@@ -301,7 +301,7 @@
       "detail_path": "data/moments/life-etf-forms-2004.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -309,7 +309,7 @@
       "year": 2005,
       "strand": "life",
       "category": "career",
-      "title": "Vegas post‑hardcore scene",
+      "title": "Vegas post-hardcore scene",
       "summary": "ETF builds a local following; demo and EP buzz in the underground.",
       "importance": 0.5,
       "related": [],
@@ -335,7 +335,7 @@
       "detail_path": "data/moments/life-diylf-2006.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -352,7 +352,7 @@
       "detail_path": "data/moments/legal-2006-incident.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -380,7 +380,7 @@
       "strand": "life",
       "category": "career",
       "title": "ETF touring cycle",
-      "summary": "Debut album touring; Radke's look and voice become scene‑defining.",
+      "summary": "Debut album touring; Radke's look and voice become scene-defining.",
       "importance": 0.55,
       "related": [],
       "importance_score": 0.55,
@@ -405,7 +405,7 @@
       "detail_path": "data/moments/life-fir-conceived-2008.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -422,7 +422,7 @@
       "detail_path": "data/moments/life-etf-departure-2008.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -440,7 +440,7 @@
       "detail_path": "data/moments/legal-2008-arrest.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -467,7 +467,7 @@
       "year": 2009,
       "month": null,
       "day": null,
-      "title": "Radke–Mabbitt feud during prison",
+      "title": "Radke-Mabbitt feud during prison",
       "summary": "While Radke was in prison, tension with Mabbitt escalated through live shows and social media, including a notorious Warped Tour heckle exchange.",
       "importance": 0.45,
       "provenance": {
@@ -496,7 +496,7 @@
       "detail_path": "data/moments/life-released-2010.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -513,7 +513,7 @@
       "detail_path": "data/moments/life-random-2011.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -547,7 +547,7 @@
       "detail_path": "data/moments/life-solo-watch-me-2013.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -707,7 +707,7 @@
       "strand": "life",
       "category": "career",
       "title": "Bury the Hatchet tour",
-      "summary": "FIR and Escape the Fate co‑headline — public feud cools on stage.",
+      "summary": "FIR and Escape the Fate co-headline - public feud cools on stage.",
       "importance": 0.6,
       "related": [],
       "importance_score": 0.6,
@@ -723,7 +723,7 @@
       "year": 2014,
       "strand": "life",
       "category": "career",
-      "title": "Just Like You — album cycle",
+      "title": "Just Like You - album cycle",
       "summary": "Third album touring; heavier direction before the cinematic pivot.",
       "importance": 0.55,
       "related": [],
@@ -771,7 +771,7 @@
       "detail_path": "data/moments/life-just-like-you-2015.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -796,7 +796,7 @@
       "year": 2016,
       "strand": "life",
       "category": "career",
-      "title": "Chemical Prisoner — single push",
+      "title": "Chemical Prisoner - single push",
       "summary": "Bridge single toward the Coming Home album and heavier visuals.",
       "importance": 0.52,
       "related": [],
@@ -852,7 +852,7 @@
       "detail_path": "data/moments/life-coming-home-2017.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1101,7 +1101,7 @@
       "month": 6,
       "strand": "life",
       "category": "career",
-      "title": "Pre‑Popular Monster buildup",
+      "title": "Pre-Popular Monster buildup",
       "summary": "Losing My Life / Losing My Mind videos set up the breakout year.",
       "importance": 0.58,
       "related": [],
@@ -1148,7 +1148,7 @@
       "year": 2019,
       "strand": "life",
       "category": "career",
-      "title": "Popular Monster — cultural breakout",
+      "title": "Popular Monster - cultural breakout",
       "summary": "Song and video become generational anthem; FIR enters nine-figure view territory.",
       "importance": 1.0,
       "related": [],
@@ -1157,7 +1157,7 @@
       "detail_path": "data/moments/life-popular-monster-era.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1174,7 +1174,7 @@
       "detail_path": "data/moments/life-kerrang-best-video.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1247,7 +1247,7 @@
       "detail_path": "data/moments/life-twitch-rise-2020.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1257,7 +1257,7 @@
       "year": 2020,
       "month": null,
       "day": null,
-      "title": "FIR albums — Billboard top 40 streak",
+      "title": "FIR albums - Billboard top 40 streak",
       "summary": "Falling in Reverse's first two albums reached the U.S. top 20, and all four studio albums through that point had charted in the top 40.",
       "importance": 0.45,
       "provenance": {
@@ -1469,7 +1469,7 @@
       "detail_path": "data/moments/life-live-from-unknown.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1487,7 +1487,7 @@
       "detail_path": "data/moments/life-blastover-start-2021.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1504,7 +1504,7 @@
       "detail_path": "data/moments/life-rise-fall-rise-doc.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1515,7 +1515,7 @@
       "month": null,
       "day": null,
       "title": "Radke & Jacoby Shaddix headlines",
-      "summary": "Radke drew press coverage—including from Loudwire—after public back-and-forth with Papa Roach frontman Jacoby Shaddix.",
+      "summary": "Radke drew press coverage - including from Loudwire - after public back-and-forth with Papa Roach frontman Jacoby Shaddix.",
       "importance": 0.45,
       "provenance": {
         "event_id": "2022-solo-and-iwatch-mei-2013present-in-mid-2022-radke-made-headli"
@@ -1625,7 +1625,7 @@
       "detail_path": "data/moments/life-popular-monstour-2023.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1707,7 +1707,7 @@
       "detail_path": "data/moments/life-hand-blackout-2023.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1718,7 +1718,7 @@
       "strand": "life",
       "category": "personal",
       "title": "Colorful tattoo era (reference)",
-      "summary": "Full sleeves, chest owl, and face ink — last vivid look before blackout coverage.",
+      "summary": "Full sleeves, chest owl, and face ink - last vivid look before blackout coverage.",
       "importance": 0.65,
       "thumbnail": "assets/ref/library/ronnie-pre-blackout-colorful-tats-2023-04-17.png",
       "related": [],
@@ -1727,7 +1727,7 @@
       "detail_path": "data/moments/life-colorful-tats-reference.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -1746,7 +1746,7 @@
       "detail_path": "data/moments/life-blackout-complete-2023.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {
@@ -2233,7 +2233,7 @@
       "detail_path": "data/moments/life-rock-am-ring-2025.json",
       "verification": {
         "status": "verified",
-        "label": "Curated — cited source"
+        "label": "Curated - cited source"
       }
     },
     {

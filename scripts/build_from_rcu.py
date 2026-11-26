@@ -100,7 +100,7 @@ def parse_release_date(date_str: str | None) -> tuple[float | None, int | None, 
 def infer_year_from_text(title: str | None, summary: str | None) -> tuple[int | None, int | None, int | None]:
     """Best-effort year (and optional month) from wiki-style headings."""
     for text in (title or "", summary or ""):
-        m = re.search(r"\((\d{4})[–\-—]", text)
+        m = re.search(r"\((\d{4})[\-\u2013\u2014]", text)
         if m:
             return int(m.group(1)), None, None
         m = re.search(r"\b(19[89]\d|20[0-1]\d)\b", text)
@@ -112,7 +112,7 @@ def infer_year_from_text(title: str | None, summary: str | None) -> tuple[int | 
 
 
 _WIKI_SECTION_TITLE = re.compile(
-    r"^.+\(\d{4}\s*[–\-—]\s*(?:\d{4}|present)\)$",
+    r"^.+\(\d{4}\s*[\-\u2013\u2014]\s*(?:\d{4}|present)\)$",
     re.IGNORECASE,
 )
 
@@ -310,7 +310,7 @@ def norm_song_title(title: str | None) -> str:
     """Canonical song key for deduping official MV vs BTS/lyric uploads."""
     t = (title or "").lower()
     t = re.sub(r"\([^)]*\)", "", t)
-    t = re.sub(r"^[\s\"']*falling in reverse\s*[-–—]?\s*", "", t)
+    t = re.sub(r"^[\s\"']*falling in reverse\s*[\-\u2013\u2014]?\s*", "", t)
     t = re.sub(r"[\"'“”‘’]", "", t)
     for marker in _DERIVATIVE_MV_MARKERS:
         t = t.replace(marker, " ")

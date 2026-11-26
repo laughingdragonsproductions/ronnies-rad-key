@@ -21,8 +21,8 @@ const FILTERS = [
 ];
 
 const HINTS = {
-  "2d": "2D — Rad Key = time · Focus slider = center view · Alt+drag twist · Shift+drag pan.",
-  "3d": "3D — Rad Key = time · Focus = center view · Drag orbit · Alt corkscrew · Shift pan.",
+  "2d": "2D - Rad Key = time · Focus slider = center view · Alt+drag twist · Shift+drag pan.",
+  "3d": "3D - Rad Key = time · Focus = center view · Drag orbit · Alt corkscrew · Shift pan.",
 };
 
 const detailCache = new Map();
@@ -66,7 +66,7 @@ function verificationNoteHtml(ver) {
     parts.push(`${ver.conflicts.length} conflict record(s) on file.`);
   }
   if (!parts.length) return "";
-  return `<p class="verify-note">${parts.join(" — ")}</p>`;
+  return `<p class="verify-note">${parts.join(" - ")}</p>`;
 }
 
 function momentIsLore(m) {
@@ -108,7 +108,7 @@ function saveViewMode(mode) {
 function buildFallbackList(moments) {
   const root = document.getElementById("fallback-list");
   if (!root) return;
-  root.innerHTML = "<h2>Ronnie's Rad Key — timeline</h2>";
+  root.innerHTML = "<h2>Ronnie's Rad Key - timeline</h2>";
   for (const m of moments) {
     const div = document.createElement("div");
     div.className = "item";
@@ -270,7 +270,7 @@ async function setupLocalAppTools(onDataRefresh) {
           const r = await fetch("/api/rebuild", { method: "POST" });
           const body = await r.json();
           if (!r.ok) throw new Error(body.log || "rebuild failed");
-          rebuild.textContent = "Done — reload";
+          rebuild.textContent = "Done - reload";
           onDataRefresh?.(body.meta);
           setTimeout(() => window.location.reload(), 600);
         } catch (err) {
@@ -292,7 +292,7 @@ async function setupLocalAppTools(onDataRefresh) {
       badge.title = meta.synced_at ? `Dataset synced ${formatFreshness(meta.synced_at)}` : "Local RCU export";
     }
   } catch {
-    /* static hosting — no local API */
+    /* static hosting - no local API */
   }
 }
 
@@ -320,7 +320,7 @@ function populateCardContent(moment, cardEl, { onRelatedSelect } = {}) {
     thumb.style.display = "block";
     watch.href = moment.url || `https://www.youtube.com/watch?v=${moment.youtube_id}`;
     watch.style.display = "inline-block";
-    watch.textContent = `${formatViews(moment.view_count)} — open video`;
+    watch.textContent = `${formatViews(moment.view_count)} - open video`;
     watch.onclick = (e) => {
       e.preventDefault();
       embed.classList.add("active");
@@ -415,8 +415,8 @@ function buildStats(data) {
     .join("<br>");
   const synced = formatFreshness(data.rcu_meta?.synced_at || data.updated_at);
   el.innerHTML = `<strong>RCU dataset</strong>
-    ${rcu.moments ?? stats.official_video_count ?? "—"} helix moments<br>
-    ${rcu.videos_in_db ?? "—"} videos · ${rcu.entities ?? "—"} entities · ${rcu.relations ?? "—"} links<br>
+    ${rcu.moments ?? stats.official_video_count ?? "-"} helix moments<br>
+    ${rcu.videos_in_db ?? "-"} videos · ${rcu.entities ?? "-"} entities · ${rcu.relations ?? "-"} links<br>
     ${formatViews(stats.total_views_sampled)} sampled reach<br>
     ${synced ? `Synced ${synced}<br>` : ""}<br>${top}`;
 }

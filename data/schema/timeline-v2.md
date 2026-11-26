@@ -22,8 +22,8 @@
 | `title`, `summary` | string | short card text |
 | `youtube_id`, `url`, `thumbnail` | optional | music |
 | `view_count`, `views_per_day`, `era`, `rcu_tier` | optional | music |
-| `importance`, `importance_score` | number | 0–1 |
-| `t` | number | 0–1 position on axis |
+| `importance`, `importance_score` | number | 0-1 |
+| `t` | number | 0-1 position on axis |
 | `provenance` | object | RCU ids |
 | `related` | `{id, rel_type, title?}[]` | lore edges |
 | `detail_path` | string | e.g. `data/moments/mv-xxx.json` |

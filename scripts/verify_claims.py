@@ -168,7 +168,7 @@ def base_verification(
         if moment.get("source_ids") or source_rows_resolved or has_strong_sources(source_rows_resolved):
             return {
                 "status": "verified",
-                "label": "Curated — cited source",
+                "label": "Curated - cited source",
                 "notes": "Hand-curated moment with RCU source ids.",
                 "checked_at": checked_at,
                 "sources": source_rows_resolved,
@@ -262,7 +262,7 @@ def apply_denials(
             mid = m["id"]
             v = verifications[mid]
             v["status"] = "disputed"
-            v["label"] = denial.get("label") or "Disputed — denial on record"
+            v["label"] = denial.get("label") or "Disputed - denial on record"
             entry = {
                 "type": "denial",
                 "denied_by": denial.get("denied_by"),
@@ -296,7 +296,7 @@ def slim_verification(full: dict) -> dict:
 
 def main() -> None:
     if not TIMELINE_PATH.is_file():
-        raise SystemExit(f"Missing {TIMELINE_PATH} — run build_from_rcu.py first")
+        raise SystemExit(f"Missing {TIMELINE_PATH} - run build_from_rcu.py first")
 
     timeline = load_json(TIMELINE_PATH)
     moments: list[dict] = timeline.get("moments") or []
@@ -404,7 +404,7 @@ def main() -> None:
         "rcu_db": str(RCU_DB),
         "rules": [
             "music_video+youtube_id -> verified (Official release)",
-            "curated id + source_ids -> verified (Curated — cited source)",
+            "curated id + source_ids -> verified (Curated - cited source)",
             "life_events wiki-only or no event_sources -> unproven (Unproven - Site source)",
             "provenance.inferred_date -> unproven",
             "duplicate normalized title across different years -> conflict",
@@ -423,7 +423,7 @@ def main() -> None:
     save_json(REPORT_PATH, report)
 
     print(
-        f"verify_claims: {len(moments)} moments — "
+        f"verify_claims: {len(moments)} moments - "
         f"{rule_hits.get('verified', 0)} verified, "
         f"{rule_hits.get('unproven', 0)} unproven, "
         f"{rule_hits.get('conflict', 0)} conflict, "

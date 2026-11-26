@@ -15,6 +15,6 @@ Site palette aligned to reference: strand A `#22d3ee`, strand B `#e879f9`, rungs
 
 ## Hybrid render stack (2026)
 
-1. **Solid tubes + rungs** — `helix-geometry.js` (glass shader on strands, physical material rungs).
-2. **Wisp particles** — halo-only strands and rung halos in `particle-helix.js`.
-3. **Flow** — shader bands + curve streams + Rad Key trail; see [REF-FLOW.md](./REF-FLOW.md) for tiers and tuning.
+1. **Solid tubes + rungs** - `helix-geometry.js` (glass shader on strands, physical material rungs).
+2. **Wisp particles** - halo-only strands and rung halos in `particle-helix.js`.
+3. **Flow** - shader bands + curve streams + Rad Key trail; see [REF-FLOW.md](./REF-FLOW.md) for tiers and tuning.

@@ -1,5 +1,5 @@
 /**
- * Optional Phase 2 API — search + meta + moment detail at same origin as Pages.
+ * Optional Phase 2 API - search + meta + moment detail at same origin as Pages.
  * Static site works without this worker (client uses search-index.json).
  */
 

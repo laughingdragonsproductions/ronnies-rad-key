@@ -15,7 +15,7 @@ DATA = ROOT / "site" / "data"
 def _norm_song(title: str | None) -> str:
     t = (title or "").lower()
     t = re.sub(r"\([^)]*\)", "", t)
-    t = re.sub(r"^[\s\"']*falling in reverse\s*[-–—]?\s*", "", t)
+    t = re.sub(r"^[\s\"']*falling in reverse\s*[\-\u2013\u2014]?\s*", "", t)
     t = re.sub(r"[\"'“”‘’]", "", t)
     t = re.sub(r"[^a-z0-9]+", " ", t).strip()
     return t
@@ -25,7 +25,7 @@ def main() -> int:
     errors: list[str] = []
     tl_path = DATA / "timeline.json"
     if not tl_path.exists():
-        errors.append("missing site/data/timeline.json — run build_from_rcu.py")
+        errors.append("missing site/data/timeline.json - run build_from_rcu.py")
     else:
         tl = json.loads(tl_path.read_text(encoding="utf-8"))
         if tl.get("schema_version") != 2:

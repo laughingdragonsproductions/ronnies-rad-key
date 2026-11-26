@@ -1,6 +1,6 @@
 # Ronnie's Rad Key
 
-Interactive DNA timeline for Ronnie Radke — life strand + music video strand. Data merges [RCU Universe](G:\LocalAIagent\rcu-universe) releases with curated biography moments.
+Interactive DNA timeline for Ronnie Radke - life strand + music video strand. Data merges [RCU Universe](G:\LocalAIagent\rcu-universe) releases with curated biography moments.
 
 ## First setup (RCU → Rad Key → browser)
 
@@ -20,7 +20,7 @@ Without auto-starting the server:
 
 Open **http://127.0.0.1:8790/** (dev app serves `site/` at the root).
 
-**RCU pipeline** (research map, wiki, collect) lives at `G:\LocalAIagent\rcu-universe\` — see that README. Rad Key only **reads** `rcu.sqlite` at build time.
+**RCU pipeline** (research map, wiki, collect) lives at `G:\LocalAIagent\rcu-universe\` - see that README. Rad Key only **reads** `rcu.sqlite` at build time.
 
 ## Quick start (already built)
 

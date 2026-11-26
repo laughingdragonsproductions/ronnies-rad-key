@@ -2,12 +2,12 @@
 
 ## Intended look
 
-- **Solid glass strands and rungs** (`helix-geometry.js`) — structure reads without particles.
-- **Shader flow** on strands — soft luminous bands moving along the tube (timeline direction).
-- **Stream particles** (`particle-flow.js`) — points advect with `curve.getPointAt(along)` on both strands.
-- **Rad Key trail** — additive burst at `progressToX(progress)` when scrub velocity is high or canvas scrub is active.
+- **Solid glass strands and rungs** (`helix-geometry.js`) - structure reads without particles.
+- **Shader flow** on strands - soft luminous bands moving along the tube (timeline direction).
+- **Stream particles** (`particle-flow.js`) - points advect with `curve.getPointAt(along)` on both strands.
+- **Rad Key trail** - additive burst at `progressToX(progress)` when scrub velocity is high or canvas scrub is active.
 
-Reference clip (local): `hi.mp4` under Music storyboard `snippet-4bar/Best images/` — copy here and extract frames when tuning speed.
+Reference clip (local): `hi.mp4` under Music storyboard `snippet-4bar/Best images/` - copy here and extract frames when tuning speed.
 
 ## Tuning knobs
 
@@ -22,9 +22,9 @@ Reference clip (local): `hi.mp4` under Music storyboard `snippet-4bar/Best image
 
 ## Quality tiers (`helix-quality.js`)
 
-- **high** — full flow shader, streams, trail.
-- **medium** — slower flow, fewer streams, limited trail (narrow viewport or ≤4 cores).
-- **low** — `prefers-reduced-motion` or degraded after sustained slow frames: no flow motion, no streams/trail; solids + static wisps remain.
+- **high** - full flow shader, streams, trail.
+- **medium** - slower flow, fewer streams, limited trail (narrow viewport or ≤4 cores).
+- **low** - `prefers-reduced-motion` or degraded after sustained slow frames: no flow motion, no streams/trail; solids + static wisps remain.
 
 ## Degrade path (frame watchdog)
 
