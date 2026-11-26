@@ -109,6 +109,7 @@ export function createHelix(options) {
     onSelect,
     onHover,
     onViewModeChange,
+    featuredMomentId = null,
   } = options;
 
   const renderer = new THREE.WebGLRenderer({
@@ -172,6 +173,9 @@ export function createHelix(options) {
         : 0.6 + imp * 0.5;
     if (!isMusic) {
       viewScale = Math.max(viewScale, 0.72 + imp * 0.35);
+    }
+    if (featuredMomentId && m.id === featuredMomentId) {
+      viewScale *= 1.24;
     }
     const color =
       m.strand === "music" || m.category === "music_video"

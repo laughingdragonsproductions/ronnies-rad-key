@@ -898,6 +898,7 @@ def main() -> None:
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "eras": cfg["eras"],
         "tattoo_eras": cfg["tattoo_eras"],
+        "featured_moment_id": cfg.get("featured_moment_id"),
         "rcu_meta": rcu_meta,
         "stats": {
             "official_video_count": official_mv,

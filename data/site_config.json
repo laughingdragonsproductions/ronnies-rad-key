@@ -69,6 +69,7 @@
       "canonical"
     ],
     "max_lore_summary_chars": 600,
+    "featured_moment_id": "music-joseph",
     "excluded_moment_ids": [
       "legal-2012-charge",
       "legal-2014-charge",

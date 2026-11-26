@@ -597,6 +597,7 @@ export async function initTimelineApp() {
       eras: data.eras,
       yearMin: data.year_min,
       yearMax: data.year_max,
+      featuredMomentId: data.featured_moment_id || null,
       viewMode,
       onProgress(_p, year) {
         yearDisplay.textContent = Math.round(year);
@@ -612,7 +613,9 @@ export async function initTimelineApp() {
       },
       onHover(m) {
         if (m && !card.classList.contains("visible")) {
-          yearDisplay.textContent = m.year;
+          const label = m.title ? `${m.year} · ${m.title}` : String(m.year);
+          yearDisplay.textContent =
+            label.length > 52 ? `${label.slice(0, 49)}…` : label;
         }
       },
       onViewModeChange(mode) {
@@ -716,6 +719,11 @@ export async function initTimelineApp() {
   slider.value = String(startP * 100);
   yearDisplay.textContent = String(startYear);
   backdropCtl.update(startYear);
+
+  const hashId = (location.hash || "").replace(/^#/, "").trim();
+  if (hashId && momentById.has(hashId)) {
+    pickMoment(hashId);
+  }
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
