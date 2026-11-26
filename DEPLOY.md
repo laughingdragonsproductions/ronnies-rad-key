@@ -65,6 +65,7 @@ Outputs land in `site/data/` (`timeline.json`, `search-index.json`, `rcu-meta.js
 - Animations (Three.js helix, card materialize) run fully on static hosting; no server API required.
 - **Project root for Pages:** `site/`
 - **Custom domain:** attach with `py -3 scripts/cloudflare_pages_domain.py` after the Pages project exists
+- **DNS (apex + www):** `py -3 scripts/cloudflare_dns_pages.py` - CNAME both to `ronnies-rad-key.pages.dev` (proxied). Requires API token with **DNS Edit** for the zone (Wrangler OAuth alone may fail).
 - **Long-lived CI token:** `py -3 scripts/create_cloudflare_api_token.py` (Chrome Profile 8), then `gh secret set CLOUDFLARE_API_TOKEN`
 - **Build command:** none (pre-built JSON committed or built in CI)
 - **GitHub Actions:** `.github/workflows/deploy-pages.yml` (uses `cloudflare/wrangler-action` → `pages deploy site`)
