@@ -6,7 +6,7 @@
     "summary": "Artist: Falling In Reverse Song: The Drug In Me Is Reimagined (W/ LYRICS) #FallingInReverse #TheDrugInMeIsReimaginedLyrics #FallingInReverseLyrics",
     "year": 2020,
     "strand": "music",
-    "category": "music_video",
+    "category": "extra",
     "youtube_id": "Y4ilUrpq05A",
     "url": "https://www.youtube.com/watch?v=Y4ilUrpq05A",
     "view_count": 44085,
@@ -51,9 +51,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.184972+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.502439+00:00",
     "sources": [],
     "conflicts": []
   }

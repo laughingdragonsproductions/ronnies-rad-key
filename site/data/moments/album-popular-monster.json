@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "id": "fill-solo-watch-me-2014",
+  "id": "album-popular-monster",
   "timeline": {
-    "title": "Solo & Watch Me era begins",
-    "summary": "YouTube channel and solo drops expand beyond the band discography.",
-    "year": 2014,
+    "title": "Popular Monster (album)",
+    "summary": "Falling in Reverse releases the album Popular Monster on Epitaph Records.",
+    "year": 2024,
     "strand": "life",
     "category": "career",
     "youtube_id": null,
@@ -25,7 +25,7 @@
     "status": "unproven",
     "label": "Unproven - Site source",
     "notes": "No strong verification rule matched.",
-    "checked_at": "2026-10-09T21:24:51.059541+00:00",
+    "checked_at": "2026-11-26T19:45:30.507631+00:00",
     "sources": [],
     "conflicts": []
   }

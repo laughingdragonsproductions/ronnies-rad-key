@@ -6,6 +6,7 @@ let overlayCanvas = null;
 let overlayCtx = null;
 let rafId = 0;
 let activeRun = 0;
+let detachedRung = null;
 
 function ensureOverlay() {
   if (overlayCanvas?.isConnected) return overlayCanvas;
@@ -27,138 +28,126 @@ function resizeOverlay() {
   if (overlayCtx) overlayCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
 }
 
-function hexToRgb(hex) {
-  const h = hex.replace("#", "");
-  const n = parseInt(h.length === 3 ? h.split("").map((c) => c + c).join("") : h, 16);
-  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
-}
-
-function pickColor(palette) {
-  return palette[Math.floor(Math.random() * palette.length)];
-}
-
 export function prefersReducedCardMotion() {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
 
-/**
- * @param {object} opts
- * @param {number} opts.fromX screen px
- * @param {number} opts.fromY screen px
- * @param {DOMRect} opts.toRect card getBoundingClientRect()
- * @param {string[]} [opts.colors]
- * @param {() => void} [opts.onPeak] ~65% — reveal card
- * @param {() => void} [opts.onComplete]
- */
-export function materializeCardReveal(opts) {
-  const {
-    fromX,
-    fromY,
-    toRect,
-    colors = COLORS_DEFAULT,
-    onPeak,
-    onComplete,
-  } = opts;
+const TAU = 2 * Math.PI;
+const mix = (a, b, t) => a + (b - a) * t;
+function ease(start, end, t) {
+  const u = Math.max(0, Math.min(1, (t - start) / (end - start)));
+  return u * u * (3 - 2 * u);
+}
 
-  const runId = ++activeRun;
+// Each ribbon traces half the perimeter. Both meet at opposite corners.
+function edge(rect, u, side) {
+  const distance = u * (rect.width + rect.height);
+  let x = Math.min(rect.width, distance);
+  let y = Math.max(0, distance - rect.width);
+  if (side) {
+    x = rect.width - x;
+    y = rect.height - y;
+  }
+  return [rect.left + x, rect.top + y];
+}
+
+export function materializeCardReveal({ fromX, fromY, rung, toRect, colors = COLORS_DEFAULT, onPeak, onComplete }) {
+  cancelCardMaterialize();
+  const run = activeRun;
   ensureOverlay();
   resizeOverlay();
-  overlayCanvas.classList.add("active");
-
-  const targetX = toRect.left + toRect.width / 2;
-  const targetY = toRect.top + toRect.height * 0.35;
-  const count = window.innerWidth < 640 ? 72 : 120;
-  const particles = [];
-
-  for (let i = 0; i < count; i++) {
-    const angle = Math.random() * Math.PI * 2;
-    const r = Math.random() * 28;
-    const rgb = hexToRgb(pickColor(colors));
-    particles.push({
-      x: fromX + Math.cos(angle) * r,
-      y: fromY + Math.sin(angle) * r,
-      vx: (Math.random() - 0.5) * 1.2,
-      vy: (Math.random() - 0.5) * 1.2,
-      tx: targetX + (Math.random() - 0.5) * toRect.width * 0.55,
-      ty: targetY + (Math.random() - 0.5) * toRect.height * 0.45,
-      life: 0.35 + Math.random() * 0.65,
-      size: 1.2 + Math.random() * 2.8,
-      rgb,
-      delay: Math.random() * 0.12,
-    });
+  const ctx = overlayCtx;
+  if (!ctx) {
+    onPeak?.();
+    onComplete?.();
+    return;
   }
-
-  const durationMs = 820;
-  const peakAt = 0.58;
-  let peakFired = false;
-  const start = performance.now();
-
-  cancelAnimationFrame(rafId);
+  overlayCanvas.classList.add("active");
+  const w = window.innerWidth;
+  const h = window.innerHeight;
+  const targetX = toRect.left + toRect.width / 2;
+  const targetY = toRect.top + toRect.height / 2;
+  let start = { x: fromX, y: fromY - 18 };
+  let end = { x: fromX, y: fromY + 18 };
+  const startTime = performance.now();
+  let revealed = false;
+  let released = false;
+  detachedRung = rung ?? null;
 
   function frame(now) {
-    if (runId !== activeRun) return;
-    const t = Math.min(1, (now - start) / durationMs);
-    const ctx = overlayCtx;
-    const w = window.innerWidth;
-    const h = window.innerHeight;
+    if (run !== activeRun) return;
+    const elapsed = now - startTime;
+    const peelMs = rung ? 390 : 0;
+    if (rung && !released) {
+      const progress = Math.min(1, elapsed / peelMs);
+      [start, end] = rung.pose(ease(0, 0.9, progress), ease(0.42, 1, progress));
+      if (progress < 1) {
+        rafId = requestAnimationFrame(frame);
+        return;
+      }
+      rung.hide();
+      released = true;
+    }
+    const t = Math.min(1, Math.max(0, elapsed - peelMs) / 2050);
+    const centerX = (start.x + end.x) / 2;
+    const centerY = (start.y + end.y) / 2;
+    const open = ease(0, 0.36, t);
+    const fold = ease(0.38, 0.84, t);
+    const travel = ease(0.04, 0.73, t);
+    const alpha = 1 - ease(0.83, 1, t);
     ctx.clearRect(0, 0, w, h);
+    ctx.globalCompositeOperation = "lighter";
 
-    if (t >= peakAt && !peakFired) {
-      peakFired = true;
+    for (let side = 0; side < 2; side++) {
+      const tint = side ? "#ee9bd0" : "#91e6f5";
+      for (let fiber = -3; fiber <= 3; fiber++) {
+        ctx.beginPath();
+        for (let i = 0; i <= 96; i++) {
+          const u = i / 96;
+          const phase = u * TAU * 1.6 - t * 5 + side * Math.PI;
+          const twist = Math.sin(phase);
+          const offset = fiber * (0.8 + 2.4 * Math.cos(phase) ** 2);
+          const unfurl = ease(0, 0.37, t - 0.055 * (1 - u));
+          const x = mix(start.x, end.x, u) + (targetX - centerX) * travel
+            + unfurl * Math.min(w * 0.29, 380) * ((u - 0.5) * 1.65 + 0.32 * Math.sin(phase * 2));
+          const y = mix(start.y, end.y, u) + (targetY - centerY) * travel
+            + unfurl * (Math.min(h * 0.17, 122) * twist + offset);
+          const [ex, ey] = edge(toRect, u, side);
+          const px = mix(x, ex, fold);
+          const py = mix(y, ey, fold);
+          if (!i) ctx.moveTo(px, py);
+          else ctx.lineTo(px, py);
+          if (fiber === 2 && i % 2 === 0) {
+            const drift = Math.sin(i * 41 + side) * open * (1 - fold * 0.89);
+            ctx.fillStyle = tint;
+            ctx.globalAlpha = alpha * 0.66;
+            ctx.fillRect(px + 18 * drift, py + 13 * drift * Math.cos(i), 1.4, 1.4);
+          }
+        }
+        ctx.globalAlpha = alpha * (fiber === 0 && !side ? 0.88 : open * (fiber === 0 ? 0.88 : 0.25)) / (1 + fold * 2);
+        ctx.lineWidth = fiber === 0 ? 1.8 : 1;
+        ctx.strokeStyle = fiber === 0 && !side ? colors[0] : tint;
+        ctx.stroke();
+      }
+    }
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = "source-over";
+    if (t >= 0.74 && !revealed) {
+      revealed = true;
       onPeak?.();
     }
-
-    let alive = 0;
-    for (const p of particles) {
-      const pt = Math.max(0, (t - p.delay) / (1 - p.delay));
-      if (pt <= 0) {
-        alive += 1;
-        continue;
-      }
-      const ease = pt * pt * (3 - 2 * pt);
-      p.x += (p.tx - p.x) * (0.08 + ease * 0.14);
-      p.y += (p.ty - p.y) * (0.08 + ease * 0.14);
-      p.x += p.vx * (1 - ease);
-      p.y += p.vy * (1 - ease);
-      const alpha = p.life * (1 - Math.max(0, (pt - 0.72) / 0.28));
-      if (alpha < 0.02) continue;
-      alive += 1;
-      const g = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.size * 3.5);
-      g.addColorStop(0, `rgba(${p.rgb[0]},${p.rgb[1]},${p.rgb[2]},${alpha})`);
-      g.addColorStop(0.35, `rgba(${p.rgb[0]},${p.rgb[1]},${p.rgb[2]},${alpha * 0.45})`);
-      g.addColorStop(1, "rgba(0,0,0,0)");
-      ctx.fillStyle = g;
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, p.size * 3.5, 0, Math.PI * 2);
-      ctx.fill();
-    }
-
-    if (t > peakAt) {
-      const glow = (t - peakAt) / (1 - peakAt);
-      const gx = targetX;
-      const gy = targetY;
-      const gr = Math.max(toRect.width, toRect.height) * (0.35 + glow * 0.25);
-      const gg = ctx.createRadialGradient(gx, gy, 0, gx, gy, gr);
-      gg.addColorStop(0, `rgba(251, 191, 36, ${0.22 * (1 - glow * 0.5)})`);
-      gg.addColorStop(0.4, `rgba(34, 211, 238, ${0.12 * (1 - glow * 0.6)})`);
-      gg.addColorStop(1, "rgba(0,0,0,0)");
-      ctx.fillStyle = gg;
-      ctx.fillRect(gx - gr, gy - gr, gr * 2, gr * 2);
-    }
-
-    if (t < 1 || alive > 0) {
-      rafId = requestAnimationFrame(frame);
-    } else {
+    if (t < 1) rafId = requestAnimationFrame(frame);
+    else {
       overlayCanvas.classList.remove("active");
-      ctx.clearRect(0, 0, w, h);
       onComplete?.();
     }
   }
-
   rafId = requestAnimationFrame(frame);
 }
 
 export function cancelCardMaterialize() {
+  detachedRung?.restore();
+  detachedRung = null;
   activeRun += 1;
   cancelAnimationFrame(rafId);
   if (overlayCanvas) {

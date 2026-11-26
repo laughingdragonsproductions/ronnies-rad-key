@@ -6,7 +6,7 @@
     "summary": "Official release: Trigger Warning.",
     "year": 2024,
     "strand": "music",
-    "category": "music_video",
+    "category": "audio",
     "youtube_id": "ybmwImclRBo",
     "url": "https://www.youtube.com/watch?v=ybmwImclRBo",
     "view_count": 2708911,
@@ -58,9 +58,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.391861+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.507946+00:00",
     "sources": [],
     "conflicts": []
   }

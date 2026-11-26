@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T21:24:51.512479+00:00",
+  "generated_at": "2026-11-26T19:45:30.555014+00:00",
   "rcu_db": "G:\\LocalAIagent\\rcu-universe\\data\\rcu.sqlite",
   "rules": [
     "music_video+youtube_id -> verified (Official release)",
@@ -11,7 +11,7 @@
     "data/verification_denials.json denials -> disputed + conflicts[]"
   ],
   "counts_by_status": {
-    "verified": 75,
+    "verified": 64,
     "unproven": 31
   },
   "examples": {

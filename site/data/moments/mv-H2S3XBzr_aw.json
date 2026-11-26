@@ -6,7 +6,7 @@
     "summary": "Official release: Straight To Hell.",
     "year": 2017,
     "strand": "music",
-    "category": "music_video",
+    "category": "audio",
     "youtube_id": "H2S3XBzr_aw",
     "url": "https://www.youtube.com/watch?v=H2S3XBzr_aw",
     "view_count": 1761019,
@@ -52,9 +52,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.106761+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.500104+00:00",
     "sources": [],
     "conflicts": []
   }

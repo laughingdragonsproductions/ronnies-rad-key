@@ -6,7 +6,7 @@
     "summary": "Source: Ronnie Radke on Twitter, adding: \"not lip syncing I swear\", https://twitter.com/RonnieRadke/status/1664319163240792064 ABOUT \"The Power Hour\" episodes: https://usrockermusic.com/2023/04/27/sunday-night-rocks-lineup-the-power-hour-on-axs-gets-seven-more-episodes/ FALLING",
     "year": 2023,
     "strand": "music",
-    "category": "music_video",
+    "category": "extra",
     "youtube_id": "zX_FrxWlnUQ",
     "url": "https://www.youtube.com/watch?v=zX_FrxWlnUQ",
     "view_count": 2337,
@@ -51,9 +51,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.288261+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.505705+00:00",
     "sources": [],
     "conflicts": []
   }

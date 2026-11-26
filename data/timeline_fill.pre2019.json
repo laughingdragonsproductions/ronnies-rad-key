@@ -76,13 +76,14 @@
     },
     {
       "id": "fill-etf-ep-2005",
-      "year": 2005,
-      "month": 9,
+      "year": 2006,
+      "month": 5,
       "strand": "life",
       "category": "career",
-      "title": "There's No Sympathy for the Dead EP (2005)",
-      "summary": "Early ETF EP cycle — studio work that feeds the debut album sessions.",
-      "importance": 0.52
+      "title": "There's No Sympathy for the Dead EP",
+      "summary": "Escape the Fate releases its five-track debut EP on Epitaph.",
+      "importance": 0.52,
+      "day": 23
     },
     {
       "id": "fill-etf-touring-2007",

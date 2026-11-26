@@ -6,7 +6,7 @@
     "summary": "Jacoby Shaddix of Papa Roach reacts to @FallingInReverse - \"Last Resort (Reimagined)\" Watch The Original Video: https://youtu.be/ESOjt2_yJrU Stream & Download: https://fallinginreverse.ffm.to/lastresort Lyrics Cut my life into pieces This is my last resort Suffocation, no breat",
     "year": 2023,
     "strand": "music",
-    "category": "music_video",
+    "category": "extra",
     "youtube_id": "BnTDlaXxRrE",
     "url": "https://www.youtube.com/watch?v=BnTDlaXxRrE",
     "view_count": 2643070,
@@ -51,9 +51,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.299499+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.506027+00:00",
     "sources": [],
     "conflicts": []
   }

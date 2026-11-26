@@ -17,9 +17,9 @@
     "summary": "{'name': 'Ronnie Radke', 'description': 'Lead vocalist and frontman of Falling in Reverse', 'entity_slug': 'ronnie-radke'} personal struggle resilience confrontation",
     "related": [
       {
-        "id": "music-bad-girls-club",
+        "id": "mv-vdaKzHPG4_0",
         "rel_type": "callback",
-        "title": "Bad Girls Club"
+        "title": "⁠@FallingInReverse BEHIND THE SCENES ​⁠/ FULL MAKEUP \"Watch the World Burn\" ​VIDEO #devil #mask"
       }
     ]
   },
@@ -91,7 +91,7 @@
     "status": "verified",
     "label": "Official release",
     "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.261932+00:00",
+    "checked_at": "2026-11-26T19:45:30.504718+00:00",
     "sources": [
       {
         "source_id": "release-epitaph"

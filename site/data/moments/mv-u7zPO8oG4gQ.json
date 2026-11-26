@@ -6,7 +6,7 @@
     "summary": "*Compilation of BTS videos uploaded by producer Tanner Gordon on Instagram (@tanner_gordon) https://www.instagram.com/p/CoiFDG8vcq1/, https://www.instagram.com/p/CoJG0oDL2VN/, https://www.instagram.com/p/CoRRdYasEgw/, FALLING IN REVERSE is getting ON TOUR with DISTURBED between -",
     "year": 2023,
     "strand": "music",
-    "category": "music_video",
+    "category": "extra",
     "youtube_id": "u7zPO8oG4gQ",
     "url": "https://www.youtube.com/watch?v=u7zPO8oG4gQ",
     "view_count": 45074,
@@ -72,9 +72,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.268406+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.504880+00:00",
     "sources": [],
     "conflicts": []
   }

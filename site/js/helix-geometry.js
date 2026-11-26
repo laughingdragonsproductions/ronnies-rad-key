@@ -32,18 +32,14 @@ varying vec2 vUv;
 varying vec3 vNormalW;
 varying vec3 vViewDir;
 
-float hash(vec2 p) {
-  return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453);
-}
-
 void main() {
   float fresnel = pow(1.0 - max(dot(normalize(vNormalW), normalize(vViewDir)), 0.0), 2.2);
-  float along = vUv.y;
+  float along = vUv.x;
   float band = fract(along * uFlowRepeat - uTime * uFlowSpeed);
   float pulse = smoothstep(0.0, 0.12, band) * (1.0 - smoothstep(0.22, 0.45, band));
   pulse += smoothstep(0.55, 0.68, band) * (1.0 - smoothstep(0.72, 0.88, band)) * 0.45;
-  float n = hash(vec2(along * 40.0, uTime * 0.2)) * 0.08;
-  vec3 emissive = uBaseColor * (0.55 + fresnel * 0.85 + pulse * uFlowStrength + n);
+  float filament = pow(abs(cos(vUv.y * 25.1327 + along * 18.0)), 12.0);
+  vec3 emissive = uBaseColor * (0.09 + fresnel * 0.85 + filament * 0.45 + pulse * uFlowStrength * 0.45);
   float alpha = uOpacity * (0.72 + fresnel * 0.28);
   gl_FragColor = vec4(emissive, alpha);
 }
@@ -66,20 +62,16 @@ function createStrandGlassMaterial(baseColorHex) {
     fragmentShader: GLASS_FRAG,
     transparent: true,
     depthWrite: true,
-    side: THREE.DoubleSide,
+    side: THREE.FrontSide,
   });
 }
 
 function getRungGlassMaterial() {
   if (!sharedRungGlassMaterial) {
-    sharedRungGlassMaterial = new THREE.MeshPhysicalMaterial({
+    sharedRungGlassMaterial = new THREE.MeshBasicMaterial({
       color: 0xffffff,
-      emissive: 0xffffff,
-      emissiveIntensity: 0.85,
-      metalness: 0.15,
-      roughness: 0.35,
       transparent: true,
-      opacity: 0.92,
+      opacity: 0.53,
       depthWrite: true,
       vertexColors: true,
     });
@@ -103,7 +95,7 @@ export function sampleHelixCurve(helixPointFn, phase, helixLength, segments = 40
 
 export function buildSolidStrand(curve, colorHex, opts = {}) {
   const tubularSegments = opts.tubularSegments ?? 160;
-  const radius = opts.radius ?? 0.11;
+  const radius = opts.radius ?? 0.078;
   const radialSegments = opts.radialSegments ?? 12;
   const geo = new THREE.TubeGeometry(curve, tubularSegments, radius, radialSegments, false);
   const mat = createStrandGlassMaterial(colorHex);
@@ -138,7 +130,7 @@ function setGeometryVertexColor(geo, colorHex) {
 /** Solid rung: outer glass cylinder + brighter inner core. */
 export function buildSolidRung(from, to, colorHex, scale) {
   const group = new THREE.Group();
-  const outerR = Math.max(0.045, 0.052 * scale);
+  const outerR = Math.max(0.018, 0.029 * scale);
   const innerR = outerR * 0.55;
   const hitLen = new THREE.Vector3().subVectors(to, from).length();
 

@@ -6,7 +6,7 @@
     "summary": "Official release: I Don't Mind.",
     "year": 2017,
     "strand": "music",
-    "category": "music_video",
+    "category": "audio",
     "youtube_id": "3_QB87vt4i0",
     "url": "https://www.youtube.com/watch?v=3_QB87vt4i0",
     "view_count": 1983160,
@@ -52,9 +52,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.117044+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.500411+00:00",
     "sources": [],
     "conflicts": []
   }

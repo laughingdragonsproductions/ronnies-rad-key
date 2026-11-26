@@ -288,11 +288,52 @@ def wiki_event_is_superseded(event_id: str, moments: dict[str, dict], rules: lis
     return False
 
 
+_DERIVATIVE_MV_MARKERS = (
+    "behind the scenes",
+    "bts",
+    "lyric video",
+    "lyrics video",
+    "lyric visualizer",
+    "lyrics visualizer",
+    "visualizer",
+    "audio visualizer",
+    "karaoke",
+    "official video 2",
+    "reacts",
+    "reaction",
+    "live in ",
+    "live at ",
+)
+
+
 def norm_song_title(title: str | None) -> str:
+    """Canonical song key for deduping official MV vs BTS/lyric uploads."""
     t = (title or "").lower()
     t = re.sub(r"\([^)]*\)", "", t)
+    t = re.sub(r"^[\s\"']*falling in reverse\s*[-–—]?\s*", "", t)
+    t = re.sub(r"[\"'“”‘’]", "", t)
+    for marker in _DERIVATIVE_MV_MARKERS:
+        t = t.replace(marker, " ")
+    t = re.sub(r"\b(feat|ft)\b.*$", "", t)
     t = re.sub(r"[^a-z0-9]+", " ", t).strip()
     return t
+
+
+def is_derivative_mv_title(title: str | None) -> bool:
+    t = (title or "").lower()
+    return any(m in t for m in _DERIVATIVE_MV_MARKERS)
+
+
+def _music_moment_rank(item: tuple[str, dict]) -> tuple:
+    mid, m = item
+    prov = m.get("provenance") or {}
+    return (
+        0 if mid.startswith("music-") else 1 if mid.startswith("mv-") else 2,
+        0 if prov.get("release_id") else 1,
+        0 if not is_derivative_mv_title(m.get("title")) else 1,
+        -(m.get("view_count") or 0),
+        -(m.get("importance") or 0),
+    )
 
 
 def dedupe_timeline_moments(moments: dict[str, dict]) -> dict[str, dict]:
@@ -319,15 +360,32 @@ def dedupe_timeline_moments(moments: dict[str, dict]) -> dict[str, dict]:
     for group in music_groups.values():
         if len(group) < 2:
             continue
-        group.sort(
-            key=lambda item: (
-                0 if not item[0].startswith("mv-") else 1,
-                -(item[1].get("view_count") or 0),
-                -(item[1].get("importance") or 0),
-            )
-        )
+        group.sort(key=_music_moment_rank)
         for mid, _ in group[1:]:
             drop.add(mid)
+
+    # Same song title across nearby years: drop derivative uploads when a canonical rung exists.
+    by_song: dict[str, list[tuple[str, dict]]] = defaultdict(list)
+    for mid, m in moments.items():
+        if mid in drop:
+            continue
+        if m.get("category") != "music_video" and m.get("strand") != "music":
+            continue
+        norm = norm_song_title(m.get("title"))
+        if norm:
+            by_song[norm].append((mid, m))
+    for group in by_song.values():
+        if len(group) < 2:
+            continue
+        group.sort(key=_music_moment_rank)
+        keeper_year = group[0][1].get("year")
+        for mid, m in group[1:]:
+            if is_derivative_mv_title(m.get("title")):
+                drop.add(mid)
+                continue
+            y = m.get("year")
+            if keeper_year is not None and y is not None and abs(int(y) - int(keeper_year)) <= 1:
+                drop.add(mid)
 
     by_youtube: dict[str, list[tuple[str, dict]]] = defaultdict(list)
     for mid, m in moments.items():
@@ -339,12 +397,7 @@ def dedupe_timeline_moments(moments: dict[str, dict]) -> dict[str, dict]:
     for group in by_youtube.values():
         if len(group) < 2:
             continue
-        group.sort(
-            key=lambda item: (
-                0 if not item[0].startswith("mv-") else 1,
-                -(item[1].get("view_count") or 0),
-            )
-        )
+        group.sort(key=_music_moment_rank)
         for mid, _ in group[1:]:
             drop.add(mid)
 
@@ -652,7 +705,23 @@ def main() -> None:
         eid = (m.get("provenance") or {}).get("event_id")
         m["summary"] = finalize_moment_summary(raw_sum, eid, summary_overrides)
 
+    for mid in cfg["import"].get("excluded_moment_ids", []):
+        moments.pop(mid, None)
     moments = dedupe_timeline_moments(moments)
+    video_metadata = {
+        row["video_id"]: row
+        for row in conn.execute("SELECT video_id, title, channel FROM videos")
+    }
+    for moment in moments.values():
+        row = video_metadata.get(moment.get("youtube_id"))
+        if row is None:
+            continue
+        title = (row["title"] or "").lower()
+        if "full album stream" in title:
+            moment["category"] = "audio"
+        elif (row["channel"] not in {"Epitaph Records", "Falling In Reverse"}
+              or "reacts to" in title or "behind the scenes" in title):
+            moment["category"] = "extra"
 
     video_id_to_moment = {}
     for m in moments.values():

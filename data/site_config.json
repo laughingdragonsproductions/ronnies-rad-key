@@ -8,10 +8,34 @@
   "year_min": 1983,
   "year_max": 2026,
   "eras": [
-    { "id": "etf", "label": "Escape the Fate", "start": 2004, "end": 2008, "color": "#e85d75" },
-    { "id": "fall", "label": "Fall & prison", "start": 2006, "end": 2010, "color": "#8b5cf6" },
-    { "id": "fir-rise", "label": "FIR rise", "start": 2010, "end": 2017, "color": "#22d3ee" },
-    { "id": "cinematic", "label": "Cinematic MV era", "start": 2018, "end": 2026, "color": "#fbbf24" }
+    {
+      "id": "etf",
+      "label": "Escape the Fate",
+      "start": 2004,
+      "end": 2008,
+      "color": "#e85d75"
+    },
+    {
+      "id": "fall",
+      "label": "Fall & prison",
+      "start": 2006,
+      "end": 2010,
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "fir-rise",
+      "label": "FIR rise",
+      "start": 2010,
+      "end": 2017,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "cinematic",
+      "label": "Cinematic MV era",
+      "start": 2018,
+      "end": 2026,
+      "color": "#fbbf24"
+    }
   ],
   "tattoo_eras": [
     {
@@ -37,8 +61,21 @@
     }
   ],
   "import": {
-    "release_tiers": ["epitaph_official"],
-    "video_rcu_tiers": ["core", "canonical"],
-    "max_lore_summary_chars": 600
+    "release_tiers": [
+      "epitaph_official"
+    ],
+    "video_rcu_tiers": [
+      "core",
+      "canonical"
+    ],
+    "max_lore_summary_chars": 600,
+    "excluded_moment_ids": [
+      "legal-2012-charge",
+      "legal-2014-charge",
+      "legal-2015-charge",
+      "life-joseph-2026",
+      "fill-solo-watch-me-2014",
+      "fill-fir-debut-cycle-2011"
+    ]
   }
 }

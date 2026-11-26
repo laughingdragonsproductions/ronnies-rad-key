@@ -13,7 +13,9 @@
       "title": "Born in Las Vegas",
       "summary": "Ronald Joseph Aaron Radke is born in Las Vegas, Nevada.",
       "importance": 0.9,
-      "source_ids": ["wiki-Ronnie_Radke"]
+      "source_ids": [
+        "wiki-Ronnie_Radke"
+      ]
     },
     {
       "id": "life-etf-forms-2004",
@@ -23,7 +25,9 @@
       "title": "Escape the Fate forms",
       "summary": "Radke becomes lead vocalist of Escape the Fate in Las Vegas post-hardcore scene.",
       "importance": 0.85,
-      "source_ids": ["wiki-Ronnie_Radke"]
+      "source_ids": [
+        "wiki-Ronnie_Radke"
+      ]
     },
     {
       "id": "life-diylf-2006",
@@ -33,7 +37,9 @@
       "title": "Dying Is Your Latest Fashion",
       "summary": "Escape the Fate releases debut album on Epitaph; Radke's emo-screamo look defines the era.",
       "importance": 0.8,
-      "source_ids": ["wiki-Escape_the_Fate"]
+      "source_ids": [
+        "wiki-Escape_the_Fate"
+      ]
     },
     {
       "id": "legal-2006-incident",
@@ -43,7 +49,9 @@
       "title": "2006 Las Vegas altercation",
       "summary": "Altercation leads to charges related to brass knuckles; friend fatally shoots Michael Cook in self-defense. Radke receives probation.",
       "importance": 0.95,
-      "source_ids": ["wiki-Falling_in_Reverse"]
+      "source_ids": [
+        "wiki-Falling_in_Reverse"
+      ]
     },
     {
       "id": "legal-2008-arrest",
@@ -54,7 +62,9 @@
       "title": "Probation violation & prison",
       "summary": "Fails to report to probation officer; arrested and sentenced to prison (released 2010).",
       "importance": 0.95,
-      "source_ids": ["wiki-Falling_in_Reverse"]
+      "source_ids": [
+        "wiki-Falling_in_Reverse"
+      ]
     },
     {
       "id": "life-fir-conceived-2008",
@@ -64,7 +74,9 @@
       "title": "Falling in Reverse begins",
       "summary": "FIR forms while Radke is incarcerated; lineup and demos set up the comeback.",
       "importance": 0.9,
-      "source_ids": ["wiki-Falling_in_Reverse"]
+      "source_ids": [
+        "wiki-Falling_in_Reverse"
+      ]
     },
     {
       "id": "life-released-2010",
@@ -74,7 +86,9 @@
       "title": "Released from prison",
       "summary": "Radke is released; begins recording and touring with Falling in Reverse.",
       "importance": 0.85,
-      "source_ids": ["wiki-Falling_in_Reverse"]
+      "source_ids": [
+        "wiki-Falling_in_Reverse"
+      ]
     },
     {
       "id": "life-random-2011",
@@ -84,7 +98,9 @@
       "title": "The Drug in Me Is You",
       "summary": "FIR debut album lands; singles push Radke back into mainstream rock visibility.",
       "importance": 0.75,
-      "source_ids": ["wiki-Falling_in_Reverse"]
+      "source_ids": [
+        "wiki-Falling_in_Reverse"
+      ]
     },
     {
       "id": "life-just-like-you-2015",
@@ -94,7 +110,9 @@
       "title": "Just Like You",
       "summary": "Third FIR album; bridges early post-hardcore sound toward heavier modern production.",
       "importance": 0.6,
-      "source_ids": ["wiki-Falling_in_Reverse"]
+      "source_ids": [
+        "wiki-Falling_in_Reverse"
+      ]
     },
     {
       "id": "life-coming-home-2017",
@@ -104,7 +122,9 @@
       "title": "Coming Home era",
       "summary": "More melodic, cinematic direction before the viral video explosion.",
       "importance": 0.65,
-      "source_ids": ["wiki-Falling_in_Reverse"]
+      "source_ids": [
+        "wiki-Falling_in_Reverse"
+      ]
     },
     {
       "id": "life-losing-my-mind-2018",
@@ -116,7 +136,9 @@
       "importance": 0.7,
       "youtube_id": "2EMst_OFRF8",
       "view_count": 34024614,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "life-popular-monster-era",
@@ -126,7 +148,9 @@
       "title": "Popular Monster — cultural breakout",
       "summary": "Song and video become generational anthem; FIR enters nine-figure view territory.",
       "importance": 1.0,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "life-twitch-rise-2020",
@@ -136,7 +160,9 @@
       "title": "Twitch & direct fan connection",
       "summary": "Regular streaming deepens parasocial reach beyond traditional rock promo cycles.",
       "importance": 0.55,
-      "source_ids": ["wiki-Ronnie_Radke"]
+      "source_ids": [
+        "wiki-Ronnie_Radke"
+      ]
     },
     {
       "id": "life-blastover-start-2021",
@@ -147,7 +173,10 @@
       "title": "Blastover sessions begin",
       "summary": "Major cover-up and blackout tattoo work starts; process shared on Twitch streams.",
       "importance": 0.75,
-      "source_ids": ["wiki-Ronnie_Radke", "rcu-library"]
+      "source_ids": [
+        "wiki-Ronnie_Radke",
+        "rcu-library"
+      ]
     },
     {
       "id": "life-hand-blackout-2023",
@@ -159,7 +188,9 @@
       "title": "Hand blackout tattoos",
       "summary": "Hand tattoo sessions complete the shift from colorful sleeves to full blackout aesthetic.",
       "importance": 0.7,
-      "source_ids": ["rcu-video-hand-2023"]
+      "source_ids": [
+        "rcu-video-hand-2023"
+      ]
     },
     {
       "id": "life-popular-monstour-2023",
@@ -169,7 +200,9 @@
       "title": "The Popular Monstour",
       "summary": "Arena-scale touring capitalizes on viral catalog; live WTWB moments go viral.",
       "importance": 0.65,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "life-joseph-2026",
@@ -179,7 +212,9 @@
       "title": "Joseph — all-star collab",
       "summary": "Corey Taylor and Serj Tankian feature on a landmark crossover single and video.",
       "importance": 0.85,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "legal-2012-charge",
@@ -189,7 +224,9 @@
       "title": "2012 legal issues",
       "summary": "Additional legal headlines during early FIR touring years.",
       "importance": 0.5,
-      "source_ids": ["wiki-Ronnie_Radke"]
+      "source_ids": [
+        "wiki-Ronnie_Radke"
+      ]
     },
     {
       "id": "legal-2014-charge",
@@ -199,7 +236,9 @@
       "title": "2014 incident",
       "summary": "On-tour altercation generates press; part of the controversial public narrative.",
       "importance": 0.55,
-      "source_ids": ["wiki-Ronnie_Radke"]
+      "source_ids": [
+        "wiki-Ronnie_Radke"
+      ]
     },
     {
       "id": "legal-2015-charge",
@@ -209,7 +248,9 @@
       "title": "2015 legal headlines",
       "summary": "Further legal scrutiny amid rising FIR profile.",
       "importance": 0.45,
-      "source_ids": ["wiki-Ronnie_Radke"]
+      "source_ids": [
+        "wiki-Ronnie_Radke"
+      ]
     },
     {
       "id": "life-solo-watch-me-2013",
@@ -219,7 +260,9 @@
       "title": "Solo & Watch Me era",
       "summary": "Solo singles and features expand beyond band releases.",
       "importance": 0.5,
-      "source_ids": ["wiki-Ronnie_Radke"]
+      "source_ids": [
+        "wiki-Ronnie_Radke"
+      ]
     },
     {
       "id": "life-etf-departure-2008",
@@ -229,7 +272,9 @@
       "title": "Departure from Escape the Fate",
       "summary": "Radke is removed from ETF amid legal fallout; Craig Mabbitt replaces him.",
       "importance": 0.8,
-      "source_ids": ["wiki-Escape_the_Fate"]
+      "source_ids": [
+        "wiki-Escape_the_Fate"
+      ]
     },
     {
       "id": "life-kerrang-best-video",
@@ -239,7 +284,9 @@
       "title": "Kerrang! Best Video recognition",
       "summary": "Industry awards cement FIR video era as best-in-class for rock visuals.",
       "importance": 0.6,
-      "source_ids": ["wiki-Falling_in_Reverse"]
+      "source_ids": [
+        "wiki-Falling_in_Reverse"
+      ]
     },
     {
       "id": "life-rock-am-ring-2025",
@@ -249,17 +296,22 @@
       "title": "Rock am Ring 2025",
       "summary": "Major European festival set showcases catalog depth to massive crowds.",
       "importance": 0.55,
-      "source_ids": ["rcu-video"]
+      "source_ids": [
+        "rcu-video"
+      ]
     },
     {
       "id": "life-live-from-unknown",
-      "year": 2024,
+      "year": 2021,
       "strand": "life",
       "category": "career",
-      "title": "Live From The Unknown",
-      "summary": "Live film / trailer push treats shows as cinematic events.",
+      "title": "Live From the Unknown livestream",
+      "summary": "Falling in Reverse presents a two-part livestream on April 16 and April 30.",
       "importance": 0.5,
-      "source_ids": ["rcu-video"]
+      "source_ids": [
+        "rcu-video"
+      ],
+      "month": 4
     },
     {
       "id": "music-chemical-prisoner",
@@ -271,7 +323,9 @@
       "importance": 0.65,
       "youtube_id": "DTHFyvGY_FU",
       "view_count": 21532531,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-losing-my-life",
@@ -283,7 +337,9 @@
       "importance": 0.85,
       "youtube_id": "SEbxwmjScr8",
       "view_count": 59512157,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-popular-monster",
@@ -295,7 +351,9 @@
       "importance": 1.0,
       "youtube_id": "jakpo7tj7Qw",
       "view_count": 205641244,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-drug-reimagined",
@@ -307,19 +365,24 @@
       "importance": 0.8,
       "youtube_id": "B2cbhYihBWY",
       "view_count": 45870441,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-drugs",
-      "year": 2020,
+      "year": 2019,
       "strand": "music",
       "category": "music_video",
       "title": "Drugs",
       "summary": "Satirical, chaotic energy; fan-favorite deep cut video.",
       "importance": 0.7,
-      "youtube_id": "FlRP1lEt1JE",
-      "view_count": 16465010,
-      "source_ids": ["release-epitaph"]
+      "youtube_id": "sRAG2NG5bkQ",
+      "source_ids": [
+        "release-epitaph"
+      ],
+      "url": "https://www.youtube.com/watch?v=sRAG2NG5bkQ",
+      "thumbnail": "https://i.ytimg.com/vi/sRAG2NG5bkQ/hqdefault.jpg"
     },
     {
       "id": "music-vampire-revamped",
@@ -331,7 +394,9 @@
       "importance": 0.75,
       "youtube_id": "2nWmBJxW9q0",
       "view_count": 24382202,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-zombified",
@@ -343,7 +408,9 @@
       "importance": 0.82,
       "youtube_id": "YDDz1Er2IXA",
       "view_count": 63637408,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-voices",
@@ -355,7 +422,9 @@
       "importance": 0.92,
       "youtube_id": "a7_e_NY-f3g",
       "view_count": 116811456,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-watch-the-world-burn",
@@ -367,7 +436,9 @@
       "importance": 0.98,
       "youtube_id": "qMXESlny4-I",
       "view_count": 145781551,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-last-resort",
@@ -379,7 +450,9 @@
       "importance": 0.78,
       "youtube_id": "ESOjt2_yJrU",
       "view_count": 47535740,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-ronald",
@@ -391,7 +464,9 @@
       "importance": 0.88,
       "youtube_id": "wWoQ7PFSYlk",
       "view_count": 51343705,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-all-my-life",
@@ -401,9 +476,13 @@
       "title": "All My Life (feat. Jelly Roll)",
       "summary": "Cross-genre collab expands FIR reach.",
       "importance": 0.72,
-      "youtube_id": "Z116LsMiyKc",
-      "view_count": 24763588,
-      "source_ids": ["release-epitaph"]
+      "youtube_id": "GB9jFPUb7HA",
+      "source_ids": [
+        "release-epitaph"
+      ],
+      "url": "https://www.youtube.com/watch?v=GB9jFPUb7HA",
+      "thumbnail": "https://i.ytimg.com/vi/GB9jFPUb7HA/hqdefault.jpg",
+      "view_count": 24763588
     },
     {
       "id": "music-prequel",
@@ -413,9 +492,13 @@
       "title": "Prequel",
       "summary": "Lore-heavy narrative tying MV universe threads.",
       "importance": 0.8,
-      "youtube_id": "Y6c_aC3suP8",
-      "view_count": 38018573,
-      "source_ids": ["release-epitaph"]
+      "youtube_id": "hX0lhueeib8",
+      "source_ids": [
+        "release-epitaph"
+      ],
+      "url": "https://www.youtube.com/watch?v=hX0lhueeib8",
+      "thumbnail": "https://i.ytimg.com/vi/hX0lhueeib8/hqdefault.jpg",
+      "view_count": 38018573
     },
     {
       "id": "music-god-is-a-weapon",
@@ -427,7 +510,9 @@
       "importance": 0.95,
       "youtube_id": "xqJurrQKNdE",
       "view_count": 83864868,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-joseph",
@@ -439,7 +524,9 @@
       "importance": 0.9,
       "youtube_id": "Tk9TM7-eTmw",
       "view_count": 17786043,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-carry-on",
@@ -451,7 +538,9 @@
       "importance": 0.55,
       "youtube_id": "AKHSWvmiwP8",
       "view_count": 8812821,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-coming-home",
@@ -463,7 +552,9 @@
       "importance": 0.5,
       "youtube_id": "L3QB4VnUOUA",
       "view_count": 14667235,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-superhero",
@@ -475,19 +566,24 @@
       "importance": 0.48,
       "youtube_id": "Wdz5quqdwjI",
       "view_count": 8534817,
-      "source_ids": ["release-epitaph"]
+      "source_ids": [
+        "release-epitaph"
+      ]
     },
     {
       "id": "music-bad-girls-club",
-      "year": 2024,
+      "year": 2013,
       "strand": "music",
       "category": "music_video",
       "title": "Bad Girls Club",
       "summary": "Stylized MV with celebrity cameo discourse.",
       "importance": 0.6,
-      "youtube_id": "vdaKzHPG4_0",
-      "view_count": 10710957,
-      "source_ids": ["release-epitaph"]
+      "youtube_id": "TzLZN1K-PUE",
+      "source_ids": [
+        "release-epitaph"
+      ],
+      "url": "https://www.youtube.com/watch?v=TzLZN1K-PUE",
+      "thumbnail": "https://i.ytimg.com/vi/TzLZN1K-PUE/hqdefault.jpg"
     },
     {
       "id": "life-rise-fall-rise-doc",
@@ -497,7 +593,9 @@
       "title": "The Rise, Fall & Rise Again",
       "summary": "Fan and press narratives frame redemption arc explicitly.",
       "importance": 0.5,
-      "source_ids": ["rcu-video"]
+      "source_ids": [
+        "rcu-video"
+      ]
     },
     {
       "id": "life-colorful-tats-reference",
@@ -510,7 +608,9 @@
       "summary": "Full sleeves, chest owl, and face ink — last vivid look before blackout coverage.",
       "importance": 0.65,
       "thumbnail": "assets/ref/library/ronnie-pre-blackout-colorful-tats-2023-04-17.png",
-      "source_ids": ["rcu-library"]
+      "source_ids": [
+        "rcu-library"
+      ]
     },
     {
       "id": "life-blackout-complete-2023",
@@ -522,7 +622,9 @@
       "summary": "Blastover complete; monochrome ink matches cinematic MV era.",
       "importance": 0.7,
       "thumbnail": "assets/ref/library/ronnie-blackout-tattoos-mirror-selfie.png",
-      "source_ids": ["rcu-library"]
+      "source_ids": [
+        "rcu-library"
+      ]
     },
     {
       "id": "music-all-my-women",
@@ -532,9 +634,35 @@
       "title": "All My Women (feat. HARDY)",
       "summary": "Country-rock crossover visual.",
       "importance": 0.58,
-      "youtube_id": "WXkJk28f5Ow",
-      "view_count": 6359694,
-      "source_ids": ["release-epitaph"]
+      "youtube_id": "rwWK4WX2qaI",
+      "source_ids": [
+        "release-epitaph"
+      ],
+      "url": "https://www.youtube.com/watch?v=rwWK4WX2qaI",
+      "thumbnail": "https://i.ytimg.com/vi/rwWK4WX2qaI/hqdefault.jpg",
+      "view_count": 6359694
+    },
+    {
+      "id": "album-fashionably-late",
+      "year": 2013,
+      "month": 6,
+      "day": 18,
+      "title": "Fashionably Late (album)",
+      "summary": "Falling in Reverse releases the album Fashionably Late on Epitaph Records.",
+      "strand": "life",
+      "category": "career",
+      "importance": 0.8
+    },
+    {
+      "id": "album-popular-monster",
+      "year": 2024,
+      "month": 8,
+      "day": 16,
+      "title": "Popular Monster (album)",
+      "summary": "Falling in Reverse releases the album Popular Monster on Epitaph Records.",
+      "strand": "life",
+      "category": "career",
+      "importance": 0.8
     }
   ],
   "tattoo_eras": [
@@ -561,9 +689,33 @@
     }
   ],
   "eras": [
-    { "id": "etf", "label": "Escape the Fate", "start": 2004, "end": 2008, "color": "#e85d75" },
-    { "id": "fall", "label": "Fall & prison", "start": 2006, "end": 2010, "color": "#8b5cf6" },
-    { "id": "fir-rise", "label": "FIR rise", "start": 2010, "end": 2017, "color": "#22d3ee" },
-    { "id": "cinematic", "label": "Cinematic MV era", "start": 2018, "end": 2026, "color": "#fbbf24" }
+    {
+      "id": "etf",
+      "label": "Escape the Fate",
+      "start": 2004,
+      "end": 2008,
+      "color": "#e85d75"
+    },
+    {
+      "id": "fall",
+      "label": "Fall & prison",
+      "start": 2006,
+      "end": 2010,
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "fir-rise",
+      "label": "FIR rise",
+      "start": 2010,
+      "end": 2017,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "cinematic",
+      "label": "Cinematic MV era",
+      "start": 2018,
+      "end": 2026,
+      "color": "#fbbf24"
+    }
   ]
 }

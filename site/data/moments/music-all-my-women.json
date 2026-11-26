@@ -7,11 +7,11 @@
     "year": 2025,
     "strand": "music",
     "category": "music_video",
-    "youtube_id": "WXkJk28f5Ow",
-    "url": null,
+    "youtube_id": "rwWK4WX2qaI",
+    "url": "https://www.youtube.com/watch?v=rwWK4WX2qaI",
     "view_count": 6359694,
-    "era": null,
-    "rcu_tier": null
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
   },
   "lore": {
     "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman', 'entity_slug': 'ronnie-radke'}",
@@ -20,19 +20,29 @@
   "frame_captions": [],
   "comments_sample": [
     {
-      "author": "@FIR_RR",
-      "text": "It is interesting to compare where Ronnie started his career and what he has achieved now. His hard work, talent and determination are amazing❤",
+      "author": "@TheSevenDayBreak",
+      "text": "Ronnie’s a friggin genius can do multiple genres",
       "like_count": 8
     },
     {
-      "author": "@lowertheveil652",
-      "text": "That was fucking cute, I'm dead! You were such a baby! 😍😂🥰 My fucking heart, Ronnie!",
+      "author": "@ethansheets2931",
+      "text": "But why does the Hardy puppet look more like Hardy than Hardy does?? 😂",
+      "like_count": 4
+    },
+    {
+      "author": "@forlanbeukes495",
+      "text": "this song might be the best song i have ever listened too in my life i Love this BAND. But the way I can relate to this song MAN  Ronnie Radke love your music and the bands",
       "like_count": 3
     },
     {
-      "author": "@KcajOfAllTrades",
-      "text": "Looks like Victimville 😂",
-      "like_count": 2
+      "author": "@AmandaR-i1w",
+      "text": "The radio is afraid to play this because it will destroy every single mainstream artist, including the biggest ones right now.",
+      "like_count": 3
+    },
+    {
+      "author": "@marysye4682",
+      "text": "felt represented",
+      "like_count": 3
     }
   ],
   "sources": [
@@ -41,12 +51,15 @@
       "title": "release-epitaph"
     }
   ],
-  "provenance": null,
+  "provenance": {
+    "release_id": "rel-rwWK4WX2qaI",
+    "video_id": "rwWK4WX2qaI"
+  },
   "verification": {
     "status": "verified",
     "label": "Official release",
     "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.418019+00:00",
+    "checked_at": "2026-11-26T19:45:30.508568+00:00",
     "sources": [
       {
         "source_id": "release-epitaph"

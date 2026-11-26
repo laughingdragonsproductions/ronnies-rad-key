@@ -13,6 +13,8 @@ const FILTERS = [
   { id: "life", label: "Life" },
   { id: "legal", label: "Legal" },
   { id: "music_video", label: "Music Videos" },
+  { id: "audio", label: "Audio" },
+  { id: "extra", label: "Extras" },
   { id: "lore", label: "RCU / Lore" },
   { id: "career", label: "Career" },
   { id: "personal", label: "Personal" },
@@ -79,7 +81,7 @@ function momentMatchesFilter(m, filterId) {
   if (filterId === "all") return true;
   if (filterId === "life") return m.strand === "life";
   if (filterId === "legal") return m.category === "legal";
-  if (filterId === "music_video") return m.category === "music_video";
+  if (["music_video", "audio", "extra"].includes(filterId)) return m.category === filterId;
   if (filterId === "lore") return momentIsLore(m);
   if (filterId === "career") return m.category === "career";
   if (filterId === "personal") return m.category === "personal";
@@ -309,6 +311,9 @@ function populateCardContent(moment, cardEl, { onRelatedSelect } = {}) {
   embed.innerHTML = "";
 
   const hasVideo = Boolean(moment.youtube_id);
+  const external = cardEl.querySelector(".watch-external");
+  external.hidden = !hasVideo;
+  if (hasVideo) external.href = "https://www.youtube.com/watch?v=" + moment.youtube_id;
 
   if (hasVideo) {
     thumb.src = moment.thumbnail || `https://i.ytimg.com/vi/${moment.youtube_id}/hqdefault.jpg`;
@@ -383,6 +388,7 @@ function showCard(moment, cardEl, { onRelatedSelect, origin = null, animate = tr
   materializeCardReveal({
     fromX: origin.x,
     fromY: origin.y,
+    rung: origin.rung,
     toRect: cardRect,
     colors: momentAccentColors(moment),
     onPeak: () => {
@@ -420,10 +426,10 @@ function applyBranding(data) {
   if (h1 && data.title) h1.textContent = data.title;
   const sub = document.getElementById("site-subtitle");
   if (sub) sub.textContent = data.subtitle || "";
-  const foot = document.getElementById("site-footer");
-  if (foot) {
+  const footRc = document.getElementById("footer-rcu");
+  if (footRc) {
     const name = data.rcu_name || data.rcu_meta?.display_name || "Ronnie Cinematic Universe";
-    foot.textContent = `Powered by the ${name} dataset`;
+    footRc.textContent = `Powered by the ${name} dataset`;
   }
 }
 
@@ -532,7 +538,8 @@ export async function initTimelineApp() {
       <div class="verify-note-slot"></div>
       <p class="summary"></p>
       <img class="thumb" alt="" />
-      <a class="watch" href="#" target="_blank" rel="noopener">Watch</a>
+      <a class="watch-external" hidden target="_blank" rel="noopener">Watch on YouTube</a>
+        <a class="watch" href="#" target="_blank" rel="noopener">Watch</a>
       <div class="embed-wrap"></div>
       <nav class="card-tabs" role="tablist" hidden>
         <button type="button" role="tab" data-tab="lore" aria-expanded="false">Lore</button>

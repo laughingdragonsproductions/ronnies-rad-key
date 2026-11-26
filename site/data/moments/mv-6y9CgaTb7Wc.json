@@ -6,7 +6,7 @@
     "summary": "Andy Biersack from Black Veil Brides talks about his history with Ronnie Radke and how he ended up in the Falling in Reverse video for \"Bad Girls Club\" Full interview here: https://youtu.be/ZVuxpf27jSc?si=wRba0MWPe2Kmr0Zl TikTok https://www.tiktok.com/@jesealee Instagram https",
     "year": 2024,
     "strand": "music",
-    "category": "music_video",
+    "category": "extra",
     "youtube_id": "6y9CgaTb7Wc",
     "url": "https://www.youtube.com/watch?v=6y9CgaTb7Wc",
     "view_count": 74056,
@@ -51,9 +51,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.362170+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.507005+00:00",
     "sources": [],
     "conflicts": []
   }

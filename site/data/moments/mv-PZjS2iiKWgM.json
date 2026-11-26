@@ -6,7 +6,7 @@
     "summary": "Falling in Reverse - \"Straight To Hell\" (Lyrics) - Lyrics: - You will never be alright And I will never be okay And I can't be your Jesus Christ 'Cause I am but a mortal man Just looking for the promised land And it kills me slowly (You never know what you got 'til it's gone for",
     "year": 2020,
     "strand": "music",
-    "category": "music_video",
+    "category": "extra",
     "youtube_id": "PZjS2iiKWgM",
     "url": "https://www.youtube.com/watch?v=PZjS2iiKWgM",
     "view_count": 57525,
@@ -51,9 +51,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.201894+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.502741+00:00",
     "sources": [],
     "conflicts": []
   }

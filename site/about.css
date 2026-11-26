@@ -1,0 +1,125 @@
+.about-page {
+  min-height: 100%;
+  overflow: auto;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+}
+
+.about-page header.site-chrome {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: rgba(5, 5, 8, 0.92);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.about-page header a.logo {
+  color: var(--strand-a);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about-page nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
+
+.about-page nav a:hover {
+  color: var(--text);
+}
+
+.about-main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.about-main h1 {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  margin: 0 0 0.35rem;
+  background: linear-gradient(90deg, var(--strand-a), var(--strand-b));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.about-main .lede {
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.about-main h2 {
+  font-size: 1.15rem;
+  margin: 2rem 0 0.75rem;
+  color: var(--accent);
+}
+
+.about-main p {
+  margin: 0 0 1rem;
+}
+
+.about-main .signoff {
+  margin-top: 2.5rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.video-spotlight {
+  margin: 1.5rem 0 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  background: rgba(12, 12, 20, 0.85);
+}
+
+.video-spotlight h2 {
+  margin-top: 0;
+}
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000;
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-spotlight .watch-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #111;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.about-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.85rem;
+  color: var(--muted);
+}

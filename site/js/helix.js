@@ -91,24 +91,6 @@ function rungXForMoment(m, yearMin, yearMax, xSpread) {
   return base + (xSpread.get(m.id) || 0);
 }
 
-function buildEraBands(eras, yearMin, yearMax, group) {
-  for (const era of eras) {
-    const x0 = yearToX(era.start, yearMin, yearMax);
-    const x1 = yearToX(era.end, yearMin, yearMax);
-    const w = Math.max(0.08, Math.abs(x1 - x0));
-    const geo = new THREE.BoxGeometry(w, 3.2, 3.2);
-    const mat = new THREE.MeshBasicMaterial({
-      color: era.color || "#ffffff",
-      transparent: true,
-      opacity: 0.06,
-      depthWrite: false,
-    });
-    const band = new THREE.Mesh(geo, mat);
-    band.position.x = (x0 + x1) / 2;
-    group.add(band);
-  }
-}
-
 function touchDistance(touches) {
   if (touches.length < 2) return 0;
   const dx = touches[0].clientX - touches[1].clientX;
@@ -120,7 +102,6 @@ export function createHelix(options) {
   const {
     canvas,
     moments,
-    eras = [],
     yearMin,
     yearMax,
     viewMode: initialViewMode = "2d",
@@ -154,8 +135,6 @@ export function createHelix(options) {
 
   helixGroup.add(buildSolidStrand(strandSampleA.curve, 0x22d3ee));
   helixGroup.add(buildSolidStrand(strandSampleB.curve, 0xe879f9));
-
-  buildEraBands(eras, yearMin, yearMax, helixGroup);
 
   const density = particleDensityForViewport();
   helixGroup.add(
@@ -310,20 +289,45 @@ export function createHelix(options) {
     updatePointer(ev);
     raycaster.setFromCamera(pointer, camera);
     const hits = raycaster.intersectObjects(rungMeshes, false);
-    return hits[0]?.object ?? null;
+    return hits.find(hit => hit.object.userData.wrap.visible)?.object ?? null;
   }
 
   const _screenProj = new THREE.Vector3();
 
   /** Screen coordinates for a rung pick mesh (center of rung). */
-  function rungScreenPoint(obj) {
+  function rungScreenPoint(obj, end = 0) {
     if (!obj) return null;
-    obj.getWorldPosition(_screenProj);
+    _screenProj.set(0, end * obj.geometry.parameters.height / 2, 0);
+    obj.localToWorld(_screenProj);
     _screenProj.project(camera);
     const rect = canvas.getBoundingClientRect();
     return {
       x: rect.left + (_screenProj.x * 0.5 + 0.5) * rect.width,
       y: rect.top + (-_screenProj.y * 0.5 + 0.5) * rect.height,
+    };
+  }
+
+  function detachRung(obj) {
+    const wrap = obj.userData.wrap;
+    const half = obj.geometry.parameters.height / 2;
+    const direction = new THREE.Vector3(0, 1, 0).applyQuaternion(obj.quaternion);
+    const anchor = obj.position.clone().addScaledVector(direction, -half);
+    const axis = direction.clone().cross(new THREE.Vector3(1, 0, 0)).normalize();
+    return {
+      pose(peel, release) {
+        // Rotate about the attached tip before pulling the second tip free.
+        wrap.quaternion.setFromAxisAngle(axis, 0.48 * peel);
+        wrap.position.copy(anchor).applyQuaternion(wrap.quaternion).negate().add(anchor);
+        wrap.position.x += 0.65 * release;
+        wrap.position.z += 0.32 * release;
+        return [rungScreenPoint(obj, -1), rungScreenPoint(obj, 1)];
+      },
+      hide() { wrap.visible = false; },
+      restore() {
+        wrap.visible = true;
+        wrap.position.set(0, 0, 0);
+        wrap.quaternion.identity();
+      },
     };
   }
 
@@ -375,7 +379,7 @@ export function createHelix(options) {
     }
     hovered = obj;
     if (obj) {
-      obj.userData.wrap?.scale.set(1.12, 1.15, 1.12);
+      obj.userData.wrap?.scale.set(1, 1.045, 1.045);
       onHover?.(obj.userData.moment);
       canvas.style.cursor = "pointer";
     } else if (!scrubDrag && !orbitDrag) {
@@ -399,8 +403,7 @@ export function createHelix(options) {
       const m = obj.userData.moment;
       const my = momentYear(m);
       const p = (my - yearMin) / (yearMax - yearMin);
-      flowSystems.burstAtHelixX(progressToX(p), 18);
-      onSelect?.(m, { origin: rungScreenPoint(obj) });
+      onSelect?.(m, { origin: { ...rungScreenPoint(obj), rung: detachRung(obj) } });
       setProgress(p);
       return;
     }
@@ -501,9 +504,9 @@ export function createHelix(options) {
   composer.addPass(new RenderPass(scene, camera));
   const bloomPass = new UnrealBloomPass(
     new THREE.Vector2(canvas.clientWidth || 1, canvas.clientHeight || 1),
-    0.48,
-    0.4,
-    0.24
+    0.23,
+    0.32,
+    0.62
   );
   composer.addPass(bloomPass);
 
@@ -547,7 +550,7 @@ export function createHelix(options) {
     panX += (targetPanX - panX) * 0.14;
     panY += (targetPanY - panY) * 0.14;
     helixRoll += (targetHelixRoll - helixRoll) * 0.12;
-    helixGroup.rotation.x = helixRoll;
+    helixGroup.rotation.x = helixRoll + (progress - 0.35) * Math.PI * 2;
 
     const focusX = progressToX(focusProgress);
     lookTarget.set(focusX * LOOK_K + panX, panY * 0.55, 0);

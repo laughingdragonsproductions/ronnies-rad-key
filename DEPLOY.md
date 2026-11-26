@@ -51,7 +51,14 @@ Same as Cloudflare Pages: only `site/` + JSON; no Local app badge or Sync button
 
 Outputs land in `site/data/` (`timeline.json`, `search-index.json`, `rcu-meta.json`, `graph.json`, `verification-report.json`, `moments/*.json` with optional `verification` blocks).
 
-## Cloudflare Pages (static-first)
+## GitHub Pages (primary — free)
+
+- **Workflow:** `.github/workflows/github-pages.yml` on push to `main` (uploads `site/` only).
+- **Enable once:** repo **Settings → Pages → Build and deployment → GitHub Actions**.
+- **URL:** `https://laughingdragonsproductions.github.io/ronnies-rad-key/` (or custom domain if attached).
+- Animations (Three.js helix, card materialize) run fully on static hosting; no server API required.
+
+## Cloudflare Pages (optional)
 
 - **Production:** [https://ronniesradkey.com/](https://ronniesradkey.com/) (also [www](https://www.ronniesradkey.com/), [pages.dev](https://ronnies-rad-key.pages.dev/))
 - **Project root for Pages:** `site/`

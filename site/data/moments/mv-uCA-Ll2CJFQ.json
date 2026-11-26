@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "id": "mv-uCA-Ll2CJFQ",
+  "timeline": {
+    "title": "Losing My Mind",
+    "summary": "Official release: Losing My Mind.",
+    "year": 2018,
+    "strand": "music",
+    "category": "music_video",
+    "youtube_id": "uCA-Ll2CJFQ",
+    "url": "https://www.youtube.com/watch?v=uCA-Ll2CJFQ",
+    "view_count": 34024614,
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
+  },
+  "lore": {
+    "summary": "{'name': 'Ronnie Radke', 'description': \"The frontman of Falling In Reverse and the voice behind 'Losing My Mind'.\", 'entity_slug': 'ronnie-radke'} rebellion self-empowerment non-conformity",
+    "related": []
+  },
+  "frame_captions": [
+    {
+      "timestamp_sec": 5.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 10.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 15.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 20.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    },
+    {
+      "timestamp_sec": 25.0,
+      "caption": "(caption unavailable: HTTP Error 400: Bad Request)",
+      "tags": []
+    }
+  ],
+  "comments_sample": [
+    {
+      "author": "@LostSiGhost",
+      "text": "who's here in 2026?",
+      "like_count": 567
+    },
+    {
+      "author": "@averie8212",
+      "text": "0:26 love this song but MF sounds like Spongebob here",
+      "like_count": 16
+    },
+    {
+      "author": "@SteelBend",
+      "text": "2026 anyone?",
+      "like_count": 11
+    },
+    {
+      "author": "@emmerr133",
+      "text": "people here in 2026??",
+      "like_count": 10
+    },
+    {
+      "author": "@renditgsbalap2916",
+      "text": "Lyrics :\n\nI've got the motherfucking world in my palm now, don't tell me to calm down\nStriking a match, igniting the track while I'm typing in caps, it's on now\nThe rap Casanova with cash in a sofa in the back of a Rover\nSix-pack in a backpack and I'm cracking 'em open, sipping I'm trapped in a moment\nOpen your eyes 'cause you're never gonna know if your next move might be your last\nLiving a lie, everybody's always gonna bring up my past\nWell, I'm past that, my interest up and my bag's packed\nI'm the NASDAQ with a rad rap so\n\nI'm not ready to change, I'm doing my thing\nYou're pointing the blame, you know I'm not ready to choose\nSo don't get confused and stay the hell out of my way\nSo why do you believe\nYou're losing your mind, losing your mind again\nIn everyone but me?\nI'm losing my mind, losing my mind again\n\nI've seen the hardships, lived in darkness through the mud into the marshes\nMy reputation is tarnished but regardless, I am awesome\nSaw the gossip from my lockup go colossal\nThen I blossomed to the boss of this rock stuff\nAnd I'm never gonna stop till the cops come\nWhat I'm really trying to say\nIs say it to my face and if you won't, stay the fuck out my way\nRocking shows, lock and load, stop me, no\nI'm repping the new shit, the essence of music\nI'm blessed with the fusion of both\n\nI'm not ready to change, I'm doing my thing\nYou're pointing the blame, you know I'm not ready to choose\nSo don't get confused and stay the hell out of my way\nSo why do you believe\nYou're losing your mind, losing your mind again\nIn everyone but me?\nI'm losing my mind, losing my mind again\n\nEver since I was a little boy I always thought that the world was going to end in my lifetime\nSo I try to seize every opportunity as it came to me\nBecause I believed it might stop the sky from falling down one more day\nBut the older I got, the more I realized that I cannot save the world\nI'm not a superhero, I'm not perfect, I'm just me, a human being\n\nSo let's take, take, take the throne and break ",
+      "like_count": 8
+    }
+  ],
+  "sources": [],
+  "provenance": {
+    "release_id": "rel-uCA-Ll2CJFQ",
+    "video_id": "uCA-Ll2CJFQ"
+  },
+  "verification": {
+    "status": "verified",
+    "label": "Official release",
+    "notes": "YouTube / Epitaph release row in RCU.",
+    "checked_at": "2026-11-26T19:45:30.500871+00:00",
+    "sources": [],
+    "conflicts": []
+  }
+}

@@ -7,14 +7,14 @@
     "year": 2024,
     "strand": "music",
     "category": "music_video",
-    "youtube_id": "Y6c_aC3suP8",
-    "url": null,
+    "youtube_id": "hX0lhueeib8",
+    "url": "https://www.youtube.com/watch?v=hX0lhueeib8",
     "view_count": 38018573,
-    "era": null,
-    "rcu_tier": null
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
   },
   "lore": {
-    "summary": "{'name': 'Ronnie Radke', 'description': 'Frontman of Falling in Reverse.', 'entity_slug': 'ronnie-radke'} {'name': 'Jelly Roll (Jason Bradley DeFord)', 'description': \"Guest vocalist for 'All My Life'.\", 'entity_slug': 'jelly-roll'} Music production Collaboration Behind-the-scenes content",
+    "summary": "{'name': 'Ronnie Radke', 'description': 'The frontman of Falling in Reverse, reflecting on his past.', 'entity_slug': 'ronnie-radke'} abuse self-reflection resilience",
     "related": []
   },
   "frame_captions": [
@@ -46,29 +46,29 @@
   ],
   "comments_sample": [
     {
-      "author": "@manuelcorrea2365",
-      "text": "That line dancing coreograpgy with metal music in the background is definitely the best part of all 👏👏👏",
-      "like_count": 170
+      "author": "@maddielkaye",
+      "text": "Who else is returning after “Joseph” bc it’s all connected?",
+      "like_count": 329
     },
     {
-      "author": "@rxbsdk",
-      "text": "The modern day ATM in the bank scene is so funny",
-      "like_count": 87
+      "author": "@Zech-ht3lw",
+      "text": "Such a wild ride following this band in highschool days and them becoming so much more than my emo phase",
+      "like_count": 8
     },
     {
-      "author": "@RyanWasyluk",
-      "text": "the format of this behind the scenes is so smart, its like a secondary music video. well done",
-      "like_count": 52
+      "author": "@maddielkaye",
+      "text": " @chicobebop1  I can’t tell yet, and I think that’s how he wants it. Ronnie’s not done, I imagine there are at least one or two more projects in the works that will tie it all together and blow our minds. All I know is that everything he does is intentional and we never accurately guess what’s coming.",
+      "like_count": 7
     },
     {
-      "author": "@solidfifth",
-      "text": "I lost it when they started line dancing during the breakdown. Awesome",
-      "like_count": 38
+      "author": "@OctoberMonsterss",
+      "text": "My favorite song !!!",
+      "like_count": 6
     },
     {
-      "author": "@ifelthope100",
-      "text": "Off of 50-year-old grandmother of two from Texas. I've loved rock and metal my whole life. Never been a fan of country music but if anyone can change my mind about it it's Ronnie😊",
-      "like_count": 20
+      "author": "@dantebenitez9288",
+      "text": "I just did, so Radke confirmed?",
+      "like_count": 6
     }
   ],
   "sources": [
@@ -77,12 +77,15 @@
       "title": "release-epitaph"
     }
   ],
-  "provenance": null,
+  "provenance": {
+    "release_id": "rel-hX0lhueeib8",
+    "video_id": "hX0lhueeib8"
+  },
   "verification": {
     "status": "verified",
     "label": "Official release",
     "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.339485+00:00",
+    "checked_at": "2026-11-26T19:45:30.507479+00:00",
     "sources": [
       {
         "source_id": "release-epitaph"

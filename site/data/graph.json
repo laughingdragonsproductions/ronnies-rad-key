@@ -302,12 +302,6 @@
       "entity_type": "character"
     },
     {
-      "id": "life-losing-my-mind-2018",
-      "type": "video",
-      "label": "Losing My Mind",
-      "youtube_id": "2EMst_OFRF8"
-    },
-    {
       "id": "music-chemical-prisoner",
       "type": "video",
       "label": "Chemical Prisoner",
@@ -335,7 +329,7 @@
       "id": "music-drugs",
       "type": "video",
       "label": "Drugs",
-      "youtube_id": "FlRP1lEt1JE"
+      "youtube_id": "sRAG2NG5bkQ"
     },
     {
       "id": "music-vampire-revamped",
@@ -377,13 +371,13 @@
       "id": "music-all-my-life",
       "type": "video",
       "label": "All My Life (feat. Jelly Roll)",
-      "youtube_id": "Z116LsMiyKc"
+      "youtube_id": "GB9jFPUb7HA"
     },
     {
       "id": "music-prequel",
       "type": "video",
       "label": "Prequel",
-      "youtube_id": "Y6c_aC3suP8"
+      "youtube_id": "hX0lhueeib8"
     },
     {
       "id": "music-god-is-a-weapon",
@@ -419,13 +413,13 @@
       "id": "music-bad-girls-club",
       "type": "video",
       "label": "Bad Girls Club",
-      "youtube_id": "vdaKzHPG4_0"
+      "youtube_id": "TzLZN1K-PUE"
     },
     {
       "id": "music-all-my-women",
       "type": "video",
       "label": "All My Women (feat. HARDY)",
-      "youtube_id": "WXkJk28f5Ow"
+      "youtube_id": "rwWK4WX2qaI"
     },
     {
       "id": "mv-LhVRqzogj5Y",
@@ -458,6 +452,12 @@
       "youtube_id": "0rVwuowU6Fs"
     },
     {
+      "id": "mv-uCA-Ll2CJFQ",
+      "type": "video",
+      "label": "Losing My Mind",
+      "youtube_id": "uCA-Ll2CJFQ"
+    },
+    {
       "id": "mv-PsjAXOA55ec",
       "type": "video",
       "label": "NO FEAR",
@@ -482,22 +482,10 @@
       "youtube_id": "Y4ilUrpq05A"
     },
     {
-      "id": "mv-S2e8xzVB6rA",
-      "type": "video",
-      "label": "Falling In Reverse - \"The Drug In Me Is Reimagined\" (Behind The Scenes)",
-      "youtube_id": "S2e8xzVB6rA"
-    },
-    {
       "id": "mv-PZjS2iiKWgM",
       "type": "video",
       "label": "Falling in Reverse - \"Straight To Hell\" (Lyrics)",
       "youtube_id": "PZjS2iiKWgM"
-    },
-    {
-      "id": "mv-LlqD7cMvQbw",
-      "type": "video",
-      "label": "Falling In Reverse - \"Zombified\" (LYRICS VIDEO - VISUALIZER)",
-      "youtube_id": "LlqD7cMvQbw"
     },
     {
       "id": "mv-u7zPO8oG4gQ",
@@ -518,6 +506,18 @@
       "youtube_id": "BnTDlaXxRrE"
     },
     {
+      "id": "mv-WXkJk28f5Ow",
+      "type": "video",
+      "label": "Ronnie Radke's (Escape The Fate) BACKSTAGE video for \"Not Good Enough For Truth In Cliche\" (2005)",
+      "youtube_id": "WXkJk28f5Ow"
+    },
+    {
+      "id": "mv-vdaKzHPG4_0",
+      "type": "video",
+      "label": "⁠@FallingInReverse BEHIND THE SCENES ​⁠/ FULL MAKEUP \"Watch the World Burn\" ​VIDEO #devil #mask",
+      "youtube_id": "vdaKzHPG4_0"
+    },
+    {
       "id": "mv-Id6uK6oJ5nk",
       "type": "video",
       "label": "Ronnie Radke behind the scenes shooting \"Popular Monster\" (2019)",
@@ -530,40 +530,10 @@
       "youtube_id": "6y9CgaTb7Wc"
     },
     {
-      "id": "mv-nPMZCC3-Lw8",
-      "type": "video",
-      "label": "Falling In Reverse - \"Ronald\" (Behind The Scenes)",
-      "youtube_id": "nPMZCC3-Lw8"
-    },
-    {
       "id": "mv-dy8YWui2FxY",
       "type": "video",
       "label": "Falling In Reverse - \"Drugs\" [4K, 60 FPS, Remastered]",
       "youtube_id": "dy8YWui2FxY"
-    },
-    {
-      "id": "mv-MP8kpuYAyd8",
-      "type": "video",
-      "label": "Falling In Reverse - All My Life feat. Jelly Roll",
-      "youtube_id": "MP8kpuYAyd8"
-    },
-    {
-      "id": "mv-4XDux0iho0M",
-      "type": "video",
-      "label": "Falling in Reverse No Fear (unofficial music video)",
-      "youtube_id": "4XDux0iho0M"
-    },
-    {
-      "id": "mv-MxrF_kRbL78",
-      "type": "video",
-      "label": "Falling In Reverse - \"Prequel\" (Behind The Scenes)",
-      "youtube_id": "MxrF_kRbL78"
-    },
-    {
-      "id": "mv-hZwhYRjcBGY",
-      "type": "video",
-      "label": "Falling In Reverse - \"All My Women (feat. HARDY)\" (Behind The Scenes)",
-      "youtube_id": "hZwhYRjcBGY"
     },
     {
       "id": "mv-NOdqT2cs_j8",
@@ -572,33 +542,15 @@
       "youtube_id": "NOdqT2cs_j8"
     },
     {
-      "id": "mv-gjvv2jRMB8s",
-      "type": "video",
-      "label": "Falling In Reverse - Joseph feat  Corey Taylor and Serj Tankian | Karaoke",
-      "youtube_id": "gjvv2jRMB8s"
-    },
-    {
       "id": "mv-S6Unzlx0Jls",
       "type": "video",
       "label": "MAKING OF Falling In Reverse \"JOSEPH\" - BTS/behind the scene video EDIT - by director @jensennoen",
       "youtube_id": "S6Unzlx0Jls"
-    },
-    {
-      "id": "mv-D2XNQowXvxA",
-      "type": "video",
-      "label": "Falling In Reverse - Joseph  feat. Corey Taylor and Serj Tankian (Official Video) 2LM Reacts",
-      "youtube_id": "D2XNQowXvxA"
     }
   ],
   "edges": [
     {
-      "from": "mv-S2e8xzVB6rA",
-      "to": "mv-4XDux0iho0M",
-      "rel_type": "callback",
-      "confidence": 0.773
-    },
-    {
-      "from": "music-bad-girls-club",
+      "from": "mv-vdaKzHPG4_0",
       "to": "music-watch-the-world-burn",
       "rel_type": "callback",
       "confidence": 0.754

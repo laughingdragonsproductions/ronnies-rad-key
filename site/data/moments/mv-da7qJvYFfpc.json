@@ -6,7 +6,7 @@
     "summary": "Official release: Bad Guy (feat. Saraya).",
     "year": 2024,
     "strand": "music",
-    "category": "music_video",
+    "category": "audio",
     "youtube_id": "da7qJvYFfpc",
     "url": "https://www.youtube.com/watch?v=da7qJvYFfpc",
     "view_count": 10710957,
@@ -58,9 +58,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.396618+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.508097+00:00",
     "sources": [],
     "conflicts": []
   }

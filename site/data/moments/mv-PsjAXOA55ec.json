@@ -6,7 +6,7 @@
     "summary": "Official release: NO FEAR.",
     "year": 2024,
     "strand": "music",
-    "category": "music_video",
+    "category": "audio",
     "youtube_id": "PsjAXOA55ec",
     "url": "https://www.youtube.com/watch?v=PsjAXOA55ec",
     "view_count": 2740928,
@@ -58,9 +58,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.386466+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.507792+00:00",
     "sources": [],
     "conflicts": []
   }

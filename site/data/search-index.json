@@ -82,14 +82,6 @@
       "category": "career"
     },
     {
-      "id": "life-losing-my-mind-2018",
-      "title": "Losing My Mind",
-      "summary": "High-production video signals the start of FIR's cinematic MV run.",
-      "strand": "music",
-      "year": 2018,
-      "category": "music_video"
-    },
-    {
       "id": "life-popular-monster-era",
       "title": "Popular Monster — cultural breakout",
       "summary": "Song and video become generational anthem; FIR enters nine-figure view territory.",
@@ -130,38 +122,6 @@
       "category": "career"
     },
     {
-      "id": "life-joseph-2026",
-      "title": "Joseph — all-star collab",
-      "summary": "Corey Taylor and Serj Tankian feature on a landmark crossover single and video.",
-      "strand": "life",
-      "year": 2026,
-      "category": "career"
-    },
-    {
-      "id": "legal-2012-charge",
-      "title": "2012 legal issues",
-      "summary": "Additional legal headlines during early FIR touring years.",
-      "strand": "life",
-      "year": 2012,
-      "category": "legal"
-    },
-    {
-      "id": "legal-2014-charge",
-      "title": "2014 incident",
-      "summary": "On-tour altercation generates press; part of the controversial public narrative.",
-      "strand": "life",
-      "year": 2014,
-      "category": "legal"
-    },
-    {
-      "id": "legal-2015-charge",
-      "title": "2015 legal headlines",
-      "summary": "Further legal scrutiny amid rising FIR profile.",
-      "strand": "life",
-      "year": 2015,
-      "category": "legal"
-    },
-    {
       "id": "life-solo-watch-me-2013",
       "title": "Solo & Watch Me era",
       "summary": "Solo singles and features expand beyond band releases.",
@@ -195,10 +155,10 @@
     },
     {
       "id": "life-live-from-unknown",
-      "title": "Live From The Unknown",
-      "summary": "Live film / trailer push treats shows as cinematic events.",
+      "title": "Live From the Unknown livestream",
+      "summary": "Falling in Reverse presents a two-part livestream on April 16 and April 30.",
       "strand": "life",
-      "year": 2024,
+      "year": 2021,
       "category": "career"
     },
     {
@@ -238,7 +198,7 @@
       "title": "Drugs",
       "summary": "Satirical, chaotic energy; fan-favorite deep cut video.",
       "strand": "music",
-      "year": 2020,
+      "year": 2019,
       "category": "music_video"
     },
     {
@@ -350,7 +310,7 @@
       "title": "Bad Girls Club",
       "summary": "Stylized MV with celebrity cameo discourse.",
       "strand": "music",
-      "year": 2024,
+      "year": 2013,
       "category": "music_video"
     },
     {
@@ -384,6 +344,22 @@
       "strand": "music",
       "year": 2025,
       "category": "music_video"
+    },
+    {
+      "id": "album-fashionably-late",
+      "title": "Fashionably Late (album)",
+      "summary": "Falling in Reverse releases the album Fashionably Late on Epitaph Records.",
+      "strand": "life",
+      "year": 2013,
+      "category": "career"
+    },
+    {
+      "id": "album-popular-monster",
+      "title": "Popular Monster (album)",
+      "summary": "Falling in Reverse releases the album Popular Monster on Epitaph Records.",
+      "strand": "life",
+      "year": 2024,
+      "category": "career"
     },
     {
       "id": "fill-childhood-1985",
@@ -451,10 +427,10 @@
     },
     {
       "id": "fill-etf-ep-2005",
-      "title": "There's No Sympathy for the Dead EP (2005)",
-      "summary": "Early ETF EP cycle — studio work that feeds the debut album sessions.",
+      "title": "There's No Sympathy for the Dead EP",
+      "summary": "Escape the Fate releases its five-track debut EP on Epitaph.",
       "strand": "life",
-      "year": 2005,
+      "year": 2006,
       "category": "career"
     },
     {
@@ -471,14 +447,6 @@
       "summary": "Demoing and planning Falling in Reverse while serving time.",
       "strand": "life",
       "year": 2009,
-      "category": "career"
-    },
-    {
-      "id": "fill-fir-debut-cycle-2011",
-      "title": "The Drug in Me Is You — rollout",
-      "summary": "Debut singles and touring; FIR reintroduces Radke to a national audience.",
-      "strand": "life",
-      "year": 2011,
       "category": "career"
     },
     {
@@ -503,14 +471,6 @@
       "summary": "FIR and Escape the Fate co‑headline — public feud cools on stage.",
       "strand": "life",
       "year": 2013,
-      "category": "career"
-    },
-    {
-      "id": "fill-solo-watch-me-2014",
-      "title": "Solo & Watch Me era begins",
-      "summary": "YouTube channel and solo drops expand beyond the band discography.",
-      "strand": "life",
-      "year": 2014,
       "category": "career"
     },
     {
@@ -543,7 +503,7 @@
       "summary": "Official release: Hanging On.",
       "strand": "music",
       "year": 2017,
-      "category": "music_video"
+      "category": "audio"
     },
     {
       "id": "mv-H2S3XBzr_aw",
@@ -551,7 +511,7 @@
       "summary": "Official release: Straight To Hell.",
       "strand": "music",
       "year": 2017,
-      "category": "music_video"
+      "category": "audio"
     },
     {
       "id": "mv-h_9Muqi0R_8",
@@ -559,7 +519,7 @@
       "summary": "Official release: I'm Bad At Life.",
       "strand": "music",
       "year": 2017,
-      "category": "music_video"
+      "category": "audio"
     },
     {
       "id": "mv-3_QB87vt4i0",
@@ -567,7 +527,7 @@
       "summary": "Official release: I Don't Mind.",
       "strand": "music",
       "year": 2017,
-      "category": "music_video"
+      "category": "audio"
     },
     {
       "id": "mv-0rVwuowU6Fs",
@@ -578,12 +538,20 @@
       "category": "music_video"
     },
     {
+      "id": "mv-uCA-Ll2CJFQ",
+      "title": "Losing My Mind",
+      "summary": "Official release: Losing My Mind.",
+      "strand": "music",
+      "year": 2018,
+      "category": "music_video"
+    },
+    {
       "id": "mv-PsjAXOA55ec",
       "title": "NO FEAR",
       "summary": "Official release: NO FEAR.",
       "strand": "music",
       "year": 2024,
-      "category": "music_video"
+      "category": "audio"
     },
     {
       "id": "mv-ybmwImclRBo",
@@ -591,7 +559,7 @@
       "summary": "Official release: Trigger Warning.",
       "strand": "music",
       "year": 2024,
-      "category": "music_video"
+      "category": "audio"
     },
     {
       "id": "mv-da7qJvYFfpc",
@@ -599,7 +567,7 @@
       "summary": "Official release: Bad Guy (feat. Saraya).",
       "strand": "music",
       "year": 2024,
-      "category": "music_video"
+      "category": "audio"
     },
     {
       "id": "mv-Y4ilUrpq05A",
@@ -607,15 +575,7 @@
       "summary": "Artist: Falling In Reverse Song: The Drug In Me Is Reimagined (W/ LYRICS) #FallingInReverse #TheDrugInMeIsReimaginedLyrics #FallingInReverseLyrics",
       "strand": "music",
       "year": 2020,
-      "category": "music_video"
-    },
-    {
-      "id": "mv-S2e8xzVB6rA",
-      "title": "Falling In Reverse - \"The Drug In Me Is Reimagined\" (Behind The Scenes)",
-      "summary": "Watch the full video: https://youtu.be/B2cbhYihBWY \"The Drug In Me Is Reimagined\" by Falling In Reverse Stream & download: https://fallinginreverse.ffm.to/thedruginmeisreimagined Site: http://fallinginreverse.com Store: http://store.fallinginreverse.com Facebook: http://fb.com/f",
-      "strand": "music",
-      "year": 2020,
-      "category": "music_video"
+      "category": "extra"
     },
     {
       "id": "mv-PZjS2iiKWgM",
@@ -623,15 +583,7 @@
       "summary": "Falling in Reverse - \"Straight To Hell\" (Lyrics) - Lyrics: - You will never be alright And I will never be okay And I can't be your Jesus Christ 'Cause I am but a mortal man Just looking for the promised land And it kills me slowly (You never know what you got 'til it's gone for",
       "strand": "music",
       "year": 2020,
-      "category": "music_video"
-    },
-    {
-      "id": "mv-LlqD7cMvQbw",
-      "title": "Falling In Reverse - \"Zombified\" (LYRICS VIDEO - VISUALIZER)",
-      "summary": "",
-      "strand": "music",
-      "year": 2022,
-      "category": "music_video"
+      "category": "extra"
     },
     {
       "id": "mv-u7zPO8oG4gQ",
@@ -639,7 +591,7 @@
       "summary": "*Compilation of BTS videos uploaded by producer Tanner Gordon on Instagram (@tanner_gordon) https://www.instagram.com/p/CoiFDG8vcq1/, https://www.instagram.com/p/CoJG0oDL2VN/, https://www.instagram.com/p/CoRRdYasEgw/, FALLING IN REVERSE is getting ON TOUR with DISTURBED between -",
       "strand": "music",
       "year": 2023,
-      "category": "music_video"
+      "category": "extra"
     },
     {
       "id": "mv-zX_FrxWlnUQ",
@@ -647,7 +599,7 @@
       "summary": "Source: Ronnie Radke on Twitter, adding: \"not lip syncing I swear\", https://twitter.com/RonnieRadke/status/1664319163240792064 ABOUT \"The Power Hour\" episodes: https://usrockermusic.com/2023/04/27/sunday-night-rocks-lineup-the-power-hour-on-axs-gets-seven-more-episodes/ FALLING",
       "strand": "music",
       "year": 2023,
-      "category": "music_video"
+      "category": "extra"
     },
     {
       "id": "mv-BnTDlaXxRrE",
@@ -655,7 +607,23 @@
       "summary": "Jacoby Shaddix of Papa Roach reacts to @FallingInReverse - \"Last Resort (Reimagined)\" Watch The Original Video: https://youtu.be/ESOjt2_yJrU Stream & Download: https://fallinginreverse.ffm.to/lastresort Lyrics Cut my life into pieces This is my last resort Suffocation, no breat",
       "strand": "music",
       "year": 2023,
-      "category": "music_video"
+      "category": "extra"
+    },
+    {
+      "id": "mv-WXkJk28f5Ow",
+      "title": "Ronnie Radke's (Escape The Fate) BACKSTAGE video for \"Not Good Enough For Truth In Cliche\" (2005)",
+      "summary": "Source for the backstage: https://www.instagram.com/p/Cv2XGjGNoZ5/, source for the video parts: https://youtu.be/msxka15FGCA FALLING IN REVERSE on FESTIVALS this year: ROCKVILLE - Daytona/FL, May 10th, 2024 ||| https://welcometorockville.com/ SONIC TEMPLE - Columbus/OH, May 17th,",
+      "strand": "music",
+      "year": 2023,
+      "category": "extra"
+    },
+    {
+      "id": "mv-vdaKzHPG4_0",
+      "title": "⁠@FallingInReverse BEHIND THE SCENES ​⁠/ FULL MAKEUP \"Watch the World Burn\" ​VIDEO #devil #mask",
+      "summary": "I had the honor of being asked to play the \"Demented Scientist\" in the \"Watch the World Burn\" OFFICIAL MUSIC VIDEO. Here is the full video behind the scenes of two beautiful Ukrainian women doing my makeup! Shouts to Ronnie Radke, Nadia Teichmann, Olya Tarnovetska and the rest of",
+      "strand": "music",
+      "year": 2023,
+      "category": "extra"
     },
     {
       "id": "mv-Id6uK6oJ5nk",
@@ -663,7 +631,7 @@
       "summary": "#ronnieradke #fallinginreverse #behindthescenes #popularmonster #shooting #musicvideo Source: https://www.instagram.com/reel/C016jjFAIci/?igshid=ZWQ3ODFjY2VlOQ== FALLING IN REVERSE is heading to EUROPE AND UNITED KINGDOM!! ❤️‍🔥❤️‍🔥❤️‍🔥 Popular MonsTOUR II - World Domination hea",
       "strand": "music",
       "year": 2023,
-      "category": "music_video"
+      "category": "extra"
     },
     {
       "id": "mv-6y9CgaTb7Wc",
@@ -671,15 +639,7 @@
       "summary": "Andy Biersack from Black Veil Brides talks about his history with Ronnie Radke and how he ended up in the Falling in Reverse video for \"Bad Girls Club\" Full interview here: https://youtu.be/ZVuxpf27jSc?si=wRba0MWPe2Kmr0Zl TikTok https://www.tiktok.com/@jesealee Instagram https",
       "strand": "music",
       "year": 2024,
-      "category": "music_video"
-    },
-    {
-      "id": "mv-nPMZCC3-Lw8",
-      "title": "Falling In Reverse - \"Ronald\" (Behind The Scenes)",
-      "summary": "\"Ronald\" by @FallingInReverse from the upcoming album 'Popular Monster', out on July 26, 2024 Stream & download: https://fallinginreverse.ffm.to/popularmonster Pre-Order LP & CD: https://fallinginreverse.ffm.to/allstores Filmed by: Jeremy Pavia Edited by: Josh Moon Produced by",
-      "strand": "music",
-      "year": 2024,
-      "category": "music_video"
+      "category": "extra"
     },
     {
       "id": "mv-dy8YWui2FxY",
@@ -687,39 +647,7 @@
       "summary": "@FallingInReverse @epitaph Its not official video, off here - https://youtu.be/sRAG2NG5bkQ?si=DvoDYeGQ6YwpNv8k \"Drugs\" by Falling In Reverse Listen on Spotify: https://spoti.fi/2UlGdQF Listen on Apple Music: https://apple.co/2UmlDje Lyrics Kill yourself is what they said to",
       "strand": "music",
       "year": 2024,
-      "category": "music_video"
-    },
-    {
-      "id": "mv-MP8kpuYAyd8",
-      "title": "Falling In Reverse - All My Life feat. Jelly Roll",
-      "summary": "Falling In Reverse - \"All My Life feat. Jelly Roll\" Stream/Download: https://fallinginreverse.ffm.to/popularmonster Follow Falling In Reverse: https://www.facebook.com/fallinginreverseofficial https://www.instagram.com/fallinginreverse/ (Lyrics): [Verse 1: Ronnie Radke] Yeah, I",
-      "strand": "music",
-      "year": 2024,
-      "category": "music_video"
-    },
-    {
-      "id": "mv-4XDux0iho0M",
-      "title": "Falling in Reverse No Fear (unofficial music video)",
-      "summary": "Please like and Subscribe to my channel for new videos I made this video for fans of Falling in Reverse just because I love editing and putting out my own fan made vids and lyric videos its fun to do hope you will like it please be nice with any comments I do my best I don't ow",
-      "strand": "music",
-      "year": 2024,
-      "category": "music_video"
-    },
-    {
-      "id": "mv-MxrF_kRbL78",
-      "title": "Falling In Reverse - \"Prequel\" (Behind The Scenes)",
-      "summary": "\"Prequel\" by @FallingInReverse from the album 'Popular Monster', out now Stream & download: https://fallinginreverse.ffm.to/popularmonster Order LP & CD: https://fallinginreverse.ffm.to/allstores Filmed by: Jeremy Pavia Edited by: Mykyta Demydko Produced by Ronnie Radke, Tyler",
-      "strand": "music",
-      "year": 2024,
-      "category": "music_video"
-    },
-    {
-      "id": "mv-hZwhYRjcBGY",
-      "title": "Falling In Reverse - \"All My Women (feat. HARDY)\" (Behind The Scenes)",
-      "summary": "\"All My Women\" by @FallingInReverse featuring @HARDYmusic, out now Stream & download: https://fallinginreverse.ffm.to/allmywomen Filmed and Edited by Mykyta Demydko Produced by Ronnie Radke, Tyler Smyth, Jon Lundin & Charles Massabo Mixed by Ronnie Radke, Tyler Smyth & Charles",
-      "strand": "music",
-      "year": 2025,
-      "category": "music_video"
+      "category": "extra"
     },
     {
       "id": "mv-NOdqT2cs_j8",
@@ -727,15 +655,7 @@
       "summary": "This video got moved from my old channel. I do NOT own this content, song, artwork, name, lyrics, and any others related. This is a clean version for home use or listening only for entertainment purposes. All this belongs to Falling In Reverse Views on other channel before tak",
       "strand": "music",
       "year": 2026,
-      "category": "music_video"
-    },
-    {
-      "id": "mv-gjvv2jRMB8s",
-      "title": "Falling In Reverse - Joseph feat  Corey Taylor and Serj Tankian | Karaoke",
-      "summary": "Join this channel to get access to perks: https://www.youtube.com/channel/UC8AE6HaqZNrheX6FTE08P4g/join This is A FAN MADE BY THE MIXED GENRE SONG LYRICS version and KARAOKE version! Thank you for watching guys and hope you like this video! Note: You can use this instrumental",
-      "strand": "music",
-      "year": 2026,
-      "category": "music_video"
+      "category": "extra"
     },
     {
       "id": "mv-S6Unzlx0Jls",
@@ -743,15 +663,7 @@
       "summary": "#fallinginreverse #ronnieradke #coreytaylor #slipknot #serjtankian #systemofadown #collab #epitaphrecords #newrelease #newsong #musicvideo #jensennoen #director Credit: @jensennoen (IG) @inception.post (IG) @tiltvfx (IG) Source: https://www.instagram.com/reel/Ddep_t-vvU1/?stkn=Z",
       "strand": "music",
       "year": 2026,
-      "category": "music_video"
-    },
-    {
-      "id": "mv-D2XNQowXvxA",
-      "title": "Falling In Reverse - Joseph  feat. Corey Taylor and Serj Tankian (Official Video) 2LM Reacts",
-      "summary": "Content Is Back!!! You requested it here it is! You already know how it goes down on this channel you either got something cooking up or you are delivering that undeniable flame! I'm not going to spoil this reaction, Enjoy! Falling In Reverse - Joseph feat. Corey Taylor and Ser",
-      "strand": "music",
-      "year": 2026,
-      "category": "music_video"
+      "category": "extra"
     },
     {
       "id": "life-2009-escape-the-fate-20042008-during-radkes-inca",

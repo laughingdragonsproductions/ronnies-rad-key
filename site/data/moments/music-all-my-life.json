@@ -7,14 +7,14 @@
     "year": 2024,
     "strand": "music",
     "category": "music_video",
-    "youtube_id": "Z116LsMiyKc",
-    "url": null,
+    "youtube_id": "GB9jFPUb7HA",
+    "url": "https://www.youtube.com/watch?v=GB9jFPUb7HA",
     "view_count": 24763588,
-    "era": null,
-    "rcu_tier": null
+    "era": "cinematic_sfx",
+    "rcu_tier": "core"
   },
   "lore": {
-    "summary": "{'name': 'Ronnie Radke', 'description': 'Lead vocalist of Falling In Reverse', 'entity_slug': 'ronnie-radke'} live performance rock music fan engagement",
+    "summary": "{'name': 'Blaire White', 'description': 'Sheriff', 'entity_slug': 'blaire-white'} {'name': 'Bunnie Xo', 'description': 'Sheriff Deputy', 'entity_slug': 'bunnie-xo'} {'name': 'Saraya Bevis', 'description': 'Bartender', 'entity_slug': 'saraya-bevis'} {'name': 'Zac Phoenix', 'description': 'Pink Cowboy', 'entity_slug': 'zac-Phoenix'} Self-destruction Redemption Love and Loss",
     "related": []
   },
   "frame_captions": [
@@ -46,29 +46,29 @@
   ],
   "comments_sample": [
     {
-      "author": "@BVTV",
-      "text": "New videos from Warped Tour 2018 coming all summer long! Be sure to subscribe! :)\n\nWhat bands do you guys want to see next?! Let us know in the comments below!",
-      "like_count": 740
+      "author": "@Blastopia",
+      "text": "Blaire ❤",
+      "like_count": 7
     },
     {
-      "author": "@MissingLifestyle63",
-      "text": "Who's here in 2025?",
-      "like_count": 247
+      "author": "@Arcticeno",
+      "text": "He's an awesome and funny dude. You're just a hater.",
+      "like_count": 5
     },
     {
-      "author": "@imyourk1ng",
-      "text": "2026 anyone?",
-      "like_count": 170
+      "author": "@caseybest4982",
+      "text": "Ronnie is extremely talented and  every video his band puts out just gets better! I especially love the ATM in the bank!!! 😂❤",
+      "like_count": 3
     },
     {
-      "author": "@angele.3424",
-      "text": "This is beautiful the quality the sound everything noice",
-      "like_count": 12
+      "author": "@MajorasSkullKid",
+      "text": "Jeez, all the comments on all his videos from you. Triggered much? 😂😂",
+      "like_count": 2
     },
     {
-      "author": "@vikywahyufirmansyah2801",
-      "text": "Who's here in 2026?",
-      "like_count": 11
+      "author": "@Tapout73",
+      "text": "It would appear Jelly Roll is still fuggin up and still his own worst enemy.",
+      "like_count": 2
     }
   ],
   "sources": [
@@ -77,12 +77,15 @@
       "title": "release-epitaph"
     }
   ],
-  "provenance": null,
+  "provenance": {
+    "release_id": "rel-GB9jFPUb7HA",
+    "video_id": "GB9jFPUb7HA"
+  },
   "verification": {
     "status": "verified",
     "label": "Official release",
     "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.334105+00:00",
+    "checked_at": "2026-11-26T19:45:30.507312+00:00",
     "sources": [
       {
         "source_id": "release-epitaph"

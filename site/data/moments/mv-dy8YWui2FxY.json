@@ -6,7 +6,7 @@
     "summary": "@FallingInReverse @epitaph Its not official video, off here - https://youtu.be/sRAG2NG5bkQ?si=DvoDYeGQ6YwpNv8k \"Drugs\" by Falling In Reverse Listen on Spotify: https://spoti.fi/2UlGdQF Listen on Apple Music: https://apple.co/2UmlDje Lyrics Kill yourself is what they said to",
     "year": 2024,
     "strand": "music",
-    "category": "music_video",
+    "category": "extra",
     "youtube_id": "dy8YWui2FxY",
     "url": "https://www.youtube.com/watch?v=dy8YWui2FxY",
     "view_count": 19973,
@@ -51,9 +51,9 @@
   },
   "verification": {
     "status": "verified",
-    "label": "Official release",
-    "notes": "YouTube / Epitaph release row in RCU.",
-    "checked_at": "2026-10-09T21:24:51.374524+00:00",
+    "label": "Public video",
+    "notes": "RCU video record with YouTube id.",
+    "checked_at": "2026-11-26T19:45:30.507148+00:00",
     "sources": [],
     "conflicts": []
   }
