@@ -33,6 +33,12 @@ body {
   transition: filter 0.6s ease;
 }
 
+#backdrop.young {
+  background: radial-gradient(ellipse at 20% 35%, #2a1838 0%, transparent 48%),
+    radial-gradient(ellipse at 80% 65%, #0f1e32 0%, transparent 42%),
+    linear-gradient(165deg, #140a18, #0a0e18);
+}
+
 #backdrop.colorful {
   background: radial-gradient(ellipse at 25% 30%, #3d1f4a 0%, transparent 50%),
     radial-gradient(ellipse at 75% 70%, #1e3a5f 0%, transparent 45%),
@@ -282,64 +288,30 @@ header p {
 #year-display {
   position: fixed;
   left: 50%;
-  top: 42%;
-  transform: translate(-50%, -50%);
-  z-index: 8;
-  font-size: clamp(3rem, 14vw, 5.5rem);
-  font-weight: 700;
-  line-height: 1;
-  opacity: 0.22;
+  bottom: calc(var(--key-rail-h) + 0.55rem);
+  transform: translateX(-50%);
+  z-index: 15;
+  max-width: min(92vw, 30rem);
+  padding: 0.4rem 0.9rem;
+  font-size: clamp(0.78rem, 2.2vw, 0.94rem);
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+  color: var(--text);
+  background: rgba(8, 8, 14, 0.82);
+  border: 1px solid rgba(34, 211, 238, 0.28);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
   pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-#focus-rail {
-  position: fixed;
-  right: 0.85rem;
-  bottom: calc(var(--key-rail-h) + 0.15rem);
-  z-index: 13;
-  width: min(140px, 28vw);
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  pointer-events: auto;
-}
-
-#focus-rail label {
-  font-size: 0.55rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--strand-a);
-  text-align: right;
-}
-
-#focus-slider {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
-  height: 6px;
-  background: rgba(34, 211, 238, 0.2);
-  border-radius: 999px;
-  outline: none;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-#focus-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: var(--strand-a);
-  box-shadow: 0 0 10px rgba(34, 211, 238, 0.55);
-}
-
-#focus-slider::-moz-range-thumb {
-  width: 16px;
-  height: 16px;
-  border: none;
-  border-radius: 50%;
-  background: var(--strand-a);
-  box-shadow: 0 0 10px rgba(34, 211, 238, 0.55);
+#year-display.is-rung {
+  color: var(--accent);
+  border-color: rgba(251, 191, 36, 0.5);
 }
 
 #key-rail {
@@ -421,13 +393,22 @@ header p {
   box-shadow: 0 0 14px var(--accent);
 }
 
-#controls {
+#bottom-chrome {
   position: fixed;
   left: 0.75rem;
   right: 0.75rem;
   bottom: calc(var(--key-rail-h) + 2.85rem);
-  top: auto;
   z-index: 11;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  pointer-events: none;
+}
+
+#controls {
+  position: relative;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -490,12 +471,9 @@ button.chip:hover {
 }
 
 #stats-panel {
-  position: fixed;
-  top: auto;
-  bottom: calc(var(--key-rail-h) + 5.35rem);
-  left: 0.75rem;
-  z-index: 10;
-  max-width: min(240px, 42vw);
+  position: relative;
+  align-self: flex-start;
+  max-width: min(260px, 92vw);
   font-size: 0.68rem;
   line-height: 1.4;
   color: var(--muted);
@@ -787,8 +765,7 @@ button.chip:hover {
 
 body.no-webgl #canvas-host,
 body.no-webgl #key-rail,
-body.no-webgl #controls,
-body.no-webgl #stats-panel {
+body.no-webgl #bottom-chrome {
   display: none !important;
 }
 
@@ -807,10 +784,14 @@ body.no-webgl #fallback-list {
     right: 0.65rem;
   }
 
-  #controls {
-    bottom: calc(var(--key-rail-h) + 2.65rem);
+  #bottom-chrome {
     left: 0.5rem;
     right: 0.5rem;
+    bottom: calc(var(--key-rail-h) + 2.65rem);
+    gap: 0.4rem;
+  }
+
+  #controls {
     gap: 0.4rem;
   }
 
@@ -830,14 +811,15 @@ body.no-webgl #fallback-list {
   }
 
   #stats-panel {
-    bottom: calc(var(--key-rail-h) + 5rem);
-    max-width: 52vw;
+    max-width: min(52vw, 220px);
     font-size: 0.62rem;
   }
 
   #year-display {
-    top: 38%;
-    font-size: clamp(2.5rem, 18vw, 4rem);
+    bottom: calc(var(--key-rail-h) + 0.4rem);
+    max-width: 96vw;
+    font-size: 0.76rem;
+    white-space: normal;
   }
 
   #card {

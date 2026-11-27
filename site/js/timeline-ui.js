@@ -21,8 +21,8 @@ const FILTERS = [
 ];
 
 const HINTS = {
-  "2d": "2D - Rad Key = time · Focus slider = center view · Alt+drag twist · Shift+drag pan.",
-  "3d": "3D - Rad Key = time · Focus = center view · Drag orbit · Alt corkscrew · Shift pan.",
+  "2d": "2D - Rad Key picks the year · Drag helix to scrub · Alt twist · Shift pan.",
+  "3d": "3D - Rad Key picks the year · Drag to orbit · Alt corkscrew · Shift pan.",
 };
 
 const detailCache = new Map();
@@ -30,9 +30,18 @@ const LORE_TIERS = new Set(["canonical", "core"]);
 
 function formatViews(n) {
   if (!n) return "";
+  if (n >= 1e9) return `${(n / 1e9).toFixed(3)}B views`;
   if (n >= 1e6) return `${(n / 1e6).toFixed(1)}M views`;
   if (n >= 1e3) return `${(n / 1e3).toFixed(0)}K views`;
   return `${n} views`;
+}
+
+function formatSampledReach(n) {
+  if (!n) return "";
+  if (n >= 1e9) return `${(n / 1e9).toFixed(3)}b`;
+  if (n >= 1e6) return `${(n / 1e6).toFixed(1)}M`;
+  if (n >= 1e3) return `${(n / 1e3).toFixed(0)}K`;
+  return String(n);
 }
 
 function formatFreshness(iso) {
@@ -45,28 +54,13 @@ function formatFreshness(iso) {
   }
 }
 
-const VERIFICATION_BADGE_STATUSES = new Set(["unproven", "disputed", "conflict"]);
-
-function pickVerification(moment, detail) {
-  return detail?.verification || moment?.verification || null;
+/** Verification stays in build reports only — not shown on the public site. */
+function verificationBadgeHtml() {
+  return "";
 }
 
-function verificationBadgeHtml(ver) {
-  if (!ver || !VERIFICATION_BADGE_STATUSES.has(ver.status)) return "";
-  const label = ver.label || ver.status;
-  return `<span class="verify-badge verify-${ver.status}" title="${ver.notes || label}">${label}</span>`;
-}
-
-function verificationNoteHtml(ver) {
-  if (!ver || ver.status === "verified") return "";
-  const parts = [];
-  if (ver.label) parts.push(ver.label);
-  if (ver.notes) parts.push(ver.notes);
-  if (ver.conflicts?.length) {
-    parts.push(`${ver.conflicts.length} conflict record(s) on file.`);
-  }
-  if (!parts.length) return "";
-  return `<p class="verify-note">${parts.join(" - ")}</p>`;
+function verificationNoteHtml() {
+  return "";
 }
 
 function momentIsLore(m) {
@@ -199,9 +193,8 @@ function formatMomentSummary(text) {
 }
 
 function updateCardOverview(cardEl, moment, detail) {
-  const ver = pickVerification(moment, detail);
   const noteSlot = cardEl.querySelector(".verify-note-slot");
-  if (noteSlot) noteSlot.innerHTML = verificationNoteHtml(ver);
+  if (noteSlot) noteSlot.innerHTML = verificationNoteHtml();
   cardEl.querySelector(".summary").textContent = formatMomentSummary(moment.summary || "");
 }
 
@@ -300,8 +293,7 @@ function populateCardContent(moment, cardEl, { onRelatedSelect } = {}) {
   const tier = moment.rcu_tier || moment.rcu?.rcu_tier;
   const metaBits = [moment.year, moment.category || moment.strand, tier ? `RCU ${tier}` : ""].filter(Boolean);
   const metaEl = cardEl.querySelector(".meta");
-  const verPreview = pickVerification(moment, null);
-  metaEl.innerHTML = `${metaBits.join(" · ")}${verificationBadgeHtml(verPreview)}`;
+  metaEl.innerHTML = `${metaBits.join(" · ")}${verificationBadgeHtml()}`;
   cardEl.querySelector("h2").textContent = moment.title;
 
   const thumb = cardEl.querySelector("img.thumb");
@@ -342,12 +334,11 @@ function populateCardContent(moment, cardEl, { onRelatedSelect } = {}) {
 
   fetchMomentDetail(moment).then((detail) => {
     if (cardEl.dataset.momentId !== moment.id) return;
-    const verFull = pickVerification(moment, detail);
     const metaEl2 = cardEl.querySelector(".meta");
     const metaText = [moment.year, moment.category || moment.strand, tier ? `RCU ${tier}` : ""]
       .filter(Boolean)
       .join(" · ");
-    metaEl2.innerHTML = `${metaText}${verificationBadgeHtml(verFull)}`;
+    metaEl2.innerHTML = `${metaText}${verificationBadgeHtml()}`;
     updateCardOverview(cardEl, moment, detail);
     renderLorePanel(cardEl, moment, detail);
     setLoreOpen(cardEl, false);
@@ -413,12 +404,11 @@ function buildStats(data) {
     .slice(0, 3)
     .map((t) => `• ${t.title} (${formatViews(t.view_count)})`)
     .join("<br>");
-  const synced = formatFreshness(data.rcu_meta?.synced_at || data.updated_at);
   el.innerHTML = `<strong>RCU dataset</strong>
     ${rcu.moments ?? stats.official_video_count ?? "-"} helix moments<br>
     ${rcu.videos_in_db ?? "-"} videos · ${rcu.entities ?? "-"} entities · ${rcu.relations ?? "-"} links<br>
-    ${formatViews(stats.total_views_sampled)} sampled reach<br>
-    ${synced ? `Synced ${synced}<br>` : ""}<br>${top}`;
+    ${formatSampledReach(stats.total_views_sampled)} sampled reach<br>
+    <br>${top}`;
 }
 
 function applyBranding(data) {
@@ -567,10 +557,29 @@ export async function initTimelineApp() {
 
   const canvas = document.getElementById("helix-canvas");
   const slider = document.getElementById("key-slider");
-  const focusSlider = document.getElementById("focus-slider");
   const yearDisplay = document.getElementById("year-display");
   const controls = document.getElementById("controls");
   const backdropCtl = createEraBackdrop(data.tattoo_eras);
+
+  function yearFromProgress(p) {
+    return data.year_min + p * (data.year_max - data.year_min);
+  }
+
+  function setYearHudYear(year) {
+    yearDisplay.textContent = String(Math.round(year));
+    yearDisplay.classList.remove("is-rung");
+  }
+
+  function setYearHudMoment(m) {
+    const label = m.title ? `${m.year} · ${m.title}` : String(m.year);
+    yearDisplay.textContent = label.length > 64 ? `${label.slice(0, 61)}…` : label;
+    yearDisplay.classList.add("is-rung");
+  }
+
+  function syncYearHudFromSlider() {
+    const p = Number(slider.value) / 100;
+    setYearHudYear(yearFromProgress(p));
+  }
 
   let activeFilter = "all";
   let savedViewMode = loadViewMode();
@@ -600,7 +609,7 @@ export async function initTimelineApp() {
       featuredMomentId: data.featured_moment_id || null,
       viewMode,
       onProgress(_p, year) {
-        yearDisplay.textContent = Math.round(year);
+        setYearHudYear(year);
         slider.value = String(((year - data.year_min) / (data.year_max - data.year_min)) * 100);
         backdropCtl.update(year);
       },
@@ -612,10 +621,11 @@ export async function initTimelineApp() {
         });
       },
       onHover(m) {
-        if (m && !card.classList.contains("visible")) {
-          const label = m.title ? `${m.year} · ${m.title}` : String(m.year);
-          yearDisplay.textContent =
-            label.length > 52 ? `${label.slice(0, 49)}…` : label;
+        if (card.classList.contains("visible")) return;
+        if (m) {
+          setYearHudMoment(m);
+        } else {
+          syncYearHudFromSlider();
         }
       },
       onViewModeChange(mode) {
@@ -630,29 +640,19 @@ export async function initTimelineApp() {
   syncViewToggle(savedViewMode);
   updateViewHint(savedViewMode);
 
-  if (focusSlider) {
-    const applyFocus = () => {
-      helix.setFocusProgress(Number(focusSlider.value) / 100);
-    };
-    applyFocus();
-    focusSlider.addEventListener("input", applyFocus, { passive: true });
-  }
-
   slider.addEventListener("input", () => {
     const p = Number(slider.value) / 100;
     helix.setProgress(p);
-    const year = data.year_min + p * (data.year_max - data.year_min);
-    yearDisplay.textContent = Math.round(year);
-    backdropCtl.update(year);
+    setYearHudYear(yearFromProgress(p));
+    backdropCtl.update(yearFromProgress(p));
   });
 
   slider.addEventListener(
     "change",
     () => {
       const p = Number(slider.value) / 100;
-      const year = data.year_min + p * (data.year_max - data.year_min);
-      yearDisplay.textContent = Math.round(year);
-      backdropCtl.update(year);
+      setYearHudYear(yearFromProgress(p));
+      backdropCtl.update(yearFromProgress(p));
     },
     { passive: true }
   );
@@ -682,13 +682,10 @@ export async function initTimelineApp() {
       row.querySelectorAll(".chip").forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
       const p = helix.getProgress();
-      const fp = helix.getFocusProgress();
       const mode = helix.getViewMode();
       helix.dispose();
       helix = makeHelix(mode);
       helix.setProgress(p, { emit: false });
-      helix.setFocusProgress(fp);
-      if (focusSlider) focusSlider.value = String(fp * 100);
     });
     row.appendChild(btn);
   }
@@ -706,7 +703,7 @@ export async function initTimelineApp() {
       const p = (mid - data.year_min) / (data.year_max - data.year_min);
       helix.setProgress(p);
       slider.value = String(p * 100);
-      yearDisplay.textContent = Math.round(mid);
+      setYearHudYear(mid);
       backdropCtl.update(mid);
     });
     eraRow.appendChild(btn);
@@ -717,7 +714,7 @@ export async function initTimelineApp() {
   const startP = (startYear - data.year_min) / (data.year_max - data.year_min);
   helix.setProgress(startP);
   slider.value = String(startP * 100);
-  yearDisplay.textContent = String(startYear);
+  setYearHudYear(startYear);
   backdropCtl.update(startYear);
 
   const hashId = (location.hash || "").replace(/^#/, "").trim();

@@ -40,6 +40,13 @@
   ],
   "tattoo_eras": [
     {
+      "id": "young",
+      "start_year": 1983,
+      "end_year": 2003.9,
+      "backdrop": "young",
+      "label": "Early years"
+    },
+    {
       "id": "colorful",
       "start_year": 2004,
       "end_year": 2021.9,

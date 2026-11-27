@@ -219,9 +219,9 @@ export function createHelix(options) {
   let viewMode = initialViewMode === "3d" ? "3d" : "2d";
   let progress = 0.35;
   let targetProgress = progress;
-  /** Camera center along helix (0 = yearMin end, 1 = yearMax end); independent of Rad Key scrub. */
-  let focusProgress = 1;
-  let targetFocusProgress = 1;
+  /** Camera center along helix (0 = yearMin end, 1 = yearMax end); tracks Rad Key scrub. */
+  let focusProgress = progress;
+  let targetFocusProgress = focusProgress;
 
   let orbitYaw = -0.35;
   let orbitPitch = 0.08;
@@ -231,8 +231,11 @@ export function createHelix(options) {
   let cameraDistance = viewMode === "3d" ? DIST_3D_DEFAULT : DIST_2D;
   let targetCameraDistance = cameraDistance;
 
-  function setProgress(p, { emit = true } = {}) {
+  function setProgress(p, { emit = true, syncFocus = true } = {}) {
     targetProgress = THREE.MathUtils.clamp(p, 0, 1);
+    if (syncFocus) {
+      targetFocusProgress = targetProgress;
+    }
     if (emit && onProgress) {
       const year = yearMin + targetProgress * (yearMax - yearMin);
       onProgress(targetProgress, year);
